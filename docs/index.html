@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bellingcat media monitor</title>
+<link rel="alternate" type="application/rss+xml" title="Bellingcat media mentions" href="feed.xml">
+<style>
+  :root {
+    --bg: #f6f5f2; --panel: #ffffff; --ink: #1c1d1f; --muted: #6a6d73; --line: #e3e1dc;
+    --accent: #c8341f; --accent-soft: #fbe9e5; --ok: #1f7a4d; --warn: #b26a00; --off: #8a8d93;
+    --news: #2f5d8a; --social: #7a4bb0; --podcast: #b0562f; --video: #2a7f7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141518; --panel: #1d1f23; --ink: #ecebe8; --muted: #9a9da3; --line: #2e3036;
+            --accent-soft: #3a1f1a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--ink); }
+  header { background: var(--panel); border-bottom: 1px solid var(--line); }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+         padding: 20px 0 8px; flex-wrap: wrap; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+  h1 span { color: var(--accent); }
+  .updated { color: var(--muted); font-size: 13px; }
+  .stats { display: flex; gap: 28px; padding: 10px 0 16px; flex-wrap: wrap; }
+  .stat b { display: block; font-size: 24px; font-variant-numeric: tabular-nums; }
+  .stat small { color: var(--muted); }
+  nav { display: flex; gap: 4px; }
+  nav button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 12px;
+               font: inherit; color: var(--muted); cursor: pointer; }
+  nav button.on { color: var(--ink); border-color: var(--accent); font-weight: 600; }
+  .filters { display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 10px; margin: 18px 0 10px; }
+  @media (max-width: 760px) { .filters { grid-template-columns: 1fr 1fr; } .filters input { grid-column: 1 / -1; } }
+  input, select { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px;
+                  background: var(--panel); color: var(--ink); font: inherit; }
+  .bar { display: flex; justify-content: space-between; align-items: center; color: var(--muted);
+         font-size: 13px; margin: 6px 0 12px; gap: 10px; flex-wrap: wrap; }
+  .bar a { color: var(--muted); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+          padding: 14px 16px; margin-bottom: 10px; }
+  .meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
+  .chip { padding: 1px 8px; border-radius: 99px; font-weight: 600; font-size: 11.5px; color: #fff; }
+  .c-news { background: var(--news); } .c-social { background: var(--social); }
+  .c-podcast { background: var(--podcast); } .c-video { background: var(--video); }
+  .new { background: var(--accent); }
+  .related { border: 1px solid var(--muted); color: var(--muted); background: none; }
+  .card h3 { margin: 6px 0 4px; font-size: 16px; line-height: 1.35; }
+  .card h3 a { color: var(--ink); text-decoration: none; }
+  .card h3 a:hover { text-decoration: underline; }
+  .snip { margin: 0; color: var(--ink); opacity: .85; font-size: 14px; }
+  mark { background: var(--accent-soft); color: inherit; padding: 0 2px; border-radius: 3px; font-weight: 600; }
+  .via { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line);
+          border-radius: 10px; overflow: hidden; margin: 18px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+  .s-ok { color: var(--ok); font-weight: 600; } .s-error { color: var(--warn); font-weight: 600; }
+  .s-off { color: var(--off); }
+  .more { display: block; margin: 16px auto 40px; padding: 10px 22px; border-radius: 8px;
+          border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; cursor: pointer; }
+  .hidden { display: none; }
+  .note { color: var(--muted); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1><span>●</span> Bellingcat media monitor</h1>
+      <div class="updated" id="updated">Loading…</div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <nav>
+      <button class="on" data-tab="mentions">Mentions</button>
+      <button data-tab="health">Source health</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="tab-mentions">
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search titles, sources, text…">
+      <select id="period">
+        <option value="2">Last 2 days</option>
+        <option value="7" selected>Last 7 days</option>
+        <option value="30">Last 30 days</option>
+        <option value="0">All time</option>
+      </select>
+      <select id="channel"><option value="">All types</option></select>
+      <select id="language"><option value="">All languages</option></select>
+      <select id="category">
+        <option value="">Bellingcat + related</option>
+        <option value="main">Bellingcat only</option>
+        <option value="related">Related (people) only</option>
+      </select>
+    </div>
+    <div class="bar">
+      <span id="count"></span>
+      <span><a href="mentions.csv">Download CSV</a> · <a href="feed.xml">RSS feed</a></span>
+    </div>
+    <div id="list"></div>
+    <button class="more hidden" id="more">Show more</button>
+  </section>
+
+  <section id="tab-health" class="hidden">
+    <p class="note">Each source is checked every two days. A problem with one source never stops the others.
+      Outlets without a working feed are still covered through Google News and GDELT.</p>
+    <table id="sources"></table>
+    <h3>Outlet feeds</h3>
+    <table id="outlets"></table>
+  </section>
+</main>
+
+<script>
+const LANGS = {en:"English",ru:"Russian",uk:"Ukrainian",nl:"Dutch",de:"German",fr:"French",es:"Spanish",
+  pt:"Portuguese",it:"Italian",pl:"Polish",tr:"Turkish",ar:"Arabic",fa:"Persian",he:"Hebrew",ja:"Japanese",
+  zh:"Chinese",ko:"Korean",ka:"Georgian",hy:"Armenian",sr:"Serbian",hr:"Croatian",cs:"Czech",ro:"Romanian",
+  hu:"Hungarian",el:"Greek",sv:"Swedish",no:"Norwegian",da:"Danish",fi:"Finnish",bg:"Bulgarian",
+  et:"Estonian",lv:"Latvian",lt:"Lithuanian",sk:"Slovak",sl:"Slovenian",id:"Indonesian",vi:"Vietnamese"};
+const CHIP = {"News & periodicals":"c-news","Social media":"c-social","Podcasts":"c-podcast","Video & broadcast":"c-video"};
+const PAGE = 50;
+let all = [], shown = PAGE;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const langName = c => LANGS[(c||"").toLowerCase()] || (c ? c : "Unknown");
+const when = r => r.published || r.found || "";
+function fmt(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, {day:"numeric", month:"short", year:"numeric", hour:"2-digit", minute:"2-digit"});
+}
+function highlight(text, term) {
+  const t = esc(text);
+  if (!term) return t;
+  const i = t.toLowerCase().indexOf(esc(term).toLowerCase());
+  if (i < 0) return t;
+  return t.slice(0, i) + "<mark>" + t.slice(i, i + esc(term).length) + "</mark>" + t.slice(i + esc(term).length);
+}
+
+function filtered() {
+  const q = $("q").value.trim().toLowerCase();
+  const days = +$("period").value, ch = $("channel").value, lang = $("language").value, cat = $("category").value;
+  const cutoff = days ? new Date(Date.now() - days * 864e5).toISOString() : "";
+  return all.filter(r =>
+    (!cutoff || when(r) >= cutoff) && (!ch || r.channel === ch) &&
+    (!lang || (r.language || "") === lang) && (!cat || r.category === cat) &&
+    (!q || [r.title, r.source, r.snippet, r.domain, r.author].join(" ").toLowerCase().includes(q)));
+}
+
+function render() {
+  const rows = filtered();
+  $("count").textContent = `${rows.length} mention${rows.length === 1 ? "" : "s"}`;
+  const dayAgo = new Date(Date.now() - 2 * 864e5).toISOString();
+  $("list").innerHTML = rows.slice(0, shown).map(r => `
+    <article class="card">
+      <div class="meta">
+        <span class="chip ${CHIP[r.channel] || "c-news"}">${esc(r.channel)}</span>
+        ${r.found >= dayAgo ? '<span class="chip new">New</span>' : ""}
+        ${r.category === "related" ? '<span class="chip related">Related</span>' : ""}
+        <strong>${esc(r.source)}</strong>
+        <span>${esc(fmt(when(r)))}</span>
+        <span>· ${esc(langName(r.language))}</span>
+        ${r.outlet_type ? `<span>· ${esc(r.outlet_type)}</span>` : ""}
+      </div>
+      <h3><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h3>
+      <p class="snip">${highlight(r.snippet, r.term)}</p>
+      <div class="via">Found via ${esc((r.via || []).join(", "))}${r.author ? " · " + esc(r.author) : ""}</div>
+    </article>`).join("") || '<div class="empty">No mentions match these filters.</div>';
+  $("more").classList.toggle("hidden", rows.length <= shown);
+}
+
+function stats(health) {
+  const since = d => all.filter(r => when(r) >= new Date(Date.now() - d * 864e5).toISOString()).length;
+  $("stats").innerHTML = [
+    [since(2), "last 2 days"], [since(7), "last 7 days"], [since(30), "last 30 days"], [all.length, "all time"]
+  ].map(([n, l]) => `<div class="stat"><b>${n}</b><small>${l}</small></div>`).join("");
+  $("updated").textContent = health.last_run ? "Last checked " + fmt(health.last_run) : "";
+}
+
+function healthTables(h) {
+  const label = {ok: "Working", error: "Problem", off: "Off"};
+  $("sources").innerHTML = "<tr><th>Source</th><th>Status</th><th>Checked</th><th>Found</th><th>Notes</th></tr>" +
+    Object.entries(h.sources || {}).map(([n, s]) =>
+      `<tr><td>${esc(n)}</td><td class="s-${s.status}">${label[s.status] || esc(s.status)}</td>
+       <td>${s.checked ?? ""}</td><td>${s.found ?? ""}</td><td>${esc(s.message)}</td></tr>`).join("");
+  $("outlets").innerHTML = "<tr><th>Outlet</th><th>Status</th><th>New items</th><th>Mentions</th><th>Notes</th></tr>" +
+    (h.outlets || []).map(o =>
+      `<tr><td><a href="${esc(o.website)}" target="_blank" rel="noopener">${esc(o.name)}</a></td>
+       <td class="s-${o.status}">${label[o.status] || esc(o.status)}</td><td>${o.items}</td>
+       <td>${o.mentions}</td><td>${esc(o.message)}</td></tr>`).join("");
+}
+
+function fillSelect(id, values, labeler) {
+  const sel = $(id);
+  [...new Set(values)].filter(Boolean).sort((a, b) => labeler(a).localeCompare(labeler(b)))
+    .forEach(v => sel.insertAdjacentHTML("beforeend", `<option value="${esc(v)}">${esc(labeler(v))}</option>`));
+}
+
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach(x => x.classList.toggle("on", x === b));
+  $("tab-mentions").classList.toggle("hidden", b.dataset.tab !== "mentions");
+  $("tab-health").classList.toggle("hidden", b.dataset.tab !== "health");
+});
+["q", "period", "channel", "language", "category"].forEach(id =>
+  $(id).addEventListener("input", () => { shown = PAGE; render(); }));
+$("more").onclick = () => { shown += PAGE; render(); };
+
+Promise.all([
+  fetch("data/mentions.json", {cache: "no-store"}).then(r => r.ok ? r.json() : []).catch(() => []),
+  fetch("data/health.json", {cache: "no-store"}).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+]).then(([mentions, health]) => {
+  all = mentions;
+  fillSelect("channel", all.map(r => r.channel), x => x);
+  fillSelect("language", all.map(r => r.language), langName);
+  stats(health);
+  healthTables(health);
+  if (!all.length) $("updated").textContent = health.last_run ? $("updated").textContent : "Waiting for the first run";
+  render();
+});
+</script>
+</body>
+</html>

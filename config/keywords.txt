@@ -1,0 +1,27 @@
+# Words and names to look for. One per line. Not case-sensitive.
+# Lines starting with # are ignored.
+# A word also matches longer words that start with it, so "Беллингк"
+# catches Беллингкэт, Беллингкэта, Беллингкету and so on.
+
+# --- Main name ---
+Bellingcat
+bellingcat.com
+
+# --- Other scripts and spellings ---
+Беллингк
+Беллінгк
+Белингк
+بيلينغكات
+بلينغكات
+بيلنغكات
+بلینگ‌کت
+بلینگکت
+ベリングキャット
+बेलिंगकैट
+בלינגקט
+
+# --- People (shown as "related" mentions) ---
+# Remove these lines if they bring in too much noise.
+related: Eliot Higgins
+related: Элиот Хиггинс
+related: Еліот Гіггінс

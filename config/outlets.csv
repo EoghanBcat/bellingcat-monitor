@@ -1,0 +1,1241 @@
+name,website,feed,language,country,type,full_text,notes
+The Guardian,https://www.theguardian.com,https://www.theguardian.com/world/rss,en,UK,newspaper,yes,Also searched via Guardian API if a key is added
+BBC News,https://www.bbc.co.uk/news,https://feeds.bbci.co.uk/news/world/rss.xml,en,UK,public broadcaster,yes,
+Sky News,https://news.sky.com,https://feeds.skynews.com/feeds/rss/world.xml,en,UK,broadcaster,yes,
+The Independent,https://www.independent.co.uk,https://www.independent.co.uk/news/world/rss,en,UK,newspaper,yes,
+Al Jazeera English,https://www.aljazeera.com,https://www.aljazeera.com/xml/rss/all.xml,en,Qatar,broadcaster,yes,
+DW English,https://www.dw.com/en,https://rss.dw.com/rdf/rss-en-all,en,Germany,public broadcaster,yes,
+France 24 English,https://www.france24.com/en,https://www.france24.com/en/rss,en,France,public broadcaster,yes,
+Euronews,https://www.euronews.com,https://www.euronews.com/rss,en,EU,broadcaster,yes,
+NPR World,https://www.npr.org,https://feeds.npr.org/1004/rss.xml,en,US,public broadcaster,yes,
+The Conversation,https://theconversation.com,https://theconversation.com/global/articles.atom,en,International,periodical,yes,
+Meduza (English),https://meduza.io/en,https://meduza.io/rss/en/all,en,Latvia/Russia,independent,yes,
+The Moscow Times,https://www.themoscowtimes.com,https://www.themoscowtimes.com/rss/news,en,Netherlands/Russia,independent,yes,
+The Insider (English),https://theins.press/en,,en,Russia (exile),independent,yes,Frequent Bellingcat partner
+Novaya Gazeta Europe,https://novayagazeta.eu,,ru,Russia (exile),independent,yes,
+Kyiv Independent,https://kyivindependent.com,https://kyivindependent.com/rss/,en,Ukraine,independent,yes,
+Euromaidan Press,https://euromaidanpress.com,https://euromaidanpress.com/feed/,en,Ukraine,independent,yes,
+OCCRP,https://www.occrp.org,,en,International,investigative,yes,
+ICIJ,https://www.icij.org,https://www.icij.org/feed/,en,International,investigative,yes,
+Global Voices,https://globalvoices.org,https://globalvoices.org/feed/,en,International,periodical,yes,
+Coda Story,https://www.codastory.com,https://www.codastory.com/feed/,en,International,periodical,yes,
+Rest of World,https://restofworld.org,https://restofworld.org/feed/latest/,en,International,periodical,yes,
+Nieman Lab,https://www.niemanlab.org,https://www.niemanlab.org/feed/,en,US,trade periodical,yes,Journalism trade press
+Poynter,https://www.poynter.org,https://www.poynter.org/feed/,en,US,trade periodical,yes,Journalism trade press
+Press Gazette,https://pressgazette.co.uk,https://pressgazette.co.uk/feed/,en,UK,trade periodical,yes,Journalism trade press
+The Record,https://therecord.media,https://therecord.media/feed/,en,US,periodical,yes,Cyber/security news
+Wired,https://www.wired.com,https://www.wired.com/feed/rss,en,US,periodical,yes,
+The Verge,https://www.theverge.com,https://www.theverge.com/rss/index.xml,en,US,periodical,yes,
+War on the Rocks,https://warontherocks.com,https://warontherocks.com/feed/,en,US,periodical,yes,Defence/security analysis
+Middle East Eye,https://www.middleeasteye.net,https://www.middleeasteye.net/rss,en,UK,independent,yes,
+Times of Israel,https://www.timesofisrael.com,https://www.timesofisrael.com/feed/,en,Israel,newspaper,yes,
+Balkan Insight (BIRN),https://balkaninsight.com,https://balkaninsight.com/feed/,en,Balkans,investigative,yes,
+OC Media,https://oc-media.org,https://oc-media.org/feed/,en,Caucasus,independent,yes,
+Civil.ge,https://civil.ge,https://civil.ge/feed,en,Georgia,independent,yes,
+Notes from Poland,https://notesfrompoland.com,https://notesfrompoland.com/feed/,en,Poland,independent,yes,
+RT (English),https://www.rt.com,https://www.rt.com/rss/,en,Russia,state media,yes,Russian state media - tracks hostile coverage
+Meduza,https://meduza.io,https://meduza.io/rss/all,ru,Latvia/Russia,independent,yes,
+BBC Russian,https://www.bbc.com/russian,https://feeds.bbci.co.uk/russian/rss.xml,ru,UK,public broadcaster,yes,
+DW Russian,https://www.dw.com/ru,https://rss.dw.com/rdf/rss-ru-all,ru,Germany,public broadcaster,yes,
+The Insider,https://theins.ru,,ru,Russia (exile),independent,yes,Frequent Bellingcat partner
+Mediazona,https://zona.media,https://zona.media/rss,ru,Russia (exile),independent,yes,
+TV Rain (Dozhd),https://tvrain.tv,,ru,Russia (exile),broadcaster,yes,
+Radio Svoboda,https://www.svoboda.org,,ru,US/Czechia,public broadcaster,yes,RFE/RL Russian service
+Verstka,https://verstka.media,,ru,Russia (exile),independent,yes,
+TASS,https://tass.ru,https://tass.ru/rss/v2.xml,ru,Russia,state media,yes,Russian state media - tracks hostile coverage
+RIA Novosti,https://ria.ru,https://ria.ru/export/rss2/archive/index.xml,ru,Russia,state media,yes,Russian state media - tracks hostile coverage
+RT (Russian),https://russian.rt.com,https://russian.rt.com/rss,ru,Russia,state media,yes,Russian state media - tracks hostile coverage
+Kommersant,https://www.kommersant.ru,https://www.kommersant.ru/RSS/main.xml,ru,Russia,newspaper,yes,
+Lenta.ru,https://lenta.ru,https://lenta.ru/rss,ru,Russia,news site,yes,
+Ukrainska Pravda,https://www.pravda.com.ua,https://www.pravda.com.ua/rss/,uk,Ukraine,independent,yes,
+Suspilne,https://suspilne.media,,uk,Ukraine,public broadcaster,yes,
+Hromadske,https://hromadske.ua,,uk,Ukraine,independent,yes,
+BBC Ukrainian,https://www.bbc.com/ukrainian,https://feeds.bbci.co.uk/ukrainian/rss.xml,uk,UK,public broadcaster,yes,
+Radio Svoboda (Ukraine),https://www.radiosvoboda.org,,uk,US/Czechia,public broadcaster,yes,RFE/RL Ukrainian service
+Detector Media,https://detector.media,,uk,Ukraine,trade periodical,yes,Media/disinformation watchdog
+NOS,https://nos.nl,https://feeds.nos.nl/nosnieuwsalgemeen,nl,Netherlands,public broadcaster,yes,Bellingcat is Netherlands-based
+NU.nl,https://www.nu.nl,https://www.nu.nl/rss/Algemeen,nl,Netherlands,news site,yes,
+RTL Nieuws,https://www.rtl.nl/nieuws,,nl,Netherlands,broadcaster,yes,
+de Volkskrant,https://www.volkskrant.nl,https://www.volkskrant.nl/voorpagina/rss.xml,nl,Netherlands,newspaper,yes,Partly paywalled - headlines still checked
+NRC,https://www.nrc.nl,https://www.nrc.nl/rss/,nl,Netherlands,newspaper,yes,Partly paywalled - headlines still checked
+VRT NWS,https://www.vrt.be/vrtnws/nl,https://www.vrt.be/vrtnws/nl.rss.articles.xml,nl,Belgium,public broadcaster,yes,
+Tagesschau,https://www.tagesschau.de,https://www.tagesschau.de/xml/rss2,de,Germany,public broadcaster,yes,
+DW German,https://www.dw.com/de,https://rss.dw.com/rdf/rss-de-all,de,Germany,public broadcaster,yes,
+Der Spiegel,https://www.spiegel.de,https://www.spiegel.de/schlagzeilen/index.rss,de,Germany,periodical,yes,Partly paywalled - headlines still checked
+Die Zeit,https://www.zeit.de,https://newsfeed.zeit.de/index,de,Germany,periodical,yes,Partly paywalled
+Süddeutsche Zeitung,https://www.sueddeutsche.de,https://rss.sueddeutsche.de/rss/Topthemen,de,Germany,newspaper,yes,Partly paywalled
+taz,https://taz.de,https://taz.de/!p4608;rss/,de,Germany,newspaper,yes,
+Der Standard,https://www.derstandard.at,https://www.derstandard.at/rss,de,Austria,newspaper,yes,
+netzpolitik.org,https://netzpolitik.org,https://netzpolitik.org/feed/,de,Germany,periodical,yes,
+CORRECTIV,https://correctiv.org,https://correctiv.org/feed/,de,Germany,investigative,yes,
+France 24,https://www.france24.com/fr,https://www.france24.com/fr/rss,fr,France,public broadcaster,yes,
+RFI,https://www.rfi.fr/fr,https://www.rfi.fr/fr/rss,fr,France,public broadcaster,yes,
+franceinfo,https://www.francetvinfo.fr,https://www.francetvinfo.fr/titres.rss,fr,France,public broadcaster,yes,
+Le Monde,https://www.lemonde.fr,https://www.lemonde.fr/rss/une.xml,fr,France,newspaper,yes,Partly paywalled - headlines still checked
+Libération,https://www.liberation.fr,,fr,France,newspaper,yes,
+El País,https://elpais.com,https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada,es,Spain,newspaper,yes,
+elDiario.es,https://www.eldiario.es,https://www.eldiario.es/rss/,es,Spain,independent,yes,
+BBC Mundo,https://www.bbc.com/mundo,https://feeds.bbci.co.uk/mundo/rss.xml,es,UK,public broadcaster,yes,
+DW Español,https://www.dw.com/es,https://rss.dw.com/rdf/rss-sp-all,es,Germany,public broadcaster,yes,
+France 24 Español,https://www.france24.com/es,https://www.france24.com/es/rss,es,France,public broadcaster,yes,
+Infobae,https://www.infobae.com,,es,Argentina,news site,yes,
+Maldita.es,https://maldita.es,,es,Spain,fact-checker,yes,
+Newtral,https://www.newtral.es,,es,Spain,fact-checker,yes,
+g1,https://g1.globo.com,https://g1.globo.com/rss/g1/,pt,Brazil,news site,yes,
+BBC News Brasil,https://www.bbc.com/portuguese,https://feeds.bbci.co.uk/portuguese/rss.xml,pt,UK,public broadcaster,yes,
+DW Brasil,https://www.dw.com/pt-br,https://rss.dw.com/rdf/rss-br-all,pt,Germany,public broadcaster,yes,
+Público,https://www.publico.pt,,pt,Portugal,newspaper,yes,
+ANSA,https://www.ansa.it,https://www.ansa.it/sito/ansait_rss.xml,it,Italy,news agency,yes,
+Il Post,https://www.ilpost.it,https://www.ilpost.it/feed/,it,Italy,news site,yes,
+la Repubblica,https://www.repubblica.it,https://www.repubblica.it/rss/homepage/rss2.0.xml,it,Italy,newspaper,yes,
+Open,https://www.open.online,https://www.open.online/feed/,it,Italy,news site,yes,
+OKO.press,https://oko.press,https://oko.press/feed/,pl,Poland,independent,yes,
+TVN24,https://tvn24.pl,https://tvn24.pl/najnowsze.xml,pl,Poland,broadcaster,yes,
+BBC Türkçe,https://www.bbc.com/turkce,https://feeds.bbci.co.uk/turkce/rss.xml,tr,UK,public broadcaster,yes,
+DW Türkçe,https://www.dw.com/tr,https://rss.dw.com/rdf/rss-tur-all,tr,Germany,public broadcaster,yes,
+Medyascope,https://medyascope.tv,,tr,Turkey,independent,yes,
+bianet,https://bianet.org,,tr,Turkey,independent,yes,
+Teyit,https://teyit.org,,tr,Turkey,fact-checker,yes,
+Al Jazeera Arabic,https://www.aljazeera.net,,ar,Qatar,broadcaster,yes,
+BBC Arabic,https://www.bbc.com/arabic,https://feeds.bbci.co.uk/arabic/rss.xml,ar,UK,public broadcaster,yes,
+DW Arabic,https://www.dw.com/ar,https://rss.dw.com/rdf/rss-ar-all,ar,Germany,public broadcaster,yes,
+France 24 Arabic,https://www.france24.com/ar,https://www.france24.com/ar/rss,ar,France,public broadcaster,yes,
+Daraj,https://daraj.media,,ar,Lebanon,independent,yes,
+Enab Baladi,https://www.enabbaladi.net,https://www.enabbaladi.net/feed,ar,Syria,independent,yes,
+Asharq Al-Awsat,https://aawsat.com,,ar,Saudi Arabia/UK,newspaper,yes,
+BBC Persian,https://www.bbc.com/persian,https://feeds.bbci.co.uk/persian/rss.xml,fa,UK,public broadcaster,yes,
+DW Persian,https://www.dw.com/fa-ir,https://rss.dw.com/rdf/rss-per-all,fa,Germany,public broadcaster,yes,
+Radio Farda,https://www.radiofarda.com,,fa,US/Czechia,public broadcaster,yes,RFE/RL Persian service
+Iran International,https://www.iranintl.com,,fa,UK,broadcaster,yes,
+NHK,https://www3.nhk.or.jp/news,https://www3.nhk.or.jp/rss/news/cat0.xml,ja,Japan,public broadcaster,yes,
+BBC Chinese,https://www.bbc.com/zhongwen/simp,https://feeds.bbci.co.uk/zhongwen/simp/rss.xml,zh,UK,public broadcaster,yes,
+DW Chinese,https://www.dw.com/zh,https://rss.dw.com/rdf/rss-chi-all,zh,Germany,public broadcaster,yes,
+Ynet,https://www.ynet.co.il,https://www.ynet.co.il/Integration/StoryRss2.xml,he,Israel,news site,yes,
+100Reporters,http://100r.org/,,en,US,,yes,
+11Alive News,https://www.11alive.com,,en,US,,no,tags: georgia
+Baahrakhari,https://baahrakhari.com/,,ne,NP,,yes,
+12 News Now,https://www.12newsnow.com/,,en,US,,no,tags: texas
+13WMAZ News,https://www.13wmaz.com,,en,US,,no,tags: georgia
+14 East,http://fourteeneastmag.com/,,en,US,,no,"tags: illinois, chicago"
+19th,https://19thnews.org/,,en,US,,yes,tags: feminist
+1News,https://www.1news.co.nz/,,en,NZ,,yes,
+20 Minutes,https://www.20minutes.fr/,,fr,FR,,yes,
+KMTV 3 News Now,https://www.3newsnow.com/,,en,US,,no,tags: nebraska
+404 Media,https://www.404media.co/,,en,US,,yes,tags: tech
+41NBC / WMGT,https://www.41nbc.com,,en,US,,no,tags: georgia
+6abc,https://6abc.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+9NEWS Denver,https://www.9news.com/,,en,US,,no,tags: colorado
+9to5Mac,https://9to5mac.com/,,en,US,,yes,tags: tech
+ABC News,https://abcnews.go.com/,,en,US,,yes,tags: us-national
+ABC,https://www.abc.es/,,es,ES,,yes,
+ABC15 Arizona,https://www.abc15.com/,,en,US,,no,tags: arizona
+ABC 33/40 News,https://abc3340.com/,,en,US,,no,tags: alabama
+ABC7,https://abc7.com/,,en,US,,no,"tags: socal, california"
+KVIA,https://kvia.com/,,en,US,,no,tags: texas
+ABC7 News,https://abc7news.com/,,en,US,,no,"tags: bay-area, california"
+ABC News,https://www.abc.net.au/news/,,en,AU,,yes,
+Aberdeen News,https://www.aberdeennews.com/,,en,US,,no,"tags: south-dakota, gannett"
+Albuquerque Business First,https://www.bizjournals.com/albuquerque/,,en,US,,no,tags: new-mexico
+Albuquerque Journal,https://www.abqjournal.com/,,en,US,,no,tags: new-mexico
+Anchorage Daily News,https://www.adn.com/,,en,US,,no,tags: alaska
+Adnkronos,https://www.adnkronos.com/,,it,IT,,yes,
+Aftenposten,https://www.aftenposten.no/,,no,NO,,yes,
+Aftermath,https://aftermath.site/,,en,US,,yes,tags: tech
+Agência Brasil,https://agenciabrasil.ebc.com.br/,,pt,BR,,yes,
+Agência Pública,https://apublica.org/,,pt,BR,,yes,
+Aviation International News,https://www.ainonline.com/,,en,US,,yes,tags: aviation
+Airline Reporter,https://www.airlinereporter.com/,,en,US,,yes,tags: aviation
+Airways,https://airwaysmag.com/,,en,US,,yes,tags: aviation
+Atlanta Journal-Constitution,https://www.ajc.com/,,en,US,,no,tags: georgia
+Alaska’s News Source,https://www.alaskasnewssource.com/,,en,US,,no,tags: alaska
+Alaska Public Media,https://alaskapublic.org/,,en,US,,no,tags: alaska
+Alamogordo Daily News,https://www.alamogordonews.com/,,en,US,,no,"tags: new-mexico, gannett"
+Albany Herald,https://www.albanyherald.com,,en,US,,no,tags: georgia
+Al Dia Dallas,https://www.dallasnews.com/espanol/al-dia/,,es,US,,no,tags: texas
+Alabama Media Group,https://www.al.com/,,en,US,,no,tags: alabama
+The Alliance Review,https://www.the-review.com/,,en,US,,no,"tags: ohio, gannett"
+Alma Preta,https://almapreta.com/,,pt,BR,,yes,
+Alabama Public Radio,https://www.apr.org/,,en,US,,no,tags: alabama
+Alabama Reporter,https://www.alreporter.com/,,en,US,,no,tags: alabama
+AlterNet,https://www.alternet.org/,,en,US,,yes,tags: us-left-wing
+amaBhungane,https://amabhungane.org/,,en,ZA,,yes,
+Amarillo Globe-News,https://www.amarillo.com/,,en,US,,no,"tags: texas, gannett"
+Amar Ujala,https://www.amarujala.com/,,hi,IN,,yes,
+Agência Amazônia,https://aamazonia.com.br/,,pt,BR,,yes,
+American Independent,https://americanindependent.com/,,en,US,,yes,tags: us-left-wing
+Ames Tribune,https://www.amestrib.com/,,en,US,,no,"tags: iowa, gannett"
+Anchorage Press,https://www.anchoragepress.com/,,en,US,,no,tags: alaska
+Andscape,https://andscape.com/,,en,US,,no,tags: sports
+Annapurna Post,https://www.annapurnapost.com/,,ne,NP,,yes,
+Associated Press,https://apnews.com/,,en,US,,yes,tags: us-national
+APM Reports,https://www.apmreports.org/,,en,US,,yes,
+100 Days in Appalachia,https://www.100daysinappalachia.com/,,en,US,,yes,
+Sioux Falls Argus Leader,https://www.argusleader.com/,,en,US,,no,"tags: south-dakota, gannett, minnesota, iowa"
+Aristegui Noticias,https://aristeguinoticias.com/,,es,MX,,yes,
+Arizona Center for Investigative Reporting,https://azcir.org/,,en,US,,no,tags: arizona
+Arkansas Democrat Gazette,https://www.arkansasonline.com/,,en,US,,no,tags: arkansas
+Arkansas Business,https://www.arkansasbusiness.com/,,en,US,,no,tags: arkansas
+Arkansas Nonprofit News Network,https://arknews.org/,,en,US,,yes,
+Arkansas Times,https://arktimes.com/,,en,US,,no,tags: arkansas
+Ars Technica,https://arstechnica.com/,,en,US,,yes,tags: tech
+Artha Sarokar,https://arthasarokar.com/,,ne,NP,,yes,
+Asahi Shimbun,https://www.asahi.com/,,ja,JP,,yes,
+Asbury Park Press,https://www.app.com/,,en,US,,no,"tags: new-jersey, gannett"
+Asheville Citizen-Times,https://www.citizen-times.com/,,en,US,,no,"tags: north-carolina, gannett"
+Ashland.news,https://ashland.news/,,en,US,,no,tags: oregon
+Aspen Daily News,https://www.aspendailynews.com/,,en,US,,yes,
+Aspen Journalism,https://aspenjournalism.org/,,en,US,,no,tags: colorado
+Aspen Public Radio,https://www.aspenpublicradio.org/,,en,US,,yes,
+Jornal A Tarde,https://atarde.com.br/,,pt,BR,,yes,
+Above the Law,https://abovethelaw.com/,,en,US,,yes,tags: us-left-wing
+Atlanta Civic Circle,https://atlantaciviccircle.org/,,en,US,,no,tags: georgia
+Augusta Chronicle,https://www.augustachronicle.com,,en,US,,no,tags: georgia
+Austin Chronicle,https://www.austinchronicle.com/,,en,US,,no,tags: texas
+Austin Vida,https://www.austinvida.com/,,en,US,,no,tags: texas
+Aviation Herald,https://avherald.com/,,en,AT,,yes,tags: aviation
+AeroTime Hub,https://www.aerotime.aero/,,en,US,,yes,tags: aviation
+Aviation Week,https://aviationweek.com/,,en,US,,yes,tags: aviation
+Asheville Watchdog,https://avlwatchdog.org/,,en,US,,no,tags: north-carolina
+Axios,https://www.axios.com/,,en,US,,yes,tags: capitol-hill
+Arizona Republic,https://www.azcentral.com/,,en,US,,no,"tags: arizona, gannett"
+Arizona Daily Sun,https://azdailysun.com/,,en,US,,no,tags: arizona
+Badger Project,https://thebadgerproject.org/,,en,US,,no,tags: wisconsin
+Bakersfield Californian,https://www.bakersfield.com/,,en,US,,yes,
+Baltimore Beat,https://baltimorebeat.com/,,en,US,,no,tags: maryland
+Baltimore Business Journal,https://www.bizjournals.com/baltimore/,,en,US,,no,tags: maryland
+Baltimore Fishbowl,https://baltimorefishbowl.com/,,en,US,,no,tags: maryland
+Baltimore Banner,https://www.thebaltimorebanner.com/,,en,US,,no,tags: maryland
+Baltimore Brew,https://www.baltimorebrew.com/,,en,US,,no,tags: maryland
+Baltimore Magazine,https://www.baltimoremagazine.com/,,en,US,,no,tags: maryland
+The Baltimore Sun,https://www.baltimoresun.com/,,en,US,,no,tags: maryland
+Bangor Daily News,https://www.bangordailynews.com/,,en,US,,no,tags: maine
+Free Press,https://www.thefp.com/,,en,US,,yes,tags: us-right-wing
+The Barnstable Patriot,https://www.barnstablepatriot.com/,,en,US,,no,"tags: massachusetts, gannett"
+Examiner-Enterprise,https://www.examiner-enterprise.com/,,en,US,,no,"tags: oklahoma, gannett"
+Ticker,https://theticker.org/,,en,US,,no,"tags: new-york-city, student"
+Bay Nature,https://baynature.org/,,en,US,,no,"tags: bay-area, california"
+BBC,https://www.bbc.com/news,,en,GB,,yes,
+Battle Creek Enquirer,https://www.battlecreekenquirer.com/,,en,US,,no,"tags: michigan, gannett"
+Local News Matters,http://www.localnewsmatters.org/,,en,US,,no,"tags: bay-area, california"
+The Beaver County Times,https://www.timesonline.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Akron Beacon Journal,https://www.beaconjournal.com/,,en,US,,no,"tags: ohio, gannett"
+Beaufort Gazette,http://www.beaufortgazette.com,,en,US,,no,"tags: south-carolina, mcclatchy"
+Belleville News Democrat,http://www.bnd.com,,en,US,,no,"tags: illinois, mcclatchy"
+Belt Magazine,http://beltmag.com/,,en,US,,yes,
+Belfast Telegraph,https://www.belfasttelegraph.co.uk/,,en,GB,,yes,
+The Berkeleyside,https://berkeleyside.org/,,en,US,,no,"tags: bay-area, california"
+Berkshire Eagle,https://www.berkshireeagle.com/,,en,US,,no,tags: massachusetts
+Better Government Association,https://www.bettergov.org/,,en,US,,no,"tags: illinois, chicago"
+BFMTV,https://www.bfmtv.com/,,fr,FR,,yes,
+Burlington Free Press,https://www.burlingtonfreepress.com/,,en,US,,no,"tags: vermont, gannett"
+Bowling Green Daily News,https://www.bgdailynews.com/,,en,US,,no,tags: kentucky
+Bellingham Herald,http://www.bellinghamherald.com,,en,US,,no,"tags: washington, mcclatchy"
+BirminghamWatch,http://birminghamwatch.org/,,en,US,,yes,
+Bild,https://www.bild.de/,,de,DE,,yes,
+Billings Gazette,https://billingsgazette.com/,,en,US,,no,tags: montana
+Billy Penn,https://billypenn.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+Boston Institute for Nonprofit Journalism,https://www.binjonline.org/,,en,US,,no,tags: massachusetts
+The Bismarck Tribune,https://bismarcktribune.com/,,en,US,,no,tags: north-dakota
+Bklyner,https://bklyner.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Black by God,https://blackbygod.org/,,en,US,,yes,
+Bloomberg Law,https://news.bloomberglaw.com/,,en,US,,yes,
+Bleacher Report,https://bleacherreport.com/,,en,US,,no,tags: sports
+BleepingComputer,https://www.bleepingcomputer.com/,,en,US,,yes,tags: tech
+Block Club Chicago,https://blockclubchicago.org/,,en,US,,no,"tags: illinois, chicago"
+Bloomberg Japan,https://www.bloomberg.co.jp/,,ja,JP,,yes,
+blueridgenow.com,https://www.blueridgenow.com/,,en,US,,no,"tags: north-carolina, gannett"
+Bluffton Today,https://www.blufftontoday.com/,,en,US,,no,"tags: south-carolina, gannett"
+Beaumont Enterprise,https://www.beaumontenterprise.com/,,en,US,,no,tags: texas
+Boing Boing,https://boingboing.net/,,en,US,,yes,tags: tech
+Bon Appetit,https://www.bonappetit.com/,,en,US,,yes,
+Bongino Report,https://bonginoreport.com/,,en,US,,yes,tags: us-right-wing
+Borderless,https://borderlessmag.org/,,en,US,,no,"tags: illinois, chicago"
+Boston Business Journal,https://www.bizjournals.com/boston/,,en,US,,no,tags: massachusetts
+Boston Globe,https://www.bostonglobe.com/,,en,US,,no,tags: massachusetts
+Boston Herald,https://www.bostonherald.com/,,en,US,,no,tags: massachusetts
+Bradenton Herald,http://www.bradenton.com,,en,US,,no,"tags: florida, mcclatchy"
+Redding Record Searchlight,https://www.redding.com/,,en,US,,no,"tags: california, gannett"
+Breckenridge Texan,https://breckenridgetexan.com/,,en,US,,no,tags: texas
+Breitbart,https://www.breitbart.com/,,en,US,,yes,tags: us-right-wing
+Brooklyn Paper,https://www.brooklynpaper.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+The Brunswick News,https://www.thebrunswicknews.com,,en,US,,no,tags: georgia
+Bergens Tidende,https://www.bt.no/,,no,NO,,yes,
+Bucks County Herald,https://buckscountyherald.com/,,en,US,,yes,
+Bucyrus Telegraph Forum,https://www.bucyrustelegraphforum.com/,,en,US,,no,"tags: ohio, gannett"
+Bulwark,https://www.thebulwark.com/,,en,US,,yes,tags: us-right-wing
+Burlington County Times,https://www.burlingtoncountytimes.com/,,en,US,,no,"tags: new-jersey, gannett"
+Bloomberg,https://www.bloomberg.com/,,en,US,,yes,tags: us-national
+Buzzfeed News,https://www.buzzfeednews.com/,,en,US,,yes,
+Calcalist,https://www.calcalist.co.il/,,he,IL,,yes,
+Calgary Herald,https://calgaryherald.com/,,en,CA,,yes,
+Corpus Christi Caller Times,https://www.caller.com/,,en,US,,no,"tags: texas, gannett"
+Calmatters,https://calmatters.org/,,en,US,,no,"tags: bay-area, california"
+Canopy Atlanta,http://canopyatlanta.org/,,en,US,,no,tags: georgia
+Canton Daily Ledger,https://www.cantondailyledger.com/,,en,US,,no,"tags: illinois, gannett"
+The Canton Repository,https://www.cantonrep.com/,,en,US,,no,"tags: ohio, gannett"
+Cape Cod Times,https://www.capecodtimes.com/,,en,US,,no,"tags: massachusetts, gannett"
+Capital Gazette,https://www.capitalgazette.com/,,en,US,,no,tags: maryland
+Capital & Main,https://capitalandmain.com/,,en,US,,no,"tags: socal, california"
+Capital B Atlanta,https://atlanta.capitalbnews.org/,,en,US,,no,tags: georgia
+Capitol News Illinois,https://www.capitolnewsillinois.com/,,en,US,,yes,
+CapRadio,https://www.capradio.org/,,en,US,,no,tags: california
+CBC News,https://www.cbc.ca/news,,en,CA,,yes,
+Rádio CBN,https://cbn.globoradio.globo.com/,,pt,BR,,yes,
+CBS46,https://www.cbs46.com,,en,US,,no,tags: georgia
+CBS7,https://www.cbs7.com/,,en,US,,no,tags: texas
+CBS Chicago,https://www.cbsnews.com/chicago/,,en,US,,no,"tags: illinois, chicago"
+Carlsbad Current-Argus,https://www.currentargus.com/,,en,US,,no,"tags: new-mexico, gannett"
+Centre Daily Times,http://www.centredaily.com,,en,US,,no,"tags: pennsylvania, mcclatchy"
+Chalkbeat,https://www.chalkbeat.org/,,en,US,,yes,
+Charlie Hebdo,https://charliehebdo.fr/,,fr,FR,,no,tags: satire
+Chequeado,https://chequeado.com/,,es,AR,,yes,
+Chesapeake Bay Journal,https://www.bayjournal.com/,,en,US,,yes,
+chess24,https://chess24.com/en/read/news,,de,DE,,no,tags: chess
+ChessBase,https://en.chessbase.com/,,en,DE,,no,tags: chess
+Chess.com,https://www.chess.com/news,,en,US,,no,tags: chess
+Chicago Reader,https://chicagoreader.com/,,en,US,,no,"tags: illinois, chicago"
+Chicago Reporter,https://www.chicagoreporter.com/,,en,US,,no,"tags: illinois, chicago"
+Chicago Tribune,https://www.chicagotribune.com/,,en,US,,no,"tags: illinois, chicago"
+The Pueblo Chieftain,https://www.chieftain.com/,,en,US,,no,"tags: colorado, gannett"
+Chillicothe Gazette,https://www.chillicothegazette.com/,,en,US,,no,"tags: ohio, gannett"
+China Times,https://www.chinatimes.com/,,zh,TW,,yes,
+Chunichi Shimbun,https://www.chunichi.co.jp/,,ja,JP,,yes,
+Cicero Independiente,https://www.ciceroindependiente.com/,,en,US,,no,"tags: illinois, chicago"
+City & State New York,https://www.cityandstateny.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+City Journal,https://www.city-journal.org/,,en,US,,yes,tags: us-right-wing
+City Limits,http://www.citylimits.org/,,en,US,,no,"tags: new-york-city, new-york-state"
+CivicLex,https://civiclex.org/,,en,US,,yes,
+Honolulu Civil Beat,https://www.civilbeat.org/,,en,US,,no,tags: hawaii
+Civio,https://civio.es/,,es,ES,,yes,
+The Topeka Capital-Journal,https://www.cjonline.com/,,en,US,,no,"tags: kansas, gannett"
+Columbia Journalism Review,https://www.cjr.org/,,en,US,,yes,
+Clarín,https://www.clarin.com/,,es,AR,,yes,
+Clarion Ledger,https://www.clarionledger.com/,,en,US,,no,"tags: mississippi, gannett"
+Clayton Crescent,https://claytoncrescent.org/,,en,US,,yes,
+CNBC,https://www.cnbc.com/,,en,US,,yes,
+CNET,https://www.cnet.com/,,en,US,,yes,tags: tech
+CNN,https://www.cnn.com/,,en,US,,yes,tags: us-national
+CNN Brasil,https://www.cnnbrasil.com.br/,,pt,BR,,yes,
+Capital News Service,https://cnsmaryland.org/,,en,US,,no,tags: maryland
+Central Oregon Daily,https://centraloregondaily.com/,,en,US,,no,tags: oregon
+CoinDesk,https://www.coindesk.com/,,en,US,,yes,tags: tech
+Colorado News Collaborative,https://colabnews.co/,,en,US,,no,tags: colorado
+Fort Collins Coloradoan,https://www.coloradoan.com/,,en,US,,no,"tags: colorado, gannett"
+Colorado Sun,https://coloradosun.com/,,en,US,,no,tags: colorado
+Columbia Daily Tribune,https://www.columbiatribune.com/,,en,US,,no,"tags: missouri, gannett"
+Columbia Missourian,https://www.columbiamissourian.com/,,en,US,,no,tags: missouri
+Common Dreams,https://www.commondreams.org/,,en,US,,yes,tags: us-left-wing
+Connecticut Post,https://www.ctpost.com/,,en,US,,no,tags: connecticut
+Cook Political Report,https://www.cookpolitical.com/,,en,US,,yes,tags: capitol-hill
+Correio Braziliense,https://www.correiobraziliense.com.br/,,pt,BR,,yes,
+Corriere della Sera,https://www.corriere.it/,,it,IT,,yes,
+Coshocton Tribune,https://www.coshoctontribune.com/,,en,US,,no,"tags: ohio, gannett"
+The Courier-Tribune,https://www.courier-tribune.com/,,en,US,,no,"tags: north-carolina, gannett"
+Louisville Courier-Journal,https://www.courier-journal.com/,,en,US,,no,"tags: kentucky, gannett"
+Evansville Courier & Press,https://www.courierpress.com/,,en,US,,no,"tags: indiana, gannett, illinois"
+Bucks County Courier Times,https://www.buckscountycouriertimes.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Centro de Periodismo Investigativo,https://periodismoinvestigativo.com/,,es,US,,yes,
+Colorado Public Radio,https://www.cpr.org/,,en,US,,no,tags: colorado
+Cherry Hill Courier Post,https://www.courierpostonline.com/,,en,US,,no,"tags: new-jersey, gannett"
+Carolina Public Press,https://carolinapublicpress.org/,,en,US,,no,tags: north-carolina
+CQ,https://info.cq.com/,,en,US,,yes,tags: capitol-hill
+Crikey,https://www.crikey.com.au/,,en,AU,,yes,
+Crónica,https://www.cronica.com.ar/,,es,AR,,yes,
+Cronista,https://www.cronista.com/,,es,AR,,yes,
+Las Cruces Sun News,https://www.lcsun-news.com/,,en,US,,no,"tags: new-mexico, gannett"
+Colorado Springs Gazette,https://gazette.com/,,en,US,,no,tags: colorado
+Casper Star-Tribune,https://trib.com/,,en,US,,no,tags: wyoming
+Christianity Today,https://www.christianitytoday.com/,,en,US,,yes,
+Connecticut Mirror,https://ctmirror.org/,,en,US,,no,tags: connecticut
+CTV News,https://www.ctvnews.ca/,,en,CA,,yes,
+Cuestion Publica,https://cuestionpublica.com/,,es,CO,,yes,
+Curbed,https://www.curbed.com/,,en,US,,yes,
+Dagbladet,https://www.dagbladet.no/,,no,NO,,yes,
+Dagsavisen,https://www.dagsavisen.no/,,no,NO,,yes,
+Daily Record,https://www.dailyrecord.co.uk/,,en,GB,,yes,
+Daily American,https://www.dailyamerican.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Daily Caller,https://dailycaller.com/,,en,US,,yes,tags: us-right-wing
+Daily Camera,https://www.dailycamera.com/,,en,US,,no,tags: colorado
+Daily Comet,https://www.dailycomet.com/,,en,US,,no,"tags: louisiana, gannett"
+Leesburg Daily Commercial,https://www.dailycommercial.com/,,en,US,,no,"tags: florida, gannett"
+Daily Echo,https://www.dailyecho.co.uk/,,en,GB,,yes,
+Daily Herald,https://www.dailyherald.com/,,en,US,,no,"tags: illinois, chicago"
+The Daily Jeffersonian,https://www.daily-jeff.com/,,en,US,,no,"tags: ohio, gannett"
+Daily Kos,https://www.dailykos.com/,,en,US,,yes,tags: us-left-wing
+Daily Maverick,https://www.dailymaverick.co.za/,,en,ZA,,yes,
+Daily Mirror,https://www.mirror.co.uk/,,en,GB,,yes,
+Daily Nebraskan,https://www.dailynebraskan.com/,,en,US,,no,"tags: nebraska, student"
+Daily Penn,https://www.thedp.com/,,en,US,,no,"tags: pennsylvania, philadelphia, student"
+Parsippany Daily Record,https://www.dailyrecord.com/,,en,US,,no,"tags: new-jersey, gannett"
+Daily Sun,https://www.snl24.com/dailysun,,en,ZA,,yes,
+Daily Tarheel,https://www.dailytarheel.com,,en,US,,no,tags: north-carolina
+Daily Yonder,https://www.dailyyonder.com/,,en,US,,yes,
+Danik Online,https://www.dainikonline.com/,,ne,NP,,yes,
+Dainik Bhaskar,https://www.bhaskar.com/,,hi,IN,,yes,
+Dallas Business Journal,https://www.bizjournals.com/dallas/,,en,US,,no,tags: texas
+Dallas County News,https://www.adelnews.com/,,en,US,,no,"tags: iowa, gannett"
+Dallas Free Press,https://www.dallasfreepress.com/,,en,US,,no,tags: texas
+Rochester Democrat and Chronicle,https://www.democratandchronicle.com/,,en,US,,no,"tags: new-york-state, gannett"
+The Daytona Beach News-Journal,https://www.news-journalonline.com/,,en,US,,no,"tags: florida, gannett"
+Washington Examiner,https://www.washingtonexaminer.com/,,en,US,,yes,tags: us-right-wing
+DC Nepal,https://www.dcnepal.com/,,ne,NP,,yes,
+Deadline,https://deadline.com/,,en,US,,no,tags: entertainment
+Deadspin,https://deadspin.com/,,en,US,,no,tags: sports
+Decision Desk HQ,https://decisiondeskhq.com/,,en,US,,yes,tags: capitol-hill
+Defector,https://defector.com/,,en,US,,no,tags: sports
+Delaware Online,https://www.delawareonline.com/,,en,US,,no,tags: delaware
+Delaware Public Media,https://www.delawarepublic.org/,,en,US,,no,tags: delaware
+Delaware Today,https://delawaretoday.com/,,en,US,,no,tags: delaware
+Deming Headlight,https://www.demingheadlight.com/,,en,US,,no,"tags: new-mexico, gannett"
+Democracy Now!,https://www.democracynow.org/,,en,US,,yes,tags: us-left-wing
+Denver7,https://www.thedenverchannel.com/,,en,US,,no,tags: colorado
+Denverite,https://denverite.com/,,en,US,,no,tags: colorado
+Denver Post,https://www.denverpost.com/,,en,US,,no,tags: colorado
+Deseret News,https://www.deseret.com/,,en,US,,no,tags: utah
+Desert Oracle,https://www.desertoracle.com/,,en,US,,yes,
+Palm Springs Desert Sun,https://www.desertsun.com/,,en,US,,no,"tags: california, gannett"
+Deshsanchar,https://deshsanchar.com/,,ne,NP,,yes,
+The Destin Log,https://www.thedestinlog.com/,,en,US,,no,"tags: florida, gannett"
+Detroit News,https://www.detroitnews.com/,,en,US,,yes,
+Devils Lake Journal,https://www.devilslakejournal.com/,,en,US,,no,"tags: north-dakota, gannett"
+Fortaleza,https://diariodonordeste.verdesmares.com.br/,,pt,BR,,yes,
+Diario de Pernambuco,https://www.diariodepernambuco.com.br/,,pt,BR,,yes,
+Diário Popular,https://www.diariopopular.com.br/,,pt,BR,,yes,
+Discover,https://www.discovermagazine.com/,,en,US,,yes,
+Discovery,https://www.discovery.com/,,en,US,,yes,
+The Columbus Dispatch,https://www.dispatch.com/,,en,US,,no,"tags: ohio, gannett"
+Des Moines Register,https://www.desmoinesregister.com/,,en,US,,no,"tags: iowa, gannett"
+Dagens Næringsliv,https://www.dn.no/,,no,NO,,yes,
+Murfreesboro Daily News Journal,https://www.dnj.com/,,en,US,,no,"tags: tennessee, gannett"
+Dnyuz,https://dnyuz.com/,,en,US,,yes,
+Documented,https://documentedny.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Door County Knock,https://www.doorcountyknock.org/,,en,US,,no,tags: wisconsin
+Drone DJ,https://dronedj.com/,,en,US,,yes,tags: aviation
+Drudge Report,https://drudgereport.com/,,en,US,,yes,tags: us-right-wing
+Donaldsonville Chief,https://www.donaldsonvillechief.com/,,en,US,,no,"tags: louisiana, gannett"
+Lancaster Eagle-Gazette,https://www.lancastereaglegazette.com/,,en,US,,no,"tags: ohio, gannett"
+East Bay Times,https://www.eastbaytimes.com/,,en,US,,no,"tags: bay-area, california"
+East Lansing Info,http://www.eastlansinginfo.news/,,en,US,,yes,
+Eater,https://www.eater.com/,,en,US,,yes,
+Echo-Pilot,https://www.echo-pilot.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Ellwood City Ledger,https://www.ellwoodcityledger.com/,,en,US,,no,"tags: pennsylvania, gannett"
+EdSource,https://edsource.org/,,en,US,,yes,
+E&E News,https://www.eenews.net/,,en,US,,yes,tags: capitol-hill
+Ekantipur,https://ekantipur.com/,,ne,NP,,yes,
+El Tímpano,https://www.eltimpano.org/,,en,US,,no,"tags: bay-area, california"
+El Universal,https://www.eluniversal.com.mx/,,es,MX,,yes,
+El Correo,https://www.elcorreo.com/,,es,ES,,yes,
+Financiero,https://www.elfinanciero.com.mx/,,es,MX,,yes,
+El Mundo,https://www.elmundo.es/,,es,ES,,yes,
+El Nuevo Herald,http://www.elnuevoherald.com,,en,US,,no,"tags: florida, mcclatchy"
+El Pais,https://www.elpais.com.uy/,,es,UY,,yes,
+El Paso Matters,https://elpasomatters.org/,,en,US,,no,tags: texas
+El Paso Times,https://www.elpasotimes.com/,,en,US,,no,"tags: texas, gannett"
+El Periodico,https://www.elperiodico.com/es/,,es,ES,,yes,
+Tiempo,https://www.eltiempo.com/,,es,CO,,yes,
+Estado de Minas,https://www.em.com.br/,,pt,BR,,yes,
+eNCA,https://www.enca.com/,,en,ZA,,yes,
+E!,https://www.eonline.com/,,en,US,,no,tags: entertainment
+Nepal Samacharpatra,https://www.newsofnepal.com/,,ne,NP,,yes,
+Engadget,https://www.engadget.com/,,en,US,,yes,tags: tech
+Cincinnati Enquirer,https://www.cincinnati.com/,,en,US,,no,"tags: ohio, gannett, kentucky, indiana"
+The Enterprise,https://www.enterprisenews.com/,,en,US,,no,"tags: massachusetts, gannett"
+Epoch Times,https://www.theepochtimes.com/,,en,US,,yes,tags: us-right-wing
+ESPN,https://www.espn.com/,,en,US,,no,tags: sports
+Estadão,https://www.estadao.com.br/,,pt,BR,,yes,
+Evening Standard,https://www.standard.co.uk/,,en,GB,,yes,
+Evanston RoundTable,https://evanstonroundtable.com/,,en,US,,no,"tags: illinois, chicago"
+Eyewitness News,https://ewn.co.za/,,en,ZA,,yes,
+Examination,https://www.theexamination.org/,,en,US,,yes,
+Excélsior,https://www.excelsior.com.mx/,,es,MX,,yes,
+San Antonio Express-News,https://www.expressnews.com/,,en,US,,no,tags: texas
+Eyethu KwaZulu-Natal,https://eyethunews.co.za/,,zu,ZA,,yes,
+Fairness and Accuracy in Reporting,https://fair.org/,,en,US,,yes,tags: us-left-wing
+Fast Company,https://www.fastcompany.com/,,en,US,,yes,
+The Fayetteville Observer,https://www.fayobserver.com/,,en,US,,no,"tags: north-carolina, gannett"
+Fond du Lac Reporter,https://www.fdlreporter.com/,,en,US,,no,"tags: wisconsin, gannett"
+Federalist,https://thefederalist.com/,,en,US,,yes,tags: us-right-wing
+Feet in 2 Worlds,https://fi2w.org/,,en,US,,yes,
+Financial Post,https://financialpost.com/,,en,CA,,yes,
+Fiquem Sabendo,https://fiquemsabendo.substack.com/,,pt,BR,,yes,
+First Things,https://www.firstthings.com/,,en,US,,yes,tags: us-right-wing
+FiveThirtyEight,https://fivethirtyeight.com/,,en,US,,yes,
+Florida Politics,https://floridapolitics.com/,,en,US,,no,tags: florida
+Flatwater Free Press,https://www.flatwaterfreepress.org/,,en,US,,no,tags: nebraska
+Flight Global,https://www.flightglobal.com/,,en,GB,,yes,tags: aviation
+Flint Beat,https://flintbeat.com/,,en,US,,yes,
+Florida Bulldog,https://www.floridabulldog.org/,,en,US,,no,tags: florida
+Brevard Florida Today,https://www.floridatoday.com/,,en,US,,no,"tags: florida, gannett"
+Florida Phoenix,https://floridaphoenix.com/,,en,US,,no,tags: florida
+Folha de S.Paulo,https://www.folha.uol.com.br/,,pt,BR,,yes,
+Forbes,https://www.forbes.com/,,en,US,,yes,
+Foreign Policy,https://foreignpolicy.com/,,en,US,,yes,
+Fortune,https://fortune.com/,,en,US,,yes,
+Fort Worth Report,https://fortworthreport.org/,,en,US,,no,tags: texas
+Foster's Daily Democrat,https://www.fosters.com/,,en,US,,no,"tags: new-hampshire, gannett"
+Fox 12 Oregon,https://www.kptv.com/,,en,US,,no,tags: oregon
+FOX29 Philly,https://www.fox29.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+Fox 5 Atlanta,https://www.fox5atlanta.com,,en,US,,no,tags: georgia
+Fox 5 New York,https://www.fox5ny.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+FOX 11 Los Angeles,https://www.foxla.com/,,en,US,,no,"tags: socal, california"
+Fox News,https://www.foxnews.com/,,en,US,,yes,"tags: us-national, us-right-wing"
+Fox Sports,https://www.foxsports.com/,,en,US,,no,tags: sports
+Frederick News-Post,https://www.fredericknewspost.com/,,en,US,,no,tags: maryland
+Washington Free Beacon,https://freebeacon.com/,,en,US,,yes,tags: us-right-wing
+Detroit Free Press,https://www.freep.com/,,en,US,,no,"tags: michigan, gannett"
+Freethink,https://www.freethink.com/,,en,US,,yes,tags: tech
+Fremont News Messenger,https://www.thenews-messenger.com/,,en,US,,no,"tags: ohio, gannett"
+The Fresno Bee,http://www.fresnobee.com,,en,US,,no,"tags: california, mcclatchy"
+Financial Times,https://ft.com/?edition=uk,,en,GB,,yes,
+Futurism,https://futurism.com/,,en,US,,yes,tags: tech
+The Gadsden Times,https://www.gadsdentimes.com/,,en,US,,no,"tags: alabama, gannett"
+Gainesville Sun,https://www.gainesville.com/,,en,US,,no,"tags: florida, gannett"
+The Galesburg Register-Mail,https://www.galesburg.com/,,en,US,,no,"tags: illinois, gannett"
+Galveston County Daily News,https://www.galvnews.com/,,en,US,,no,tags: texas
+The Gardner News,https://www.thegardnernews.com/,,en,US,,no,"tags: massachusetts, gannett"
+Gaston Gazette,https://www.gastongazette.com/,,en,US,,no,"tags: north-carolina, gannett"
+Gateway Pundit,https://www.thegatewaypundit.com/,,en,US,,yes,tags: us-right-wing
+Gawker,https://www.gawker.com/,,en,US,,yes,
+Gazeta do Povo,https://www.gazetadopovo.com.br/,,pt,BR,,yes,
+Gazeta.Ru,https://www.gazeta.ru/,,ru,RU,,yes,
+Cedar Rapids Gazette,https://www.thegazette.com/,,en,US,,no,tags: iowa
+Green Bay Press-Gazette,https://www.greenbaypressgazette.com/,,en,US,,no,"tags: wisconsin, gannett"
+Austin Weekly News,https://www.growingcommunitymedia.org/,,en,US,,no,"tags: illinois, chicago"
+Geneseo Republic,https://www.geneseorepublic.com/,,en,US,,no,"tags: illinois, gannett"
+The Georgia Straight,https://www.straight.com/,,en,CA,,yes,
+Fandom,https://www.fandom.com/,,en,US,,no,tags: entertainment
+Grand Forks Herald,https://www.grandforksherald.com/,,en,US,,no,tags: north-dakota
+Great Falls Tribune,https://www.greatfallstribune.com/,,en,US,,no,"tags: montana, gannett"
+Gig Harbor Now,https://www.gigharbornow.org/,,en,US,,no,tags: washington
+Gizmodo,https://gizmodo.com/,,en,US,,yes,tags: tech
+Global News,https://globalnews.ca/,,en,CA,,yes,
+The Globe and Mail,https://www.theglobeandmail.com/,,en,CA,,yes,
+GoErie.com,https://www.goerie.com/,,en,US,,no,"tags: pennsylvania, gannett"
+The San Angelo Standard-Times,https://www.gosanangelo.com/,,en,US,,no,"tags: texas, gannett"
+Gotham Gazettee,https://www.gothamgazette.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Gothamist,https://gothamist.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Spartanburg Herald-Journal,https://www.goupstate.com/,,en,US,,no,"tags: south-carolina, gannett"
+Georgia Public Broadcasting,https://www.gpb.org/news,,en,US,,no,tags: georgia
+Grady Newsource,https://gradynewsource.uga.edu/,,en,US,,no,"tags: georgia, student"
+Little Green Footballs,http://littlegreenfootballs.com/,,en,US,,yes,
+Greenville News,https://www.greenvilleonline.com/,,en,US,,no,"tags: south-carolina, gannett"
+Grist,https://grist.org/,,en,US,,yes,
+Gainesville Times,https://www.gainesvilletimes.com/,,en,US,,no,tags: georgia
+Gwinnett Daily Post,https://www.gwinnettdailypost.com,,en,US,,no,tags: georgia
+Haaretz,https://www.haaretz.co.il/,,he,IL,,yes,
+Harper’s,https://harpers.org/,,en,US,,yes,
+Hartford Courant,https://www.courant.com/,,en,US,,no,tags: connecticut
+Hattiesburg American,https://www.hattiesburgamerican.com/,,en,US,,no,"tags: mississippi, gannett"
+Hell Gate,https://www.hellgatenyc.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Lexington Herald-Leader,https://www.kentucky.com/,,en,US,,no,"tags: kentucky, mcclatchy"
+Herald-Mail Media,https://www.heraldmailmedia.com/,,en,US,,no,"tags: maryland, gannett, pennsylvania, west-virginia"
+Daily Herald,https://www.heraldscotland.com/,,en,GB,,yes,
+Sarasota Herald-Tribune,https://www.heraldtribune.com/,,en,US,,no,"tags: florida, gannett"
+Hidden City Daily,http://hiddencityphila.org/,,en,US,,no,"tags: pennsylvania, philadelphia"
+High Country News,https://www.hcn.org/,,en,US,,yes,
+Hawaii Tribune Herald,https://www.hawaiitribune-herald.com/,,en,US,,no,tags: hawaii
+The Fall River Herald News,https://www.heraldnews.com/,,en,US,,no,"tags: massachusetts, gannett, rhode-island"
+hollandsentinel.com,https://www.hollandsentinel.com/,,en,US,,no,"tags: michigan, gannett"
+The Hornell Evening Tribune,https://www.eveningtribune.com/,,en,US,,no,"tags: new-york-state, gannett"
+HotAir,https://hotair.com/,,en,US,,yes,tags: us-right-wing
+Houston Landing,https://www.houstonlanding.org/,,en,US,,no,tags: texas
+Houma Today,https://www.houmatoday.com/,,en,US,,no,"tags: louisiana, gannett"
+Houston Chronicle,https://www.houstonchronicle.com/,,en,US,,no,tags: texas
+Herald Times Reporter,https://www.htrnews.com/,,en,US,,no,"tags: wisconsin, gannett"
+Huffington Post,https://www.huffpost.com/,,en,US,,yes,tags: us-left-wing
+Human Events,https://humanevents.com/,,en,US,,yes,tags: us-right-wing
+Humans of New York,https://www.humansofnewyork.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+The Hutchinson News,https://www.hutchnews.com/,,en,US,,no,"tags: kansas, gannett"
+Harvey World Herald,https://harveyworld.org/,,en,US,,no,"tags: illinois, chicago"
+Idaho Statesman,http://www.idahostatesman.com,,en,US,,no,"tags: idaho, mcclatchy"
+Ilanga,https://ilanganews.co.za/,,zu,ZA,,yes,
+I'solezwe lesiXhosa,https://www.isolezwelesixhosa.co.za/,,xh,ZA,,yes,
+il manifesto,https://ilmanifesto.it/,,it,IT,,yes,
+Imagekhabar,https://www.imagekhabar.com/,,ne,NP,,yes,
+The Massillon Independent,https://www.indeonline.com/,,en,US,,no,"tags: ohio, gannett"
+Independent.ie,https://www.independent.ie/,,en,IE,,yes,
+Anderson Independent-Mail,https://www.independentmail.com/,,en,US,,no,"tags: south-carolina, gannett, georgia"
+Indian Country Today,https://indiancountrytoday.com/,,en,US,,yes,
+India Today,https://www.indiatoday.in/,,en,IN,,yes,
+The Indianapolis Star,https://www.indystar.com/,,en,US,,no,"tags: indiana, gannett"
+inewsource,https://inewsource.org/,,en,US,,no,"tags: socal, california"
+InfoAmazonia,https://infoamazonia.org/,,pt,BR,,yes,
+Infowars,https://www.infowars.com/,,en,US,,yes,tags: us-right-wing
+Injustice Watch,https://www.injusticewatch.org/,,en,US,,no,"tags: illinois, chicago"
+Inside Climate News,https://insideclimatenews.org/,,en,US,,yes,
+In These Times,https://inthesetimes.com/,,en,US,,yes,tags: us-left-wing
+Independent Online,https://www.iol.co.za/,,en,ZA,,yes,
+Ionia Sentinel-Standard,https://www.sentinel-standard.com/,,en,US,,no,"tags: michigan, gannett"
+Iowa Public Radio,https://www.iowapublicradio.org/,,en,US,,no,tags: iowa
+Irish Catholic,https://www.irishcatholic.com/,,en,IE,,yes,
+Irish Examiner,https://www.irishexaminer.com/,,en,IE,,yes,
+Irish Times,https://www.irishtimes.com/,,en,IE,,yes,
+The Island Packet,http://www.islandpacket.com,,en,US,,no,"tags: south-carolina, mcclatchy"
+Israel Hayom,https://www.israelhayom.co.il/,,he,IL,,yes,
+Ithaca Journal,https://www.ithacajournal.com/,,en,US,,no,"tags: new-york-state, gannett"
+Izvestia,https://iz.ru/,,ru,RU,,yes,
+Jackson Hole News&Guide,https://www.jhnewsandguide.com/,,en,US,,no,tags: wyoming
+Jacobin,https://jacobin.com/,,en,US,,yes,tags: us-left-wing
+Dainik Jagram,https://www.jagran.com/,,hi,IN,,yes,
+Florida Times-Union,https://www.jacksonville.com/,,en,US,,no,"tags: florida, gannett"
+Lafayette Journal & Courier,https://www.jconline.com/,,en,US,,no,"tags: indiana, gannett"
+La Journal de Montréal,https://www.journaldemontreal.com/,,fr,CA,,yes,
+"The Daily News - Jacksonville, NC",https://www.jdnews.com/,,en,US,,no,"tags: north-carolina, gannett"
+Jerusalem Post,https://www.jpost.com/,,en,IL,,yes,
+All in Her Head,https://jessica.substack.com/,,en,US,,yes,tags: feminist
+Jewish Currents,https://www.jewishcurrents.org/,,en,US,,yes,
+Jezebel,https://jezebel.com/,,en,US,,yes,"tags: us-left-wing, feminist"
+Jiji,https://www.jiji.com/,,ja,JP,,yes,
+Yomiuri shinbun,https://www.yomiuri.co.jp/,,ja,JP,,yes,
+John Combest,https://johncombest.com/,,en,US,,no,tags: missouri
+Joplin Globe,https://www.joplinglobe.com/,,en,US,,no,tags: missouri
+Jornal do Brasil,https://www.jb.com.br/,,pt,BR,,yes,
+O Globo,https://oglobo.globo.com/,,pt,BR,,yes,
+Milwaukee Journal Sentinel,https://www.jsonline.com/,,en,US,,no,"tags: wisconsin, gannett"
+Freeport Journal-Standard,https://www.journalstandard.com/,,en,US,,no,"tags: illinois, gannett"
+Lincoln Journal Star,https://journalstar.com/,,en,US,,no,tags: nebraska
+JSTOR Daily,https://daily.jstor.org/,,en,US,,yes,
+Jackson Sun,https://www.jacksonsun.com/,,en,US,,no,"tags: tennessee, gannett"
+Juneau Empire,https://www.juneauempire.com/,,en,US,,no,tags: alaska
+Just the News,https://justthenews.com/,,en,US,,yes,tags: us-right-wing
+KAKE News,https://www.kake.com/,,en,US,,no,tags: kansas
+Wichita Eagle,https://www.kansas.com/,,en,US,,no,"tags: kansas, mcclatchy"
+KARK 4 News,https://www.kark.com/,,en,US,,no,tags: arkansas
+Karobar Daily,https://www.karobardaily.com/,,ne,NP,,yes,
+KATV News,https://katv.com/,,en,US,,no,tags: arkansas
+KCAU,https://www.siouxlandproud.com/,,en,US,,no,tags: iowa
+KCCI,https://www.kcci.com/,,en,US,,no,tags: iowa
+Kansas City Defender,https://www.kansascitydefender.com/,,en,US,,no,tags: missouri
+KCRG,https://www.kcrg.com/,,en,US,,no,tags: iowa
+KCRW,https://www.kcrw.com/,,en,US,,no,"tags: socal, california"
+Kansas City Star,https://www.kansascity.com/,,en,US,,no,"tags: missouri, mcclatchy"
+KCUR,http://www.kcur.org/,,en,US,,no,tags: missouri
+Kerrville Daily Times,https://dailytimes.com/,,en,US,,no,tags: texas
+KETV NewsWatch 7,https://www.ketv.com/,,en,US,,no,tags: nebraska
+KGOU,https://www.kgou.org,,en,US,,yes,
+Sanchar Kendra,https://sancharkendra.com/,,ne,NP,,yes,
+KFF Health News,https://khn.org/,,en,US,,yes,
+KHON2 News,https://www.khon2.com/,,en,US,,no,tags: hawaii
+KHOU,https://www.khou.com/,,en,US,,no,tags: texas
+KING5,https://www.king5.com/,,en,US,,no,tags: washington
+The Kinston/Jones Free Press,https://www.kinston.com/,,en,US,,no,"tags: north-carolina, gannett"
+Kitsap Sun,https://www.kitsapsun.com/,,en,US,,no,"tags: washington, gannett"
+KITV4,https://www.kitv.com/,,en,US,,no,tags: hawaii
+Knock.LA,https://knock-la.com/,,en,US,,no,"tags: socal, california"
+The Knoxville News-Sentinel,https://www.knoxnews.com/,,en,US,,no,"tags: tennessee, gannett"
+Nevada Public Radio,https://knpr.org/,,en,US,,no,"tags: nevada, las-vegas"
+KOMU,https://www.komu.com/,,en,US,,no,tags: missouri
+KPBS,https://www.kpbs.org/,,en,US,,no,"tags: socal, california"
+KPCC,https://www.kpcc.org/,,en,US,,no,"tags: socal, california"
+KPCW,https://www.kpcw.org/,,en,US,,yes,
+WFPL,https://wfpl.org/,,en,US,,no,tags: kentucky
+KQED,https://www.kqed.org/,,en,US,,no,"tags: bay-area, california"
+Krone Zeitung,https://www.krone.at/,,de,AT,,yes,
+KSN News,https://www.ksn.com/,,en,US,,no,tags: kansas
+KTLA,https://ktla.com,,en,US,,no,"tags: socal, california"
+KTOO,https://www.ktoo.org/,,en,US,,no,tags: alaska
+KUAR,https://www.ualrpublicradio.org/,,en,US,,no,tags: arkansas
+KUT,https://www.kut.org/,,en,US,,no,tags: texas
+News 4,https://www.kvoa.com/,,en,US,,no,tags: arizona
+Valley Public Radio,https://www.kvpr.org/,,en,US,,yes,
+KVUE,https://www.kvue.com/,,en,US,,no,tags: texas
+KXAN,https://www.kxan.com/,,en,US,,no,tags: texas
+KyivPost,https://www.kyivpost.com/uk/,,uk,UA,,yes,
+Kentucky Standard,https://www.kystandard.com/,,en,US,,no,tags: kentucky
+Cadena SER,https://cadenaser.com/,,es,ES,,yes,
+Labor Notes,https://www.labornotes.org/,,en,US,,yes,tags: us-left-wing
+LaCrosse Tribune,https://lacrossetribune.com/,,en,US,,no,tags: wisconsin
+The LaGrange Daily News,https://www.lagrangenews.com,,en,US,,no,tags: georgia
+LAist,https://laist.com/,,en,US,,no,"tags: socal, california"
+Jornada,https://www.jornada.com.mx/,,es,MX,,yes,
+La Nacion,https://www.lanacion.com.ar/,,es,AR,,yes,
+Lance,https://www.lance.com.br/,,pt,BR,,no,tags: sports
+La Nueva España,https://www.lne.es/,,es,ES,,yes,
+La Opinión A Coruña,https://www.laopinioncoruna.es/,,es,ES,,yes,
+La Prensa,https://www.laprensa.com.ar/,,es,AR,,yes,
+La Razón,https://www.larazon.es/,,es,ES,,yes,
+La Stampa,https://www.lastampa.it/,,it,IT,,yes,
+Las Vegas Sun,https://lasvegassun.com/,,en,US,,no,"tags: nevada, las-vegas"
+L.A. Taco,https://www.lataco.com/,,en,US,,no,"tags: socal, california"
+Los Angeles Times,https://www.latimes.com,,en,US,,no,"tags: socal, california"
+La Vanguardia,https://www.lavanguardia.com/,,es,ES,,yes,
+La Voz de Galicia,https://www.lavozdegalicia.es/,,es,ES,,yes,
+Lebanon Daily News,https://www.ldnews.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Le Figaro,https://www.lefigaro.fr/,,fr,FR,,yes,
+Le Parisien,https://www.leparisien.fr/,,fr,FR,,yes,
+Eau Claire Leader-Telegram,https://www.leadertelegram.com/,,en,US,,no,tags: wisconsin
+Clarksville Leaf Chronicle,https://www.theleafchronicle.com/,,en,US,,no,"tags: tennessee, gannett"
+LebTown,https://lebtown.com/,,en,US,,no,tags: pennsylvania
+Le Devoir,https://www.ledevoir.com/,,fr,CA,,yes,
+The Ledger-Enquirer,https://www.ledger-enquirer.com,,en,US,,no,"tags: georgia, mcclatchy"
+Le Huffington Post,https://www.huffingtonpost.fr/,,fr,FR,,yes,
+Le Soir,https://www.lesoir.be/,,fr,BE,,yes,
+Lever,https://www.levernews.com/,,en,US,,yes,tags: us-left-wing
+Lewiston Tribune,https://lmtribune.com/,,en,US,,no,tags: idaho
+LEX 18 News,https://www.lex18.com/,,en,US,,no,tags: kentucky
+The Dispatch,https://www.the-dispatch.com/,,en,US,,no,"tags: north-carolina, gannett"
+Little Village,https://littlevillagemag.com/,,en,US,,no,tags: iowa
+Hindustan,https://www.livehindustan.com/,,hi,IN,,yes,
+Livingston County Daily Press & Argus,https://www.livingstondaily.com/,,en,US,,no,"tags: michigan, gannett"
+Lawrence Journal-World,https://www2.ljworld.com/,,en,US,,no,tags: kansas
+L’Obs,https://www.nouvelobs.com/,,fr,FR,,yes,
+The Westchester County Journal News,https://www.lohud.com/,,en,US,,no,"tags: new-york-state, gannett"
+Lokantar,https://lokaantar.com/,,ne,NP,,yes,
+Lokpath,https://www.lokpath.com/,,ne,NP,,yes,
+Lookout Santa Cruz,https://lookout.co/santacruz/,,en,US,,no,"tags: bay-area, california"
+La Presse,https://www.lapresse.ca/,,fr,CA,,yes,
+London Review of Books,https://www.lrb.co.uk/,,en,GB,,yes,
+Lansing State Journal,https://www.lansingstatejournal.com/,,en,US,,no,"tags: michigan, gannett"
+Liberty Times,https://www.ltn.com.tw/,,zh,TW,,yes,
+Lubbock Avalanche-Journal,https://www.lubbockonline.com/,,en,US,,no,"tags: texas, gannett"
+Maariv,https://www.maariv.co.il/,,he,IL,,yes,
+MacRumors,https://www.macrumors.com/,,en,US,,yes,tags: tech
+Mail & Guardian,https://mg.co.za/,,en,ZA,,yes,
+Daily Mail,https://www.dailymail.co.uk/home/index.html,,en,GB,,yes,
+Maine Monitor,https://themainemonitor.org/,,en,US,,yes,
+Mansfield News Journal,https://www.mansfieldnewsjournal.com/,,en,US,,no,"tags: ohio, gannett"
+Marfa Public Radio,https://marfapublicradio.org/,,en,US,,no,tags: texas
+Maroela Media,https://maroelamedia.co.za/,,af,ZA,,yes,
+Marshall Project,https://www.themarshallproject.org/,,en,US,,yes,
+Maryland Matters,https://www.marylandmatters.org/,,en,US,,no,tags: maryland
+Mashable,https://mashable.com/,,en,US,,yes,tags: tech
+The Morning Call,https://www.mcall.com/,,en,US,,yes,
+McClatchy DC,http://www.mcclatchydc.com,,en,US,,yes,"tags: capitol-hill, mcclatchy"
+McGill Daily,https://www.mcgilldaily.com/,,en,CA,,no,tags: student
+Maryland Daily Record,https://thedailyrecord.com/,,en,US,,no,tags: maryland
+Marietta Daily Journal,https://www.mdjonline.com,,en,US,,no,tags: georgia
+MDR Sachsen-Anhalt,https://www.mdr.de/nachrichten/index.html,,de,DE,,yes,
+Outlier Media,https://outliermedia.org/,,en,US,,yes,
+Mediaite,https://www.mediaite.com/,,en,US,,yes,
+Mediapart,https://www.mediapart.fr/,,fr,FR,,yes,
+Commercial Appeal,https://www.commercialappeal.com/,,en,US,,no,"tags: tennessee, gannett, mississippi"
+Merced Sun Star,http://www.mercedsunstar.com,,en,US,,no,"tags: california, mcclatchy"
+Mercury News,https://www.mercurynews.com/,,en,US,,no,"tags: bay-area, california"
+Metrópoles,https://www.metropoles.com/,,pt,BR,,yes,
+MetroWest Daily News,https://www.metrowestdailynews.com/,,en,US,,no,"tags: massachusetts, gannett"
+Montgomery Advertiser,https://www.montgomeryadvertiser.com/,,en,US,,no,"tags: alabama, gannett"
+Miami Herald,https://www.miamiherald.com/,,en,US,,no,"tags: florida, mcclatchy"
+Michigan Daily,https://www.michigandaily.com/,,en,US,,yes,
+Midnight Sun,https://midnightsunak.com/,,en,US,,no,tags: alaska
+Milenio,https://www.milenio.com/,,es,MX,,yes,
+Milford Daily News,https://www.milforddailynews.com/,,en,US,,no,"tags: massachusetts, gannett"
+MinnPost,https://www.minnpost.com/,,en,US,,no,tags: minnesota
+Missoulian,https://missoulian.com/,,en,US,,no,tags: montana
+mi wisconsin,https://miwisconsin.com/,,en,US,,no,tags: wisconsin
+Mission Local,https://missionlocal.org/,,en,US,,no,"tags: bay-area, california"
+Media Matters,https://www.mediamatters.org/,,en,US,,yes,tags: us-left-wing
+Marshfield News-Herald,https://www.marshfieldnewsherald.com/,,en,US,,no,"tags: wisconsin, gannett"
+Missouri Independent,https://missouriindependent.com/,,en,US,,no,tags: missouri
+The Modesto Bee,http://www.modbee.com,,en,US,,no,"tags: california, mcclatchy"
+Mongabay,http://www.mongabay.com/,,en,US,,yes,
+More Perfect Union,https://perfectunion.us/,,en,US,,yes,tags: us-left-wing
+Morning Brew,https://www.morningbrew.com/,,en,US,,yes,
+Mother Jones,https://www.motherjones.com/,,en,US,,yes,tags: us-left-wing
+Mississippi Free Press,https://www.mississippifreepress.org/,,en,US,,no,tags: mississippi
+MSN,https://www.msn.com/,,en,US,,yes,
+MSNBC,https://www.msnbc.com/,,en,US,,yes,"tags: us-national, us-left-wing"
+Mississippi Today,https://mississippitoday.org/,,en,US,,no,tags: mississippi
+Montana Free Press,https://montanafreepress.org/,,en,US,,yes,
+Montreal Gazette,https://montrealgazette.com/,,en,CA,,yes,
+Mountain State Spotlight,https://mountainstatespotlight.org/,,en,US,,yes,
+Mount Shasta Herald,https://www.mtshastanews.com/,,en,US,,no,"tags: california, gannett"
+MTV News,https://www.mtv.com/news/,,en,US,,no,tags: entertainment
+MVS Noticias,https://mvsnoticias.com/,,es,MX,,yes,
+Midland Reporter-Telegram,https://www.mrt.com/,,en,US,,no,tags: texas
+Salisbury Daily Times,https://www.delmarvanow.com/,,en,US,,no,"tags: maryland, gannett, delaware, virginia"
+Nagarik News,https://nagariknews.nagariknetwork.com/,,ne,NP,,yes,
+National Geographic,https://www.nationalgeographic.com/,,en,US,,yes,
+National Journal,https://www.nationaljournal.com/,,en,US,,yes,tags: capitol-hill
+National Post,https://nationalpost.com/,,en,CA,,yes,
+Naya Patrika,https://www.nayapatrikadaily.com/,,ne,NP,,yes,
+NBC Bay Area,https://www.nbcbayarea.com/,,en,US,,no,"tags: bay-area, california"
+NBC Chicago,https://www.nbcchicago.com/,,en,US,,no,"tags: illinois, chicago"
+NBC Connecticut,https://www.nbcconnecticut.com/,,en,US,,no,tags: connecticut
+NBC DFW,https://www.nbcdfw.com/,,en,US,,no,tags: texas
+NBC News,https://www.nbcnews.com/,,en,US,,yes,tags: us-national
+NBC10 Philadelphia,https://www.nbcphiladelphia.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+New Bern Sun Journal,https://www.newbernsj.com/,,en,US,,no,"tags: north-carolina, gannett"
+National Catholic Reporter,https://www.ncronline.org/,,en,US,,yes,
+Naples Daily News,https://www.naplesnews.com/,,en,US,,no,"tags: florida, gannett"
+Nebraska Public Media,https://nebraskapublicmedia.org/en/,,en,US,,no,tags: nebraska
+Hardin News-Enterprise,https://www.thenewsenterprise.com/,,en,US,,no,tags: kentucky
+Nepal Khabar,https://nepalkhabar.com/,,ne,NP,,yes,
+Nettavisen,https://www.nettavisen.no/,,no,NO,,yes,
+Netwerk24,https://www.netwerk24.com/,,af,ZA,,yes,
+Newark Advocate,https://www.newarkadvocate.com/,,en,US,,no,"tags: ohio, gannett"
+New Republic,https://newrepublic.com/,,en,US,,yes,tags: us-left-wing
+Belfast News Letter,https://www.newsletter.co.uk/,,en,GB,,yes,
+News12NJ,https://newjersey.news12.com/,,en,US,,yes,
+news24,https://www.news24.com/,,en,ZA,,yes,
+KSNV News 3,https://news3lv.com/,,en,US,,no,"tags: nevada, las-vegas"
+News Channel Nebraska,https://metro.newschannelnebraska.com/,,en,US,,no,tags: nebraska
+New Scientist,https://www.newscientist.com/,,en,GB,,yes,
+Newsday,https://www.newsday.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Gorakhapatra,https://gorkhapatraonline.com/,,ne,NP,,yes,
+PBS News Hour,https://www.pbs.org/newshour/,,en,US,,yes,tags: us-national
+Newslaundry,https://www.newslaundry.com/,,en,IN,,yes,
+Staunton Daily News Leader,https://www.newsleader.com/,,en,US,,no,"tags: virginia, gannett"
+Newsmax,https://www.newsmax.com/,,en,US,,yes,tags: us-right-wing
+Fairbanks Daily News-Miner,https://www.newsminer.com/,,en,US,,no,tags: alaska
+The News And Observer,http://www.newsobserver.com,,en,US,,no,"tags: north-carolina, mcclatchy"
+St. Joseph News Press,https://www.newspressnow.com/,,en,US,,no,tags: missouri
+Boone News Republican,https://www.newsrepublican.com/,,en,US,,no,"tags: iowa, gannett"
+New Statesman,https://www.newstatesman.com/uk,,en,GB,,yes,
+Jefferson City News Tribune,https://www.newstribune.com/,,en,US,,no,tags: missouri
+Newsweek,https://www.newsweek.com/,,en,US,,yes,
+New Yorker,https://www.newyorker.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+Next City,https://nextcity.org/,,en,US,,no,"tags: pennsylvania, philadelphia"
+New Hampshire Public Radio,https://www.nhpr.org/,,en,US,,no,tags: new-hampshire
+New Haven Register,https://www.nhregister.com/,,en,US,,no,tags: connecticut
+Nikkei,https://www.nikkei.com/,,ja,JP,,yes,
+New Jersey Herald,https://www.njherald.com/,,en,US,,no,"tags: new-jersey, gannett"
+Not the Bee,https://notthebee.com/,,en,US,,yes,"tags: us-right-wing, satire"
+northjersey.com,https://www.northjersey.com/,,en,US,,no,"tags: new-jersey, gannett"
+The Norwich Bulletin,https://www.norwichbulletin.com/,,en,US,,no,"tags: connecticut, gannett"
+NRK,https://www.nrk.no/,,no,NO,,yes,
+National Review,https://www.nationalreview.com/,,en,US,,yes,tags: us-right-wing
+North Texas Daily,https://www.ntdaily.com/,,en,US,,no,tags: texas
+Northwest Arkansas Democrat-Gazette,https://www.nwaonline.com/,,en,US,,no,tags: arkansas
+Northwest Florida Daily News,https://www.nwfdailynews.com/,,en,US,,no,"tags: florida, gannett"
+NY1,https://www.ny1.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+New York Review of Books,https://www.nybooks.com/,,en,US,,yes,
+Daily News,https://www.nydailynews.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+New York,https://nymag.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+New York Post,https://nypost.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+New York Focus,http://www.nysfocus.com/,,en,US,,no,"tags: new-york-city, new-york-state"
+New York Times,https://www.nytimes.com,,en,US,,yes,"tags: us-national, new-york-city, new-york-state"
+NZ Herald,https://www.nzherald.co.nz/,,en,NZ,,yes,
+Stuff,https://www.stuff.co.nz/,,en,NZ,,yes,
+O Antagonista,https://oantagonista.uol.com.br/,,pt,BR,,yes,
+The Oaklandside,https://oaklandside.org/,,en,US,,no,"tags: bay-area, california"
+One America News Network,https://www.oann.com/,,en,US,,yes,tags: us-right-wing
+Objective,https://objectivejournalism.org/,,en,US,,yes,
+Observatório da Imprensa,https://www.observatoriodaimprensa.com.br/,,pt,BR,,yes,
+Ocala StarBanner,https://www.ocala.com/,,en,US,,no,"tags: florida, gannett"
+Orange County Register,https://www.ocregister.com/,,en,US,,no,"tags: socal, california"
+ORF News,https://orf.at/,,de,AT,,yes,
+Oglethorpe Echo,https://www.theoglethorpeecho.com/,,en,US,,no,tags: georgia
+okayplayer,https://www.okayplayer.com/,,en,US,,no,tags: entertainment
+Oklahoma Watch,https://oklahomawatch.org/,,en,US,,yes,
+Oldie,https://www.theoldie.co.uk/,,en,GB,,yes,
+Omelete,https://www.omelete.com.br/,,pt,BR,,no,tags: entertainment
+Online Khabar,https://www.onlinekhabar.com/,,ne,NP,,yes,
+Athens Banner-Herald,https://www.onlineathens.com/,,en,US,,no,tags: georgia
+Oshkosh Northwestern,https://www.thenorthwestern.com/,,en,US,,no,"tags: wisconsin, gannett"
+OpenSecrets,http://www.opensecrets.org/,,en,US,,yes,
+Open Vallejo,https://www.openvallejo.org/,,en,US,,no,"tags: bay-area, california"
+O Povo,https://www.opovo.com.br/,,pt,BR,,yes,
+Oregon Capital Chronicle,https://oregoncapitalchronicle.com/,,en,US,,no,tags: oregon
+Oregonian,https://www.oregonlive.com/,,en,US,,no,tags: oregon
+Observer-Reporter,https://observer-reporter.com/,,en,US,,yes,
+OSNepal,https://www.osnepal.com/,,ne,NP,,yes,
+Ottawa Citizen,https://ottawacitizen.com/,,en,CA,,yes,
+Ottumwa Courier,https://www.ottumwacourier.com/,,en,US,,no,tags: iowa
+Omaha World Herald,https://omaha.com/,,en,US,,no,tags: nebraska
+Oxpeckers,https://oxpeckers.org/,,en,ZA,,yes,
+Page Six,https://pagesix.com/,,en,US,,no,tags: entertainment
+Página/12,https://www.pagina12.com.ar/,,es,AR,,yes,
+Animal Político,https://www.animalpolitico.com/,,es,MX,,yes,
+Paris Review,https://www.theparisreview.org/,,fr,FR,,yes,
+The Patriot Ledger,https://www.patriotledger.com/,,en,US,,no,"tags: massachusetts, gannett"
+The Palm Beach Post,https://www.palmbeachpost.com/,,en,US,,no,"tags: florida, gannett"
+Port Clinton News Herald,https://www.portclintonnewsherald.com/,,en,US,,no,"tags: ohio, gannett"
+Pekin Daily Times,https://www.pekintimes.com/,,en,US,,no,"tags: illinois, gannett"
+Peninsula Press,https://peninsulapress.com/,,en,US,,no,"tags: bay-area, california"
+People,https://people.com/,,en,US,,no,tags: entertainment
+Perfil,https://www.perfil.com/,,es,AR,,yes,
+Petoskey News-Review,https://www.petoskeynews.com/,,en,US,,no,"tags: michigan, gannett"
+Philadelphia Inquirer,https://www.inquirer.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+Philadelphia Tribune,https://www.phillytrib.com/,,en,US,,no,"tags: pennsylvania, philadelphia"
+Loyola Phoenix,https://loyolaphoenix.com/,,en,US,,no,"tags: illinois, chicago, student"
+Richmond Palladium-Item,https://www.pal-item.com/,,en,US,,no,"tags: indiana, gannett, ohio"
+Pittsburgh Institute for Nonprofit Journalism,https://pinjnews.org/,,en,US,,yes,
+Twin Cities Pioneer Press,https://www.twincities.com/,,en,US,,no,tags: minnesota
+Pitchfork,https://pitchfork.com/,,en,US,,no,"tags: illinois, chicago"
+Pittsburgh Post-Gazette,https://www.post-gazette.com/,,en,US,,no,tags: pennsylvania
+Peoria Journal Star,https://www.pjstar.com/,,en,US,,no,"tags: illinois, gannett"
+Platformer,https://www.platformer.news/,,en,US,,yes,tags: tech
+Pensacola News Journal,https://www.pnj.com/,,en,US,,no,"tags: florida, gannett"
+Pocono Record,https://www.poconorecord.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Poder 360,https://www.poder360.com.br/,,pt,BR,,yes,
+Point Reyes Light,https://www.ptreyeslight.com/,,en,US,,no,"tags: bay-area, california"
+Poughkeepsie Journal,https://www.poughkeepsiejournal.com/,,en,US,,no,"tags: new-york-state, gannett"
+POLITICO,https://www.politico.com/,,en,US,,yes,tags: capitol-hill
+Politifact,https://www.politifact.com/,,en,US,,yes,tags: capitol-hill
+Chambersburg Public Opinion,https://www.publicopiniononline.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Diario Popular,https://www.diariopopular.com.ar/,,es,AR,,yes,
+Portal Imprensa,https://www.portalimprensa.com.br/,,pt,BR,,yes,
+Portland Mercury,https://www.portlandmercury.com/,,en,US,,no,tags: oregon
+Post and Courier,https://www.postandcourier.com/,,en,US,,yes,
+Appleton Post Crescent,https://www.postcrescent.com/,,en,US,,no,"tags: wisconsin, gannett"
+Power Line,https://www.powerlineblog.com/,,en,US,,yes,tags: us-right-wing
+Prabhat Khabar,https://www.prabhatkhabar.com/,,hi,IN,,yes,
+Prensa Grafica,https://www.laprensagrafica.com/,,es,SV,,yes,
+Iowa City Press-Citizen,https://www.press-citizen.com/,,en,US,,no,"tags: iowa, gannett"
+Binghamton Press & Sun-Bulletin,https://www.pressconnects.com/,,en,US,,no,"tags: new-york-state, gannett, pennsylvania"
+Riverside Press-Enterprise,https://www.pe.com/,,en,US,,no,"tags: socal, california"
+Portland Press Herald,https://www.pressherald.com/,,en,US,,no,tags: maine
+Prism,https://prismreports.org/,,en,US,,yes,
+Prison Journalism Project,https://prisonjournalismproject.org/,,en,US,,yes,
+Private Eye,https://www.private-eye.co.uk/,,en,GB,,no,tags: satire
+Proceso,https://www.proceso.com.mx/,,es,MX,,yes,
+The Progress-Index,https://www.progress-index.com/,,en,US,,no,"tags: virginia, gannett"
+O Progresso,https://www.progresso.com.br/,,pt,BR,,yes,
+The Providence Journal,https://www.providencejournal.com/,,en,US,,no,"tags: rhode-island, gannett"
+Proof News,https://www.proofnews.org/,,en,US,,yes,tags: tech
+ProPublica,https://www.propublica.org/,,en,US,,yes,
+Center for Public Integrity,https://publicintegrity.org/,,en,US,,yes,
+Watertown Public Opinion,https://www.thepublicopinion.com/,,en,US,,no,"tags: south-dakota, gannett, minnesota"
+Puck,https://puck.news/,,en,US,,yes,
+Pulitzer Center,http://www.pulitzercenter.org/,,en,US,,yes,
+Punchbowl News,https://punchbowl.news/,,en,US,,yes,tags: capitol-hill
+Punjab Kesari,https://www.punjabkesari.in/,,hi,IN,,yes,
+Quad City Times,https://qctimes.com/,,en,US,,no,tags: iowa
+Quillette,https://quillette.com/,,en,GB,,yes,
+Quinto Elemento Lab,https://quintoelab.org/,,es,MX,,yes,
+Quartz,https://qz.com/,,en,US,,yes,
+Rajdhani Daily,https://rajdhanidaily.com/,,ne,NP,,yes,
+Rato Pati,https://ratopati.com/,,ne,NP,,yes,
+Raw Story,https://www.rawstory.com/,,en,US,,yes,tags: us-left-wing
+Real Clear Politics,https://www.realclearpolitics.com/,,en,US,,yes,
+Daily Wire,https://www.dailywire.com/,,en,US,,yes,tags: us-right-wing
+Reason,https://reason.com/,,en,US,,yes,tags: us-right-wing
+Reckon,https://www.reckon.news/,,en,US,,no,tags: alabama
+Stockton Record,https://www.recordnet.com/,,en,US,,no,"tags: california, gannett"
+Times Herald-Record,https://www.recordonline.com/,,en,US,,no,"tags: new-york-state, gannett"
+Kent Ravenna Record-Courier,https://www.record-courier.com/,,en,US,,no,"tags: ohio, gannett"
+RedState,https://redstate.com/,,en,US,,yes,tags: us-right-wing
+Reductress,https://reductress.com/,,en,US,,no,tags: satire
+Reforma,https://www.reforma.com/,,es,MX,,yes,
+The Register Guard,https://www.registerguard.com/,,en,US,,no,"tags: oregon, gannett"
+Reporte Índigo,https://www.reporteindigo.com/,,es,MX,,yes,
+Abilene Reporter News,https://www.reporternews.com/,,en,US,,no,"tags: texas, gannett"
+Reuters,https://www.reuters.com/,,en,GB,,yes,
+Reveal,https://revealnews.org/,,en,US,,yes,
+Las Vegas Review-Journal,https://www.reviewjournal.com/,,en,US,,no,"tags: nevada, las-vegas"
+ISTOÉ,https://istoe.com.br/,,pt,BR,,yes,
+revista piauí,https://piaui.folha.uol.com.br/,,pt,BR,,yes,
+Reno Gazette-Journal,https://www.rgj.com/,,en,US,,no,"tags: nevada, gannett"
+Fox South Texas,https://foxnewssouthtexas.com/,,en,US,,no,tags: texas
+The Herald,http://www.heraldonline.com,,en,US,,no,"tags: south-carolina, mcclatchy"
+Ringer,https://www.theringer.com/,,en,US,,no,tags: entertainment
+RNZ,https://www.rnz.co.nz/news,,en,NZ,,yes,
+Roll Call,https://rollcall.com/,,en,US,,yes,tags: capitol-hill
+Rolling Stone,https://www.rollingstone.com/,,en,US,,no,tags: entertainment
+Rome News-Tribune,https://www.northwestgeorgianews.com/rome,,en,US,,no,tags: georgia
+Rajasthan Patrika,https://www.patrika.com/,,hi,IN,,yes,
+Richmond Times-Dispatch,https://richmond.com/,,en,US,,yes,
+RTE,https://www.rte.ie/,,en,IE,,yes,
+Ruidoso News,https://www.ruidosonews.com/,,en,US,,no,"tags: new-mexico, gannett"
+Sacramento Bee,https://www.sacbee.com/,,en,US,,no,"tags: bay-area, california, mcclatchy"
+Sahan Journal,https://sahanjournal.com/,,en,US,,no,tags: minnesota
+Salem Statesman Journal,https://www.statesmanjournal.com/,,en,US,,no,"tags: oregon, gannett"
+Salina Journal,https://www.salina.com/,,en,US,,no,"tags: kansas, gannett"
+The Salinas Californian,https://www.thecalifornian.com/,,en,US,,no,"tags: california, gannett"
+Salon,https://www.salon.com/,,en,US,,yes,tags: us-left-wing
+Sankei Shimbun,https://www.sankei.com/,,ja,JP,,yes,
+Savannah Morning News,https://www.savannahnow.com,,en,US,,no,"tags: georgia, gannett"
+SB Nation,https://www.sbnation.com/,,en,US,,no,tags: sports
+SBT news,https://www.sbtnews.com.br/,,pt,BR,,yes,
+Scalawag,https://scalawagmagazine.org/,,en,US,,yes,
+National,https://www.thenational.scot/,,en,GB,,yes,
+Scottish Sun,https://www.thescottishsun.co.uk/,,en,GB,,yes,
+SCOTUS Blog,https://www.scotusblog.com/,,en,US,,yes,tags: capitol-hill
+Santa Cruz Sentinel,https://www.santacruzsentinel.com/,,en,US,,no,"tags: bay-area, california"
+Silver City Sun News,https://www.scsun-news.com/,,en,US,,no,"tags: new-mexico, gannett"
+St. Cloud Times,https://www.sctimes.com/,,en,US,,no,"tags: minnesota, gannett"
+San Diego Union Tribune,https://www.sandiegouniontribune.com/,,en,US,,no,"tags: socal, california"
+Seacoastonline.com,https://www.seacoastonline.com/,,en,US,,no,"tags: new-hampshire, gannett, maine"
+Searchlight New Mexico,https://searchlightnm.org/,,en,US,,no,tags: new-mexico
+Seattle Times,https://www.seattletimes.com/,,en,US,,no,tags: washington
+Segodnya,https://www.segodnya.ua/ua/allnews.html,,uk,UA,,yes,
+Seikyo Shimbun,https://www.seikyoonline.com/,,ja,JP,,yes,
+Semafor,https://www.semafor.com/,,en,US,,yes,
+Setopati,https://www.setopati.com/,,ne,NP,,yes,
+San Francisco Chronicle,https://www.sfchronicle.com/,,en,US,,no,"tags: bay-area, california"
+The San Francisco Standard,https://sfstandard.com/,,en,US,,no,"tags: bay-area, california"
+Springfield Daily Citizen,https://sgfcitizen.org/,,en,US,,no,tags: missouri
+Sheboygan Press,https://www.sheboyganpress.com/,,en,US,,no,"tags: wisconsin, gannett"
+The Shelby Star,https://www.shelbystar.com/,,en,US,,no,"tags: north-carolina, gannett"
+Sherwood News,https://sherwood.news/,,en,US,,yes,
+South Hills Almanac,https://thealmanac.net/,,en,US,,yes,
+Palm Beach Daily News,https://www.palmbeachdailynews.com/,,en,US,,no,"tags: florida, gannett"
+Shreveport Times,https://www.shreveporttimes.com/,,en,US,,no,"tags: louisiana, gannett"
+Signal Cleveland,https://signalcleveland.org/,,en,US,,yes,
+Simple Flying,https://simpleflying.com/,,en,GB,,yes,tags: aviation
+SinEmbargo,https://www.sinembargo.mx/,,es,MX,,yes,
+Sports Illustrated,https://www.si.com/,,en,US,,no,tags: sports
+The Siskiyou Daily News,https://www.siskiyoudaily.com/,,en,US,,no,"tags: california, gannett"
+The State Journal-Register,https://www.sj-r.com/,,en,US,,no,"tags: illinois, gannett"
+San José Spotlight,https://www.sanjosespotlight.com/,,en,US,,no,"tags: bay-area, california"
+SJV Water,https://sjvwater.org/news/,,en,US,,yes,
+Slate,https://slate.com/,,en,US,,yes,tags: us-left-wing
+The Tribune,http://www.sanluisobispo.com,,en,US,,no,"tags: california, mcclatchy"
+Storm Lake Times,https://www.stormlake.com/,,en,US,,no,tags: iowa
+Salt Lake Tribune,https://www.sltrib.com/,,en,US,,no,tags: utah
+Sludge,https://readsludge.com/,,en,US,,yes,
+Source New Mexico,https://sourcenm.com/,,en,US,,no,tags: new-mexico
+SouthCoastToday.com,https://www.southcoasttoday.com/,,en,US,,no,"tags: massachusetts, gannett"
+South Side Weekly,https://southsideweekly.com/,,en,US,,no,"tags: illinois, chicago"
+Sowetan,https://www.sowetanlive.co.za/,,en,ZA,,yes,
+Space.com,https://www.space.com/,,en,US,,yes,tags: science
+Space News,https://spacenews.com/,,en,US,,yes,tags: science
+Spectator,https://www.spectator.co.uk/,,en,GB,,yes,
+The Spectrum,https://www.thespectrum.com/,,en,US,,no,"tags: utah, gannett"
+Spokesman-Review,https://www.spokesman.com/,,en,US,,no,tags: washington
+Spotlight DC,https://spotlightdc.org/,,en,US,,yes,
+Spotlight PA,https://www.spotlightpa.org/,,en,US,,yes,
+Springfield News-Leader,https://www.news-leader.com/,,en,US,,no,"tags: missouri, gannett"
+Sputnik,https://sputniknews.com/,,en,RU,,yes,
+Stamford Advocate,https://www.stamfordadvocate.com/,,en,US,,no,tags: connecticut
+Ogden Standard-Examiner,https://www.standard.net/,,en,US,,yes,
+Honolulu Star-Advertiser,https://www.staradvertiser.com/,,en,US,,no,tags: hawaii
+Elmira Star Gazette,https://www.stargazette.com/,,en,US,,no,"tags: new-york-state, gannett, pennsylvania"
+Wilmington Star-News,https://www.starnewsonline.com/,,en,US,,no,"tags: north-carolina, gannett"
+Fort Worth Star-Telegram,https://www.star-telegram.com/,,en,US,,no,"tags: texas, mcclatchy"
+Minneapolis Star Tribune,https://www.startribune.com/,,en,US,,no,tags: minnesota
+Frankfort State Journal,https://www.state-journal.com/,,en,US,,no,tags: kentucky
+Austin Statesman,https://www.statesman.com/,,en,US,,no,"tags: texas, gannett"
+STAT,https://www.statnews.com/,,en,US,,yes,tags: science
+The St. Augustine Record,https://www.staugustine.com/,,en,US,,no,"tags: florida, gannett"
+Stern,https://www.stern.de/,,de,DE,,yes,
+Stevens Point Journal,https://www.stevenspointjournal.com/,,en,US,,no,"tags: wisconsin, gannett"
+St. Louis Public Radio,http://www.stlpublicradio.org/,,en,US,,no,tags: missouri
+St. Louis Post-Dispatch,https://www.stltoday.com/,,en,US,,no,tags: missouri
+Strikewave,https://www.thestrikewave.com/,,en,US,,yes,tags: us-left-wing
+Study Finds,https://studyfinds.org/,,en,US,,yes,tags: science
+Sturgis Journal,https://www.sturgisjournal.com/,,en,US,,no,"tags: michigan, gannett"
+Sun Herald,http://www.sunherald.com,,en,US,,no,"tags: mississippi, mcclatchy"
+Chicago Sun-Times,https://chicago.suntimes.com/,,en,US,,no,"tags: illinois, chicago"
+Task & Purpose,https://taskandpurpose.com/,,en,US,,yes,
+Taunton Daily Gazette,https://www.tauntongazette.com/,,en,US,,no,"tags: massachusetts, gannett"
+Tampa Bay Times,https://www.tampabay.com/,,en,US,,no,tags: florida
+Tri-County Independent,https://www.tricountyindependent.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Treasure Coast,https://www.tcpalm.com/,,en,US,,no,"tags: florida, gannett"
+Tallahassee Democrat,https://www.tallahassee.com/,,en,US,,no,"tags: florida, gannett"
+Trace,https://www.thetrace.org/,,en,US,,yes,
+TechCrunch,https://techcrunch.com/,,en,US,,yes,tags: tech
+TechMeme,https://www.techmeme.com/,,en,US,,yes,tags: tech
+Technical.ly,https://technical.ly/,,en,US,,yes,tags: tech
+MIT Technology Review,https://www.technologyreview.com/,,en,US,,yes,tags: tech
+Teen Vogue,https://www.teenvogue.com/,,en,US,,yes,
+Worcester Telegram & Gazette,https://www.telegram.com/,,en,US,,no,"tags: massachusetts, gannett"
+The Telegraph,https://www.telegraph.co.uk/,,en,GB,,yes,
+The Telegraph,https://www.macon.com,,en,US,,no,"tags: georgia, mcclatchy"
+Dubuque Telegraph Herald,https://www.telegraphherald.com/,,en,US,,no,tags: iowa
+Telemundo Chicago,https://www.telemundochicago.com/,,es,US,,no,"tags: illinois, chicago"
+Nashville Tennessean,https://www.tennessean.com/,,en,US,,no,"tags: tennessee, gannett"
+Texas Monthly,https://www.texasmonthly.com/,,en,US,,no,tags: texas
+Texas Observer,https://www.texasobserver.org/,,en,US,,no,tags: texas
+Texas Tribune,https://www.texastribune.org/,,en,US,,no,tags: texas
+Thaha Khabar,https://www.thahakhabar.com/,,ne,NP,,yes,
+InvestigateMidwest,https://investigatemidwest.org/,,en,US,,yes,
+Opelousas Daily World,https://www.dailyworld.com/,,en,US,,no,"tags: louisiana, gannett"
+Panama City News-Herald,https://www.newsherald.com/,,en,US,,no,"tags: florida, gannett"
+74th,https://www.the74million.org/,,en,US,,yes,
+Lafayette Daily Advertiser,https://www.theadvertiser.com/,,en,US,,no,"tags: louisiana, gannett"
+Alligator,https://www.alligator.org/,,en,US,,no,"tags: florida, student"
+Appeal,https://theappeal.org/,,en,US,,yes,
+Aspen Times,https://www.aspentimes.com/,,en,US,,yes,
+Athletic,https://theathletic.com/,,en,US,,no,tags: sports
+Atlantic,https://www.theatlantic.com/,,en,US,,yes,
+Babylon Bee,https://babylonbee.com/,,en,US,,no,tags: satire
+Baffler,https://thebaffler.com/,,en,US,,yes,tags: us-left-wing
+Blaze,https://www.theblaze.com/,,en,US,,yes,tags: us-right-wing
+Block,https://www.theblock.co/,,en,US,,yes,tags: tech
+Buffalo News,https://buffalonews.com/,,en,US,,yes,
+The City,https://www.thecity.nyc/,,en,US,,no,"tags: new-york-city, new-york-state"
+The Cut,https://www.thecut.com/,,en,US,,yes,tags: feminist
+Daily Beast,https://www.thedailybeast.com/,,en,US,,yes,
+Daily Climate,https://www.dailyclimate.org/,,en,US,,yes,tags: science
+The Daily Herald,https://www.columbiadailyherald.com/,,en,US,,no,"tags: tennessee, gannett"
+Vineland Daily Journal,https://www.thedailyjournal.com/,,en,US,,no,"tags: new-jersey, gannett"
+The Daily Record,https://www.the-daily-record.com/,,en,US,,no,"tags: ohio, gannett"
+Farmington Daily Times,https://www.daily-times.com/,,en,US,,no,"tags: new-mexico, gannett"
+The Diamondback,https://dbknews.com/,,en,US,,no,tags: maryland
+DePaulia,https://depauliaonline.com/,,en,US,,no,"tags: illinois, chicago, student"
+Dispatch,https://thedispatch.com/,,en,US,,yes,tags: us-right-wing
+Economist,https://www.economist.com/,,en,GB,,yes,
+Hanover Evening Sun,https://www.eveningsun.com/,,en,US,,no,"tags: pennsylvania, gannett"
+The Gleaner,https://www.thegleaner.com/,,en,US,,no,"tags: kentucky, gannett"
+Grio,https://thegrio.com/,,en,US,,yes,
+The Hawk Eye,https://www.thehawkeye.com/,,en,US,,no,"tags: iowa, gannett, illinois"
+The Herald-Sun,http://www.heraldsun.com,,en,US,,no,"tags: north-carolina, mcclatchy"
+The Herald-Times,https://www.heraldtimesonline.com/,,en,US,,no,"tags: indiana, gannett"
+The Hill,https://thehill.com/,,en,US,,yes,tags: capitol-hill
+The Hill Times,https://www.hilltimes.com/,,en,CA,,yes,
+The Information,https://www.theinformation.com/,,en,US,,yes,tags: tech
+The Intelligencer,https://www.theintell.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Intercept,https://theintercept.com/,,en,US,,yes,tags: us-left-wing
+i,https://inews.co.uk/,,en,GB,,yes,
+Tributary,https://jaxtrib.org/,,en,US,,no,tags: florida
+Journal.ie,https://www.thejournal.ie/,,en,IE,,yes,
+Los Angeles Sentinel,https://lasentinel.net/,,en,US,,no,"tags: socal, california"
+The Lakeland Ledger,https://www.theledger.com/,,en,US,,no,"tags: florida, gannett"
+Lens,http://thelensnola.org/,,en,US,,yes,
+Marion Star,https://www.marionstar.com/,,en,US,,no,"tags: ohio, gannett"
+The Markup,https://themarkup.org/,,en,US,,yes,tags: tech
+Mendoncino Voice,https://mendovoice.com/,,en,US,,yes,
+The Nation,https://www.thenation.com/,,en,US,,yes,tags: us-left-wing
+Santa Fe New Mexican,https://www.santafenewmexican.com/,,en,US,,no,tags: new-mexico
+The Newport Daily News,https://www.newportri.com/,,en,US,,no,"tags: rhode-island, gannett"
+Fort Myers News-Press,https://www.news-press.com/,,en,US,,no,"tags: florida, gannett"
+Monroe News-Star,https://www.thenewsstar.com/,,en,US,,no,"tags: louisiana, gannett"
+The News Tribune,http://www.thenewstribune.com,,en,US,,no,"tags: washington, mcclatchy"
+Charlotte Observer,https://www.charlotteobserver.com/,,en,US,,no,"tags: north-carolina, mcclatchy"
+Oklahoman,https://www.oklahoman.com/,,en,US,,no,"tags: oklahoma, gannett"
+The Olympian,http://www.theolympian.com,,en,US,,no,"tags: washington, mcclatchy"
+Onion,https://theonion.com,,en,US,,no,tags: satire
+Pearl Post,https://www.thepearlpost.com/,,en,US,,no,tags: student
+Perry Chief,https://www.theperrychief.com/,,en,US,,no,"tags: iowa, gannett"
+Philadelphia Citizen,https://thephiladelphiacitizen.org/,,en,US,,no,"tags: pennsylvania, philadelphia"
+The Post Register,https://www.postregister.com/,,en,US,,no,tags: idaho
+American Prospect,https://prospect.org/,,en,US,,yes,tags: us-left-wing
+Public Source,https://thepublicsource.org/,,en,LB,,yes,
+Pittsburgh Union Progress,https://www.unionprogress.com/,,en,US,,no,tags: pennsylvania
+Real News,https://therealnews.com/,,en,US,,no,tags: maryland
+Waynesboro Record Herald,https://www.therecordherald.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Rio Times,https://www.riotimesonline.com/,,en,BR,,no,tags: sports
+Root,https://www.theroot.com/,,en,US,,yes,
+The South African,https://www.thesouthafrican.com/,,en,ZA,,yes,
+Scotsman,https://www.scotsman.com/,,en,GB,,yes,
+Muncie Star Press,https://www.thestarpress.com/,,en,US,,no,"tags: indiana, gannett"
+The State,http://www.thestate.com,,en,US,,no,"tags: south-carolina, mcclatchy"
+The Sun,https://www.thesun.co.uk/,,en,GB,,yes,
+Sun News,http://www.myrtlebeachonline.com,,en,US,,no,"tags: south-carolina, mcclatchy"
+The Times,https://www.thetimes.co.uk/,,en,GB,,yes,
+Burlington Times-News,https://www.thetimesnews.com/,,en,US,,no,"tags: north-carolina, gannett"
+Toronto Sun,https://torontosun.com/,,en,CA,,yes,
+The TriiBE,https://thetriibe.com/,,en,US,,no,"tags: illinois, chicago"
+Valdosta Daily Times,https://www.valdostadailytimes.com,,en,US,,no,tags: georgia
+The Week,https://theweek.com/,,en,US,,yes,
+Wrap,https://www.thewrap.com/,,en,US,,no,tags: entertainment
+Hollywood Reporter,https://www.hollywoodreporter.com/,,en,US,,no,tags: entertainment
+THV 11,https://www.thv11.com/,,en,US,,no,tags: arkansas
+Tifton Gazette,https://www.tiftongazette.com,,en,US,,no,tags: georgia
+TIME,https://time.com/,,en,US,,yes,tags: us-national
+Times Mail,https://www.reporter-times.com/,,en,US,,no,"tags: indiana, gannett"
+The Times-Enterprise,https://www.timesenterprise.com,,en,US,,no,tags: georgia
+Ashland Times Gazette,https://www.times-gazette.com/,,en,US,,no,"tags: ohio, gannett"
+The Newnan Times-Herald,https://www.times-herald.com,,en,US,,no,tags: georgia
+TimesLIVE,https://www.timeslive.co.za/,,en,ZA,,yes,
+Times of India,https://timesofindia.indiatimes.com/?loc=in,,en,IN,,yes,
+Southwest Times Record,https://www.swtimes.com/,,en,US,,no,"tags: arkansas, gannett, oklahoma"
+Zanesville Times Recorder,https://www.zanesvilletimesrecorder.com/,,en,US,,no,"tags: ohio, gannett"
+Times Record News,https://www.timesrecordnews.com/,,en,US,,no,"tags: texas, gannett"
+The Times Telegram,https://www.timestelegram.com/,,en,US,,no,"tags: new-york-state, gannett"
+TMZ,https://www.tmz.com/,,en,US,,no,tags: entertainment
+Thousand Oaks Acorn,https://www.toacorn.com/,,en,US,,no,"tags: socal, california"
+Toronto Star,https://www.thestar.com/,,en,CA,,yes,
+TorrentFreak,https://torrentfreak.com/,,en,US,,yes,tags: tech
+Townhall,https://townhall.com/,,en,US,,yes,tags: us-right-wing
+Alexandria Town Talk,https://www.thetowntalk.com/,,en,US,,no,"tags: louisiana, gannett"
+TPM,https://talkingpointsmemo.com/?,,en,US,,yes,tags: capitol-hill
+Texas Public Radio,https://www.tpr.org/,,en,US,,no,tags: texas
+Tribune De Lyon,https://tribunedelyon.fr/,,fr,FR,,yes,
+Tri-City Herald,http://www.tri-cityherald.com,,en,US,,no,"tags: washington, mcclatchy"
+Times Reporter,https://www.timesreporter.com/,,en,US,,no,"tags: ohio, gannett"
+Truthout,https://truthout.org/,,en,US,,yes,tags: us-left-wing
+Tucson Sentinel,http://www.tucsonsentinel.com/,,en,US,,no,tags: arizona
+Arizona Daily Star,https://tucson.com/,,en,US,,no,tags: arizona
+Tuscaloosa News,https://www.tuscaloosanews.com/,,en,US,,no,"tags: alabama, gannett"
+Tyler Morning Telegraph,https://tylerpaper.com/,,en,US,,no,tags: texas
+United Daily News,https://udn.com/,,zh,TW,,yes,
+Última Hora,https://www.ultimahora.es/,,es,ES,,yes,
+Ujyaalo,https://ujyaaloonline.com/,,ne,NP,,yes,
+Ukrinform,https://www.ukrinform.ua/,,uk,UA,,yes,
+Stories Beneath the Shell,https://umdsbs.wordpress.com/,,en,US,,no,tags: maryland
+UnHerd,https://unherd.com/,,en,GB,,yes,
+Univision Chicago,https://www.univision.com/local/chicago-wgbo,,es,US,,no,"tags: illinois, chicago"
+Univision News,https://www.univision.com/noticias,,es,US,,yes,
+UOL Notícias,https://noticias.uol.com.br/,,pt,BR,,yes,
+Unicorn Riot,https://unicornriot.ninja/,,en,US,,yes,tags: us-left-wing
+USA Today,https://www.usatoday.com/,,en,US,,yes,"tags: us-national, gannett"
+U.S. News & World Report,https://www.usnews.com/,,en,US,,yes,
+Us Weekly,https://www.usmagazine.com/,,en,US,,no,tags: entertainment
+Utica Observer-Dispatch,https://www.uticaod.com/,,en,US,,no,"tags: new-york-state, gannett"
+Uvalde News-Leader,https://www.uvaldeleadernews.com/,,en,US,,no,tags: texas
+Western Gazette,https://westerngazette.ca/,,en,CA,,no,tags: student
+Valor Econômico,https://valor.globo.com/,,pt,BR,,yes,
+Vancouver Sun,https://vancouversun.com/,,en,CA,,yes,
+Vanity Fair,https://www.vanityfair.com/,,en,US,,yes,
+Variety,https://variety.com/,,en,US,,no,tags: entertainment
+Ventura County Star,https://www.vcstar.com/,,en,US,,no,"tags: socal, gannett, california"
+VentureBeat,https://venturebeat.com/,,en,US,,yes,tags: tech
+Vermont Public,https://www.vermontpublic.org/,,en,US,,no,tags: vermont
+Vertical,https://verticalmag.com/,,en,US,,yes,tags: aviation
+VG,https://www.vg.no/,,no,NO,,yes,
+Vice News,https://www.vice.com/en/section/news,,en,US,,yes,
+Vogue,https://www.vogue.com/,,en,US,,yes,
+Voice of OC,https://www.voiceofoc.org/,,en,US,,no,"tags: socal, california"
+Voice of San Diego,https://voiceofsandiego.org/,,en,US,,no,"tags: socal, california"
+Voices of Monterey Bay,https://voicesofmontereybay.org/,,en,US,,no,"tags: bay-area, california"
+Votebeat,https://www.votebeat.org/,,en,US,,yes,
+Vox,https://www.vox.com/,,en,US,,yes,tags: us-left-wing
+Vrye Weekblad,https://www.vryeweekblad.com/,,af,ZA,,yes,
+VT Digger,https://vtdigger.org/,,en,US,,no,tags: vermont
+Visalia Times Delta,https://www.visaliatimesdelta.com/,,en,US,,no,"tags: california, gannett"
+Vulture,https://www.vulture.com/,,en,US,,no,tags: entertainment
+Victorville Daily Press,https://www.vvdailypress.com/,,en,US,,no,"tags: california, gannett"
+WABE News,https://www.wabe.org,,en,US,,no,tags: georgia
+WALB News 10,https://www.walb.com,,en,US,,no,tags: georgia
+Washington Post,https://www.washingtonpost.com/,,en,US,,yes,"tags: us-national, maryland"
+Washington Times,https://www.washingtontimes.com/,,en,US,,yes,tags: us-right-wing
+Wausau Daily Herald,https://www.wausaudailyherald.com/,,en,US,,no,"tags: wisconsin, gannett"
+WAVE,https://www.wave3.com/,,en,US,,no,tags: kentucky
+WBEZ,https://www.wbez.org/,,en,US,,no,"tags: illinois, chicago"
+WBRC FOX6 News,https://www.wbrc.com/,,en,US,,no,tags: alabama
+WBTV,https://www.wbtv.com/,,en,US,,no,tags: north-carolina
+WBUR,https://www.wbur.org/,,en,US,,no,tags: massachusetts
+Waterloo-Cedar Falls Courier,https://wcfcourier.com/,,en,US,,no,tags: iowa
+WDRB News,https://www.wdrb.com/,,en,US,,no,tags: kentucky
+Hawaii Public Radio,https://www.hawaiipublicradio.org/,,en,US,,no,tags: hawaii
+Weather Channel,https://weather.com/,,en,US,,yes,tags: science
+Gonzales Weekly Citizen,https://www.weeklycitizen.com/,,en,US,,no,"tags: louisiana, gannett"
+WFAA,https://www.wfaa.com/,,en,US,,no,tags: texas
+Fox 31 WFXL-TV,https://www.wfxl.com,,en,US,,no,tags: georgia
+WGN,https://wgntv.com/,,en,US,,no,"tags: illinois, chicago"
+WGRZ,https://www.wgrz.com/,,en,US,,yes,
+WHAS11 News,https://www.whas11.com/,,en,US,,no,tags: kentucky
+WHYY,https://whyy.org/news,,en,US,,no,"tags: pennsylvania, philadelphia"
+Wicked Local,https://www.wickedlocal.com/,,en,US,,no,"tags: massachusetts, gannett"
+Windows Central,https://www.windowscentral.com/,,en,US,,yes,tags: tech
+Wisconsin State Journal,https://madison.com/wsj/,,en,US,,no,tags: wisconsin
+WJBF,https://www.wjbf.com,,en,US,,no,tags: georgia
+WKYT,https://www.wkyt.com/,,en,US,,no,tags: kentucky
+CBS 17,https://www.cbs17.com/,,en,US,,no,tags: north-carolina
+Connecticut Public,https://www.ctpublic.org/,,en,US,,no,tags: connecticut
+WNYC,https://www.wnyc.org/,,en,US,,no,"tags: new-york-city, new-york-state"
+WNYT NewsChannel 13,https://wnyt.com/,,en,US,,yes,
+Wonkette,https://www.wonkette.com/,,en,US,,yes,tags: us-left-wing
+WND News,https://www.wnd.com/,,en,US,,yes,tags: us-right-wing
+6 News WOWT,https://www.wowt.com/,,en,US,,no,tags: nebraska
+WPLG Local 10 News,https://www.local10.com/,,en,US,,no,tags: florida
+WRAL,https://www.wral.com/,,en,US,,no,tags: north-carolina
+WRBL News 3,https://www.wrbl.com/,,en,US,,no,tags: georgia
+News 12 NBC 26,https://www.wrdw.com,,en,US,,no,tags: georgia
+Wisconsin Rapids Daily Tribune,https://www.wisconsinrapidstribune.com/,,en,US,,no,"tags: wisconsin, gannett"
+WSAV News 3,https://www.wsav.com,,en,US,,no,tags: georgia
+WSB-TV,https://www.wsbtv.com,,en,US,,no,tags: georgia
+Wall Street Journal,https://www.wsj.com/,,en,US,,yes,tags: us-national
+Wyoming Tribune Eagle,https://www.wyomingnews.com/,,en,US,,no,tags: wyoming
+WTOC,https://www.wtoc.com,,en,US,,no,tags: georgia
+WTTW,https://www.wttw.com/,,en,US,,no,"tags: illinois, chicago"
+WTVM News Leader 9,https://www.wtvm.com,,en,US,,no,tags: georgia
+Charleston Gazette-Mail,https://www.wvgazettemail.com/,,en,US,,no,tags: west-virginia
+The State Journal,https://www.wvnews.com/statejournal/,,en,US,,no,tags: west-virginia
+Yahoo Finance,https://finance.yahoo.com/,,en,US,,yes,
+Yahoo! News,https://news.yahoo.com/,,en,US,,yes,tags: us-national
+Yale Daily News,https://yaledailynews.com/,,en,US,,no,"tags: connecticut, student"
+Y-City News,https://ycitynews.com/,,en,US,,yes,
+York Daily Record,https://www.ydr.com/,,en,US,,no,"tags: pennsylvania, gannett"
+Yedioth Ahronoth,https://www.yediot.co.il/,,he,IL,,yes,
+York Dispatch,https://www.yorkdispatch.com/,,en,US,,yes,
+ZeroHedge,https://www.zerohedge.com/,,en,US,,yes,tags: us-right-wing
+Zero Hora,https://gauchazh.clicrbs.com.br/,,pt,BR,,yes,
+Makor Rishon,https://www.zman.co.il/,,he,IL,,yes,
+ZN.UA,https://zn.ua/,,uk,UA,,yes,
+CBS News,https://www.cbsnews.com/,,en,US,,yes,tags: us-national
+Dallas Morning News,https://www.dallasnews.com/,,en,US,,no,tags: texas
+Le Monde in English,https://www.lemonde.fr/en/,,en,FR,,yes,
+Intercept Brazil,https://theintercept.com/brasil/,,pt,BR,,yes,
