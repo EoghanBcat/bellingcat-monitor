@@ -17,6 +17,15 @@ sources:
 # 2 days, so 3 gives a day of overlap and nothing is missed between runs.
 lookback_days: 3
 
+# Whole words sent to search engines (Google News, Bluesky, Apple Podcasts, YouTube).
+search_terms:
+  - Bellingcat
+  - Беллингкэт
+  - Беллінгкет
+  - بيلينغكات
+  - ベリングキャット
+  - बेलिंगकैट
+
 # Ignore anything published longer ago than this.
 max_age_days: 14
 

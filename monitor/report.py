@@ -39,7 +39,7 @@ def write_outputs(archive: list[dict], ctx, added: int, duration: float) -> None
         "added_last_run": added,
         "total": len(archive),
         "sources": {SOURCE_LABELS.get(k, k): v for k, v in ctx.health.items()},
-        "outlets": sorted(ctx.outlet_health, key=lambda o: (o["status"] == "ok", o["name"] or "")),
+        "outlets": sorted(ctx.outlet_health, key=lambda o: ({"error": 0, "partial": 1}.get(o["status"], 2), o["name"] or "")),
     }
     (DATA / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -116,9 +116,9 @@ def write_readme(archive: list[dict], health: dict) -> None:
     for name, h in health["sources"].items():
         lines.append(f"| {name} | {icons.get(h['status'], h['status'])} | {h.get('checked', 0)} | "
                      f"{h.get('found', 0)} | {_md(h.get('message', ''))} |")
-    broken = [o for o in health["outlets"] if o["status"] != "ok"]
+    broken = [o for o in health["outlets"] if o["status"] == "error"]
     if broken:
-        lines += ["", f"<details><summary>{len(broken)} outlets without a working feed "
+        lines += ["", f"<details><summary>{len(broken)} outlets that couldn't be read "
                       f"(still covered by Google News and GDELT)</summary>", "",
                   "| Outlet | Problem |", "|---|---|"]
         for o in broken[:300]:

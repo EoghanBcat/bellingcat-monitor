@@ -107,13 +107,19 @@ class Keywords:
                 line = line.split(":", 1)[1].strip()
             if line:
                 self.terms.append((line, category))
+        self.search_terms = []
+        try:
+            self.search_terms = [str(t) for t in (load_settings().get("search_terms") or [])]
+        except Exception:  # noqa: BLE001
+            pass
         # Main terms first so they win over related ones.
         self.terms.sort(key=lambda t: t[1] != "main")
 
-    def search_query(self, max_terms: int = 6) -> str:
-        """An OR query of main terms, for search engines."""
-        main = [t for t, c in self.terms if c == "main" and "." not in t]
-        return " OR ".join(main[:max_terms])
+    def search_query(self, max_terms: int = 8) -> str:
+        """An OR query for search engines. Uses whole words from settings.yml
+        (search engines don't match word beginnings like the keyword list does)."""
+        terms = list(self.search_terms) or [t for t, c in self.terms if c == "main" and "." not in t]
+        return " OR ".join(terms[:max_terms])
 
     def match(self, *texts: str | None):
         """Return dict(term, category, snippet) for the first hit, or None."""

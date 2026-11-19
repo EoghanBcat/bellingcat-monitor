@@ -11,7 +11,8 @@ from .common import (CHANNEL_PODCAST, CHANNEL_SOCIAL, CHANNEL_VIDEO, env, load_c
 
 
 def _search_terms(ctx, n=3):
-    terms = [t for t, c in ctx.keywords.terms if c == "main" and "." not in t]
+    terms = list(ctx.keywords.search_terms) or [t for t, c in ctx.keywords.terms
+                                                 if c == "main" and "." not in t]
     return terms[:n] or ["Bellingcat"]
 
 

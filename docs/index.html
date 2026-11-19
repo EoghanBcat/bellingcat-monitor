@@ -59,7 +59,7 @@
   th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
   .s-ok { color: var(--ok); font-weight: 600; } .s-error { color: var(--warn); font-weight: 600; }
-  .s-off { color: var(--off); }
+  .s-off { color: var(--off); } .s-partial { color: var(--news); font-weight: 600; }
   .more { display: block; margin: 16px auto 40px; padding: 10px 22px; border-radius: 8px;
           border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; cursor: pointer; }
   .hidden { display: none; }
@@ -109,7 +109,7 @@
 
   <section id="tab-health" class="hidden">
     <p class="note">Each source is checked every two days. A problem with one source never stops the others.
-      Outlets without a working feed are still covered through Google News and GDELT.</p>
+      Outlets that can't be read directly are searched through Google News, and GDELT covers them too.</p>
     <table id="sources"></table>
     <h3>Outlet feeds</h3>
     <table id="outlets"></table>
@@ -184,15 +184,16 @@ function stats(health) {
 }
 
 function healthTables(h) {
-  const label = {ok: "Working", error: "Problem", off: "Off"};
+  const label = {ok: "Working", partial: "Search only", error: "Problem", off: "Off"};
   $("sources").innerHTML = "<tr><th>Source</th><th>Status</th><th>Checked</th><th>Found</th><th>Notes</th></tr>" +
     Object.entries(h.sources || {}).map(([n, s]) =>
       `<tr><td>${esc(n)}</td><td class="s-${s.status}">${label[s.status] || esc(s.status)}</td>
        <td>${s.checked ?? ""}</td><td>${s.found ?? ""}</td><td>${esc(s.message)}</td></tr>`).join("");
-  $("outlets").innerHTML = "<tr><th>Outlet</th><th>Status</th><th>New items</th><th>Mentions</th><th>Notes</th></tr>" +
+  $("outlets").innerHTML = "<tr><th>Outlet</th><th>Status</th><th>Read via</th><th>New items</th><th>Mentions</th><th>Notes</th></tr>" +
     (h.outlets || []).map(o =>
       `<tr><td><a href="${esc(o.website)}" target="_blank" rel="noopener">${esc(o.name)}</a></td>
-       <td class="s-${o.status}">${label[o.status] || esc(o.status)}</td><td>${o.items}</td>
+       <td class="s-${o.status}">${label[o.status] || esc(o.status)}</td>
+       <td>${o.status === "partial" ? "Google News" : (o.source === "sitemap" ? "News sitemap" : (o.source === "feed" ? "RSS feed" : ""))}</td><td>${o.items}</td>
        <td>${o.mentions}</td><td>${esc(o.message)}</td></tr>`).join("");
 }
 

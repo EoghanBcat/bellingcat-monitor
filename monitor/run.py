@@ -90,6 +90,7 @@ def prune_state(state: dict, days: int = 30) -> None:
     cutoff = (now_utc() - timedelta(days=days)).strftime("%Y-%m-%d")
     seen = state.get("seen_articles", {})
     state["seen_articles"] = {k: v for k, v in seen.items() if v >= cutoff}
+    state.pop("no_feed_found", None)  # replaced by outlet_source_failed
 
 
 def main() -> None:
