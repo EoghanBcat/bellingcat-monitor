@@ -1,14 +1,14 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-20 15:44:32 UTC. Runs automatically every two days._
+_Last updated 2026-11-20 18:56:26 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 17 mentions · **Last 7 days:** 55 · **All time:** 469 · **New this run:** 72
+**Last 2 days:** 17 mentions · **Last 7 days:** 54 · **All time:** 69 · **New this run:** 1
 
-**Last 7 days by type:** News & periodicals 54, Social media 1
+**Last 7 days by type:** News & periodicals 53, Social media 1
 
-**Last 7 days by language:** hi 39, uk 8, ru 4, en 3, nl 1
+**Last 7 days by language:** hi 38, uk 8, ru 4, en 3, nl 1
 
 ## Latest mentions
 
@@ -79,13 +79,13 @@ _Last updated 2026-11-20 15:44:32 UTC. Runs automatically every two days._
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 32 | 27 |  |
-| GDELT | ⚠️ problem | 0 | 0 | RetryError: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=bellingcat&mode=artlist&format=json&maxrecords=250&sort=datedesc&timespan=3d (Caused by ResponseError('too many 429 error responses')) |
+| Google News | ✅ working | 12 | 7 |  |
+| GDELT | ✅ working | 0 | 0 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7548 | 179 | 677 read by RSS feed, 169 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7369 full articles read; 9373 left for next run |
+| Outlet list | ✅ working | 7405 | 7 | 674 read by RSS feed, 172 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7398 full articles read; 4228 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
-| Mastodon | ✅ working | 85 | 0 | mstdn.social: 422 Client Error: Unprocessable Content for url: https://mstdn.social/api/v1/timelines/tag/bellingcat?limit=40 |
-| Telegram | ✅ working | 1232 | 0 | rt_russian: no public posts found (channel name wrong or private?) |
+| Mastodon | ✅ working | 85 | 0 |  |
+| Telegram | ✅ working | 1236 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
