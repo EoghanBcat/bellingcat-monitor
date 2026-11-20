@@ -1,0 +1,76 @@
+# Settings for the Bellingcat media monitor.
+# Change "true" to "false" to switch a source off.
+
+sources:
+  google_news: true        # Google News search, in many language editions
+  gdelt: true              # GDELT global news index (65 languages)
+  outlets: true            # Every outlet in config/outlets.csv
+  guardian_api: true       # Only runs if a GUARDIAN_API_KEY secret is added
+  bluesky: true
+  mastodon: true
+  telegram: true           # Public channels in config/telegram_channels.csv
+  hacker_news: true
+  podcasts: true           # Apple Podcasts episode search
+  youtube: true            # Only runs if a YOUTUBE_API_KEY secret is added
+
+# How many days back each source looks on every run. The monitor runs every
+# 2 days, so 3 gives a day of overlap and nothing is missed between runs.
+lookback_days: 3
+
+# Whole words sent to search engines (Google News, Bluesky, Apple Podcasts, YouTube).
+search_terms:
+  - Bellingcat
+  - Беллингкэт
+  - Беллінгкет
+  - بيلينغكات
+  - ベリングキャット
+  - बेलिंगकैट
+
+# Ignore anything published longer ago than this.
+max_age_days: 14
+
+# Google News language editions to search (hl, gl, ceid).
+google_news_editions:
+  - [en-GB, GB, "GB:en"]
+  - [en-US, US, "US:en"]
+  - [ru, RU, "RU:ru"]
+  - [uk, UA, "UA:uk"]
+  - [nl, NL, "NL:nl"]
+  - [de, DE, "DE:de"]
+  - [fr, FR, "FR:fr"]
+  - [es-419, MX, "MX:es-419"]
+  - [es, ES, "ES:es"]
+  - [pt-BR, BR, "BR:pt-419"]
+  - [it, IT, "IT:it"]
+  - [pl, PL, "PL:pl"]
+  - [tr, TR, "TR:tr"]
+  - [ar, EG, "EG:ar"]
+  - [he, IL, "IL:he"]
+  - [ja, JP, "JP:ja"]
+  - [zh-TW, TW, "TW:zh-Hant"]
+  - [hi, IN, "IN:hi"]
+  - [en-IN, IN, "IN:en"]
+  - ["no", "NO", "NO:no"]
+  - [en-ZA, ZA, "ZA:en"]
+  - [en-CA, CA, "CA:en"]
+  - [en-AU, AU, "AU:en"]
+
+# Mastodon servers whose #bellingcat hashtag timeline is checked.
+mastodon_servers:
+  - mastodon.social
+  - mastodon.online
+  - journa.host
+
+# Leave out Bellingcat's own website and accounts (they aren't media mentions).
+exclude:
+  domains:
+    - bellingcat.com
+  authors:              # social media handles / Telegram channel names
+    - bellingcat.com
+    - bellingcat
+
+# Stop reading articles after this many minutes, so a run never hits GitHub's time limit.
+max_run_minutes: 90
+
+# Safety limit: most full articles to download in one run.
+max_article_downloads: 8000
