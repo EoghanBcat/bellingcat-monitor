@@ -106,7 +106,10 @@ def main() -> None:
         found.extend(results)
 
     news.fill_snippets(ctx, found)
-    archive, added = merge(load_archive(), found, ctx.settings)
+    archive = [r for r in load_archive()
+               if not (r.get("via") == ["Google News site search"]
+                       and PLACEHOLDER_MARK in r.get("snippet", ""))]
+    archive, added = merge(archive, found, ctx.settings)
     ctx.state["last_run"] = iso(now_utc())
     prune_state(ctx.state)
     save_state(ctx.state)

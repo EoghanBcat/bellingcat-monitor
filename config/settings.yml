@@ -60,7 +60,6 @@ mastodon_servers:
   - mastodon.social
   - mastodon.online
   - journa.host
-  - mstdn.social
 
 # Leave out Bellingcat's own website and accounts (they aren't media mentions).
 exclude:
@@ -69,6 +68,9 @@ exclude:
   authors:              # social media handles / Telegram channel names
     - bellingcat.com
     - bellingcat
+
+# Stop reading articles after this many minutes, so a run never hits GitHub's time limit.
+max_run_minutes: 90
 
 # Safety limit: most full articles to download in one run.
 max_article_downloads: 8000

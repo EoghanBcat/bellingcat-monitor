@@ -48,7 +48,7 @@ def article_text(ctx, url: str) -> str:
 
 def google_news(ctx) -> list[dict]:
     editions = ctx.settings.get("google_news_editions") or [["en-GB", "GB", "GB:en"]]
-    query = f"{ctx.keywords.search_query()} when:{ctx.lookback_days}d"
+    query = f"{ctx.keywords.search_query(quoted=True)} when:{ctx.lookback_days}d"
     results, checked, errors = [], 0, []
 
     def fetch(ed):
@@ -102,8 +102,24 @@ def google_news(ctx) -> list[dict]:
 def gdelt(ctx) -> list[dict]:
     url = ("https://api.gdeltproject.org/api/v2/doc/doc?query=bellingcat"
            f"&mode=artlist&format=json&maxrecords=250&sort=datedesc&timespan={ctx.lookback_days}d")
-    r = ctx.get(url, timeout=40)
-    r.raise_for_status()
+    import requests
+    r, last_error = None, ""
+    for attempt in range(5):
+        try:
+            # A plain session: the shared one gives up too quickly on GDELT's "slow down" replies.
+            plain = requests.Session()
+            plain.headers["User-Agent"] = ctx.session.headers["User-Agent"]
+            r = plain.get(url, timeout=60)
+            if r.status_code == 200:
+                break
+            last_error = f"HTTP {r.status_code}"
+        except requests.RequestException as e:
+            last_error = type(e).__name__
+        time.sleep(20 * (attempt + 1))  # GDELT asks for pauses between requests
+    if r is None or r.status_code != 200:
+        ctx.record("gdelt", ok=False, message=f"GDELT busy or rate-limited after 5 tries ({last_error}); "
+                                               "will try again next run")
+        return []
     try:
         data = r.json()
     except ValueError:
@@ -479,14 +495,22 @@ def outlets(ctx) -> list[dict]:
     limit = int(ctx.settings.get("max_article_downloads", 8000))
     to_fetch = ordered[:limit]
 
+    # Leave ~10 minutes for the other sources and for saving.
+    stop_at = ctx.deadline - 600
+
     def check(item):
+        if time.time() > stop_at:
+            return item, None, None  # out of time: leave for the next run
         row, info, key, link, title, published = item
         text = article_text(ctx, link)
         return item, (ctx.keywords.match(text) if text else None), bool(text)
 
-    downloaded = 0
-    for item, m, ok in ctx.parallel(check, to_fetch, workers=24):
+    downloaded, skipped = 0, 0
+    for item, m, ok in ctx.parallel(check, to_fetch, workers=32):
         row, info, key, link, title, published = item
+        if ok is None:
+            skipped += 1
+            continue
         seen[key] = today  # don't retry blocked/paywalled pages every run
         if ok:
             downloaded += 1
@@ -504,7 +528,7 @@ def outlets(ctx) -> list[dict]:
                checked=downloaded + len(results), found=len(results),
                message=(f"{counts['feed']} read by RSS feed, {counts['sitemap']} by news sitemap, "
                         f"{partial} by Google News site search only, of {len(rows)} outlets; "
-                        f"{downloaded} full articles read; {max(0, len(ordered) - limit)} left for next run"))
+                        f"{downloaded} full articles read; {max(0, len(ordered) - limit) + skipped} left for next run"))
     return results
 
 
@@ -526,8 +550,8 @@ def site_search(ctx, outlets_list) -> list[dict]:
         dom = domain_of(row["website"])
         if dom:
             groups.setdefault(_edition_for(ctx, row.get("language")), []).append((dom, row, info))
-    kw = ctx.keywords.search_query()
-    results, errors, queries = [], 0, 0
+    kw = ctx.keywords.search_query(quoted=True)
+    results, errors, queries, rejected = [], 0, 0, 0
     for (hl, gl, ceid), members in groups.items():
         for i in range(0, len(members), 12):
             batch = members[i:i + 12]
@@ -547,7 +571,8 @@ def site_search(ctx, outlets_list) -> list[dict]:
                 if feed is not None:
                     info["status"] = "partial"
                     info["message"] = ("Can't read this site directly (" + info["message"][:150] +
-                                       "). Covered by a Google News search of the site instead.")
+                                       "). Covered by Google News headline search of the site, "
+                                       "plus GDELT and the general Google News search.")
             if feed is None:
                 continue
             for e in feed.entries:
@@ -561,16 +586,19 @@ def site_search(ctx, outlets_list) -> list[dict]:
                 outlet = (e.get("source") or {}).get("title", "")
                 if outlet and title.endswith(" - " + outlet):
                     title = title[: -len(outlet) - 3]
-                m = ctx.keywords.match(title, strip_html(e.get("summary", ""))) or {
-                    "term": "Bellingcat", "category": "main",
-                    "snippet": SEARCH_NOTE.format(name="Google News")}
+                # Google loosens multi-site searches, so only trust results that name Bellingcat.
+                m = ctx.keywords.match(title, strip_html(e.get("summary", "")))
+                if not m:
+                    rejected += 1
+                    continue
                 info["mentions"] += 1
                 rec = _outlet_mention(row, e.get("link", ""), title, parse_date(e.get("published")),
                                       m, "Google News site search")
                 rec["domain"] = src
                 results.append(rec)
             time.sleep(1.0)  # be gentle with Google
-    print(f"[outlets] Google News site search: {queries} queries, {errors} failed, {len(results)} mentions")
+    print(f"[outlets] Google News site search: {queries} queries, {errors} failed, "
+          f"{len(results)} mentions, {rejected} unrelated results ignored")
     return results
 
 

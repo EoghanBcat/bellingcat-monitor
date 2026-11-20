@@ -115,11 +115,14 @@ class Keywords:
         # Main terms first so they win over related ones.
         self.terms.sort(key=lambda t: t[1] != "main")
 
-    def search_query(self, max_terms: int = 8) -> str:
+    def search_query(self, max_terms: int = 8, quoted: bool = False) -> str:
         """An OR query for search engines. Uses whole words from settings.yml
         (search engines don't match word beginnings like the keyword list does)."""
         terms = list(self.search_terms) or [t for t, c in self.terms if c == "main" and "." not in t]
-        return " OR ".join(terms[:max_terms])
+        terms = terms[:max_terms]
+        if quoted:
+            terms = [f'"{t}"' for t in terms]
+        return " OR ".join(terms)
 
     def match(self, *texts: str | None):
         """Return dict(term, category, snippet) for the first hit, or None."""

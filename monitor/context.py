@@ -20,6 +20,9 @@ class Context:
         self.max_age_days = int(self.settings.get("max_age_days", 14))
         self.first_run = not self.state.get("last_run")
         self.lookback_days = 7 if self.first_run else int(self.settings.get("lookback_days", 3))
+        import time as _t
+        self.started = _t.time()
+        self.deadline = self.started + 60 * int(self.settings.get("max_run_minutes", 90))
         self.health: dict[str, dict] = {}
         self.outlet_health: list[dict] = []
 
