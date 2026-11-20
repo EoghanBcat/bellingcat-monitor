@@ -1,19 +1,24 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-19 22:58:35 UTC. Runs automatically every two days._
+_Last updated 2026-11-20 15:44:32 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 23 mentions · **Last 7 days:** 54 · **All time:** 397 · **New this run:** 359
+**Last 2 days:** 17 mentions · **Last 7 days:** 55 · **All time:** 469 · **New this run:** 72
 
-**Last 7 days by type:** News & periodicals 52, Social media 1, Podcasts 1
+**Last 7 days by type:** News & periodicals 54, Social media 1
 
-**Last 7 days by language:** hi 37, uk 8, ru 4, en 3, nl 1, ? 1
+**Last 7 days by language:** hi 39, uk 8, ru 4, en 3, nl 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-20 | News & periodicals | Dainik Bhaskar | [स्टूडेंट्स की मेंटल हेल्थ के लिए एहसास 2026 नीति लॉन्च: डिस्ट्रिक्ट वेल-बीइंग सेंटर बनेंगे; एंग्जाइटी, डिप्रेश](https://news.google.com/rss/articles/CBMizgFBVV95cUxOcDdSYkh1WkFqOU41MGtNOHBzeFE1ZlgyZmg2T3V0eG9MOWNkbFJIdllQS2dNaklOUW9nOHZhRlNldHozcjEwSzVRaGtBS0Q0Q0JMUjFxSFVnNGhwQ256VDViX1M4alh4TkFubGdyeTJzRGM0czBKeGxMWHdpd3BRdWhTa2d3amtUbVdPd09Ic0xxUVhyajh5LUU3UXhna1pRaTQxVHM2TVI3d1RpRjFBUDByZWY0MVBUUEw3VjlHM1JLWFRkNzZhek0xWWNyZw?oc=5) | hi |
+| 2026-11-20 | News & periodicals | Vietnam.vn | [VNPT ग्राहकों को बिलिंग संबंधी सूचनाएं प्राप्त करने के लिए अपना फोन नंबर अपडेट करने की सलाह देता है।](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOEN0MjFVUU5VVDd2ZGdpd3FiWHg1TzY3b1Y1RDlUTXdreEdkSTVqQUNjRTE0U2lrWXUtbnlkM0hpeVk5bjgyX1ktVGhDQld5TXFPS3FCbnl6T1N6ZXI4aTAxdkprSnExRDR0SXhwVTF0aTVsRHFBYWIweFZGUTd4VGpNMEVCVlRGNDdBS0JCNjdLdUQxZVZaOVI1dFE?oc=5) | hi |
+| 2026-11-20 | News & periodicals | Livemint | [गिरते बाजार में निवेशकों की चांदी! Firstsource Solutions के शेयर 5.44% भागे, जानें क्या है बड़ी वजह](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWo0cDA0aDZ2VWhmamFCNV9wWDNFOTlsN0U3Zk03WE9neGhDRjRfNTRSWWsxak9nRXlCa1A3M0VqOFM3eUpKX3VkWE1NRE5MRTF3QnQ2ZEFPNk5IN1NOa3hxYXRCVnRuN0cydW4yc0dpelk1T2J1UUpVTV81NjNPUGlYLVAxNFNmQTk0S1Bfeno3X09zX1FmOFR6STJ6b3BVamdpOEdrNnhuVzBmQUR2UGo4VXZWaTlYa2lGeE5yZy3SAcYBQVVfeXFMT0ZOalBBcGlMLWxpRmlhN0U3UzZXRjA0dWJOc3lOdk1uMklCelA3WjY2TzBIR3Z5ak9xU2dVRkNkTVhnZEkzLVdadi1neXNfV3FTdFM2SU03Y0FtazdFNW1WTEtDSkhERmhmWExxUER5eUZXNktfYVZ4SDI1UW9fMHREWE5CWTlzdkZycXVjazdFeWdudkswMkVoYjk5UlJMWHNfTVZnUDZLSlp4VXZjaTZDRGtydGdKSzVKNmItaS1oc2Ytb09n?oc=5) | hi |
+| 2026-11-20 | News & periodicals | Amar Ujala | [पंचकूला में सीजीएसटी सुपरिंटेंडेंट गिरफ्तार: 30 करोड़ फर्जी बिलिंग मामले में मांगे थे 50 लाख, सीबीआई ने पकड़ा](https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXJ4eHRQUGNwSWs0aE9tdG5mZGNKQnhZekNFb0pyWHhqY0wzQVFYemQyaXcxSkdYd3A1RW94dG9ZeE56bXlveVNJQ1QwbkdLUzk5OFRITDREdFZvSjJGbnR0NE40V1JmMy1FM1ZCVnJKckRMcWVQWU9ET0otd3pFU181cTBpcnUtRkVWY2w1c0czbWRMUTlVTmk0ZzNLY0VYbWdSMnYzLUF4MWlibzF4aUdMQmU2NFHSAbwBQVVfeXFMTm55c29VMFllbjBGOTRlLW96UlNzazNPZzEzdkhDNzQ2RUJrTF9KU05mdEQyYURsZFVuNklMeUx1S3JabU5DTDRzMERvNGFaSExmSDdMS2tyNzFRalRmQlhHdm5vWUpRLVc2Ml9FbER0eFRNNUJqSVRRS1Y0LUxOcWV2amQ4YmZOaWlMZE91eElHR2czb09xdjRaVHRHVEtpRUlEemtRS1pxLTVuOWZuQVJkOEhRVWJtWEVhOHo?oc=5) | hi |
+| 2026-11-20 | News & periodicals | Breaking Tube | [MP में PNG कनेक्शन का हाल बेहाल, 1.17 लाख घरों तक पाइपलाइन पहुंची लेकिन गैस नहीं](https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2plYklJbk9KVWZlRzFvMVBkdUZBdGJQUEtiWkZzb0l6aHBneHNuQjk2Y0JGc3Q5MUdPNG00LTY2YXJVb3BRamFBMkxCTUx6Z2xXWXZRV3JTTnlMM2Nwa1NkaGZaWmJ4UTF4SVZHR3VxdWtJaXBGVk5RSnJscDFrY1RDS1AzVGZNbk5WdklsUURRZjhBWV9WdHJzVjdaQmlZVzdac2hBeUpvTi03Y1J3dWFZUQ?oc=5) | hi |
 | 2026-11-19 | News & periodicals | Ghamasan News | [महादेव बेटिंग ऐप केस: सौरभ चंद्राकर की न्यायिक हिरासत 2 दिसंबर तक बढ़ी](https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3dVbzNZTlB4NTg3d21LMkduVzdOMjRsSXdxWjI2OUZfbllEOGNOM3BhNjhjX01TdWhxNEVOVjZOelMyT0JrQkxRUEp4ang0TnRqY0FTQU9Sb1RZVXFvMzY5ZEd6SHlyTkVxUWJzYzF6MmRTUU45U2R3WFMyZk8ya0R5OE4tdTl3OWZtWmlGRTlzTHlRTnNETlV4NGQ3c2pYT0ZYOHVMOFFmeXM3WEhoRFk3VGRqQXRmNmQtQVJ3?oc=5) | hi |
 | 2026-11-19 | News & periodicals | Hindustan | [Unnao News: गलत बिलिंग पर 15 दिन में सुधार नहीं तो अभियंताओं का रुकेगा वेतन](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWlFVaVU5Y1NBN2M3a1Y0REdHZDd0OXk3WTFCU3FiYm80THFjMTVfTVhhSUJuRlNwVnc4S0J3SXNiS0pURXF0b09RaEJTd1kzRXhQYVFHV0JvTEJtZ2dWUm02dUtyYThPNnRncWlTenNraXNFOGZ6NGtUdk0xenp5eEdVWlo3YnNXeEZLcDAzcEtLWFFFR1RGdWlvMDduWnZkc1htX0RlbG9zakpmdVZqcXY3ODVZUU1yQ1dxZENfLTNFR2hHdUN4eE1GUlFFQWtYaTNTeU51bFRya2VUanfSAeMBQVVfeXFMUE9Bbm5oRnVnaEI5OHhMcGFHUjNnb2ZFWEF3NE9XeVJqb1EyaUlmMUJwdTVLNFgzOEV4OVVnOFlFUE05STBfLWpLd0VZSXJZeWRsdTJfNWczM3lEMVNaQ0VJYnA0Y2FZMFFQVmJiNGZLYzNMVTF3X3E5M3VFczJtVG5DQVQyMlZIN1h5MFdoTVpqaE00ei1ERWNBMHZNaUR6Tl9abXRqMXRMVVgydnJ2NFpsTHdUWlk1WFFrOXIzblRkbGMtdjNyRFlQaXlQZFZTbzJSVFJHZXIzaEs2ejBHWXhZYUE?oc=5) | hi |
 | 2026-11-19 | News & periodicals | Dainik Savera News and Media Network | [महादेव बेटिंग ऐप केस में सौरभ चंद्राकर को झटका, 2 दिसंबर तक न्यायिक हिरासत में भेजा गया](https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0hQa0NGNVBxQW1qeGRpbHB2WjdJSmVBOTMxNEcySEs1SnZRcHBZeEJyU29fRElHcXZva0J6QjRQU2JLNmRMRU9HV1RiVW84R3A5d1ByWGpNWWNMVGdkVURORlVIZU1TVWlKbzJPa1lvRXBCU3ZRekItdE1lM3d5RFFyck5pTHhpQ1BKTWF4VjVQUkFnZlFDc3JKdkRBUUd4VlR1U2ZxSzdoNG85WTBrS9IBuAFBVV95cUxPdmhQUlgzSWFMMVRBbDN4SXA4NkY1QnlzdzRRbC1lSk1TU2YySGVXdXEwdW16bV9MbXVqMHBZbXJxM2VqUU9CcmNta2Q4X0RCLVRDYTFCUUNOSFJPOEU0ZklsUFBkUy1qQ2pkallQQU52SGQ2R00wS2U5aVU3ci1ucUhWY0llVUdJNHJPTVJJTVVxMTNEbEFrRk1jWktuOU11WnJ4bTcyRS11ZnZVUFBxNWMyR0ZLaTdk?oc=5) | hi |
@@ -69,23 +74,18 @@ _Last updated 2026-11-19 22:58:35 UTC. Runs automatically every two days._
 | 2026-11-13 | News & periodicals | ABP News | [बिजली चोरी से लेकर बिलिंग तक, ऑडिट से CAG करेगा पूरे देश का हिसाब](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUlVPMDhCbEhYZzJ0RDFyN1FaV0xTNW42cHg5T2FPYTRoZWRaY3N0RXdjTjVOOU9zQVdOLUJOTjFTSFI4dS1xMVZ6eHJ3TU5aWGVDYnhDdEZvZWpQU1RoUW9xeGNKbWRXYkZzay1XN2NRSGVoczh0YjFtMjhzZkxtQ0xGU0hqaVRmRHo1dERTc2xVUHM0ZHZ3U2FGOTNSS0VieElqeDBiTkxUaXlxcjdDMDhzaTVvWHFZREpRb2V1dHVZby1CN0VxSGZ0YjJmcjdnZHJiY1NJX2N2Z0FM0gHiAUFVX3lxTE05YXJ4N3VJa1QyX0V0RHMxcTFBQUxZb0tENjJTOXdwaWlDVExEdHZZN0xTVlZMWEJrNGR5QmFJb2ZmRVhObkJNNXAzaFN2OW8zNEVnTktNUDBwR2stbVlpa2VsRnA5MTVXbURCZC1JX3U1bi1lOS1kMWltbmRxYXBjWDJSNklIZkJSNmJqaDR4c1pfbDFGNDdNeDJqSnlrelJqaHFUUDducldyOHNJNW1WaC1nbm9YOWVkc1pocjR3dWdVMHRMMzFDaVYyOXo5SnA5cXFBd0UxamNmZVljeFVVSVE?oc=5) | hi |
 | 2026-11-13 | News & periodicals | Amar Ujala | [महादेव बेटिंग एप: सीबीआई का मोहित सोमानी के आवास पर छापा, कागजों की जांच-पड़ताल कर रही टीम](https://news.google.com/rss/articles/CBMiygFBVV95cUxPQjl5aUlqQ0IzQ0ZBdVlsVHo0THFUNzY1cFQ1YjB3Yndia3V4ck5iaXNsQWY2NWxaQkV2cXd5WTg0V3BaMmxOTnVsRk1kTE85T1kyZ1N0cXRfOXY4R1lGaUs0QWV6cVdDLXE4T0dLZTRLaUtmNUVaMkZvMVNIYlZrM0NvTmpfd1lvUWo5TVZSclhTWi1zam11bkZwajZaeGFaWnVCd0QwcDRDb01QcTJjWjVNMktMSUNxa2d0U21rM3VBVEczMEMzdmVn0gHPAUFVX3lxTFBYQU12UjhlRks2NXVlb0VZamNsVVpuMkdiWXFsS1h0ZVEwbk9rRFdCd0NfVkpzX3J6WEtIN3FVMmVNbVp3SV9LNlJVZVhvMGNwM1ZxUUtVQUJfbTItSFVEbngzcW92dXd6VmFzYVYtV25Iclo2LUw2c3FYS1ZnMDZybGp6cGNVOF9nNXFiTkNIMkFmUGktX012MV84VjQ4QjZvSGpWcVJscnlOUVRYS0trRHZSYUpRYzNOMFBSakJOSFFKYTVNYkgxQU44YXFxWQ?oc=5) | hi |
 | 2026-11-06 | Social media | Mastodon | [Gravity Sucks...then it Falls on Mastodon](https://friendsofdesoto.social/@LGS/117567822910557750) | en |
-| 2026-10-29 | Podcasts | Stage Talks with Bellingcat | ["Observing Gaza From Space" with Bellingcat's Jake Godin](https://podcasts.apple.com/us/podcast/observing-gaza-from-space-with-bellingcats-jake-godin/id1842893341?i=1000798788991&uo=4) |  |
-| 2026-10-22 | News & periodicals | Fandom | [Fu Chun Wang](https://news.google.com/rss/articles/CBMia0FVX3lxTFBhamlxYlphZUlNTXR5LVMydkFwNFl0T256Y2lkczZlSjNjbU5WWDJ4WG5hVFd4bS0wTXF4amRXSmlmY2Z3SXo4eTF4MVdBck1UT3NXTTJIWVUtUENVdW0xdzZkV3pTNUJKWXVV?oc=5) | en |
-| 2026-10-09 | News & periodicals | Wall Street Journal | [A Glimpse Inside Gaza Shows How Israel’s Military Footprint Is Expanding](https://news.google.com/rss/articles/CBMiugFBVV95cUxOTjZuSGZycFRnRTdwQ3ZuMWxTMXh2V3ZqeGM5VGk3OENoZ2RNOEVCTnpMN2d6cHpRTFBWcVk2NnQ2V1hIWUs1X0VTWkVXdEowa19oTDVoS3lxOGNkTHJlYnlhNVNNNmU2ZF90UUhMdGdxZ2QydktnRG5GTWVXSE9wUTM3My1ZOS11MEVKTFl5WngwSjVJNk1EWVUwWTZzTVFoZkR3a0ZvTlhrQlhOTEVkekEyOGV4LXdyOGc?oc=5) | en |
-| 2026-10-07 | News & periodicals | Reuters | [What has been hit in Ukraine's attacks on Russian energy sites?](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXZKYkF1aWRuSkZiZV8xT3R1T1pLUUQ4dFM5WGFNYW1iRS1WVXlKM1M0OEVmQjA5dDFPaVNaR0FYQk1yaEJRbW9FQ1RCQmRwanJGT0FtXzZXU2dPMXQ1ZDlqUlZsVjktOGtRSnlSaHZHZTlMM1RqWm80ZU00c3N4LTFORllVNlotWDNfdlVPUUlKcEs2X0dmQmtpbGhtTkx3RTdMLVhORmZSZw?oc=5) | en |
-| 2026-10-05 | News & periodicals | Financial Times | [The not very secret life of A7’s front companies](https://news.google.com/rss/articles/CBMihAFBVV95cUxQQnBpWHBFZ1Nyc1ZGUlBEc1B4Mk12N1NFSEZHNFhjRlpYUWNIaEh0VERDYW9Dd3BqSUtHQ2JzN1N6N1lYYjJ4S0lzNDJmRExFLWgtbkNDN0stejVSa2UtdS1MWDktRWViajhHck9tMDRmZ2VPMHQwZW5XRl9NNlp2a2lDMUg?oc=5) | en |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 39 | 34 |  |
+| Google News | ✅ working | 32 | 27 |  |
 | GDELT | ⚠️ problem | 0 | 0 | RetryError: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=bellingcat&mode=artlist&format=json&maxrecords=250&sort=datedesc&timespan=3d (Caused by ResponseError('too many 429 error responses')) |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7741 | 341 | 674 read by RSS feed, 169 by news sitemap, 397 by Google News site search only, of 1240 outlets; 7400 full articles read; 11842 left for next run |
+| Outlet list | ✅ working | 7548 | 179 | 677 read by RSS feed, 169 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7369 full articles read; 9373 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
-| Mastodon | ✅ working | 85 | 2 | mstdn.social: 422 Client Error: Unprocessable Content for url: https://mstdn.social/api/v1/timelines/tag/bellingcat?limit=40 |
-| Telegram | ✅ working | 1236 | 0 | rt_russian: no public posts found (channel name wrong or private?) |
+| Mastodon | ✅ working | 85 | 0 | mstdn.social: 422 Client Error: Unprocessable Content for url: https://mstdn.social/api/v1/timelines/tag/bellingcat?limit=40 |
+| Telegram | ✅ working | 1232 | 0 | rt_russian: no public posts found (channel name wrong or private?) |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
