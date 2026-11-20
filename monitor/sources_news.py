@@ -2,8 +2,13 @@
 from __future__ import annotations
 
 import gzip
+import multiprocessing
+import os
 import re
+import threading
 import time
+from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures.process import BrokenProcessPool
 from datetime import timedelta
 from itertools import zip_longest
 from urllib.parse import quote_plus, urljoin, urlparse
@@ -28,20 +33,72 @@ GDELT_LANGS = {
 SEARCH_NOTE = "The search term appears in the article text (found by {name})."
 
 
+# Turning a web page into plain text uses lxml, a fast library written in C. Very rarely it
+# crashes outright on an odd page, and that crash would end the whole run. So pages are
+# turned into text in separate worker processes: if one crashes, only that page is lost.
+_POOL = None
+_POOL_LOCK = threading.Lock()
+_XML_LOCK = threading.Lock()
+
+
+def _extract_text(html: str) -> str:
+    """Runs inside a worker process."""
+    import trafilatura
+    try:
+        text = trafilatura.extract(html, include_comments=False, include_tables=False,
+                                   favor_recall=True) or ""
+    except Exception:  # noqa: BLE001
+        text = ""
+    return text or strip_html(html)
+
+
+def _pool():
+    global _POOL
+    with _POOL_LOCK:
+        if _POOL is None:
+            ctx = multiprocessing.get_context("spawn")
+            _POOL = ProcessPoolExecutor(max_workers=max(2, (os.cpu_count() or 2)), mp_context=ctx)
+        return _POOL
+
+
+def _reset_pool(broken):
+    global _POOL
+    with _POOL_LOCK:
+        if _POOL is broken:
+            print("[outlets] a page-reading worker crashed; starting a fresh one and carrying on")
+            try:
+                broken.shutdown(wait=False, cancel_futures=True)
+            except Exception:  # noqa: BLE001
+                pass
+            _POOL = None
+
+
+def shutdown_pool():
+    global _POOL
+    with _POOL_LOCK:
+        if _POOL is not None:
+            _POOL.shutdown(wait=False, cancel_futures=True)
+            _POOL = None
+
+
 def article_text(ctx, url: str) -> str:
     """Download a page and return its main article text ('' on failure)."""
-    import trafilatura
     try:
         r = ctx.get(url, timeout=20)
         if r.status_code != 200 or "html" not in r.headers.get("content-type", "html"):
             return ""
-        text = trafilatura.extract(r.text, include_comments=False, include_tables=False,
-                                   favor_recall=True) or ""
-        if not text:
-            text = strip_html(r.text)
-        return text
+        html = r.text[:3_000_000]
     except Exception:  # noqa: BLE001
         return ""
+    for _ in range(3):
+        pool = _pool()
+        try:
+            return pool.submit(_extract_text, html).result(timeout=60)
+        except BrokenProcessPool:
+            _reset_pool(pool)  # a page crashed the worker: try again in a fresh one, then skip
+        except Exception:  # noqa: BLE001  (timeout or a bad page)
+            return ""
+    return ""
 
 
 # ------------------------------------------------------------------ Google News
@@ -248,7 +305,8 @@ def _xml_root(content: bytes):
     if content[:2] == b"\x1f\x8b":
         content = gzip.decompress(content)
     try:
-        return etree.fromstring(content, parser=etree.XMLParser(recover=True, huge_tree=True))
+        with _XML_LOCK:  # one sitemap at a time: lxml is safest without threads overlapping
+            return etree.fromstring(content, parser=etree.XMLParser(recover=True, huge_tree=False))
     except Exception:  # noqa: BLE001
         return None
 
@@ -506,7 +564,7 @@ def outlets(ctx) -> list[dict]:
         return item, (ctx.keywords.match(text) if text else None), bool(text)
 
     downloaded, skipped = 0, 0
-    for item, m, ok in ctx.parallel(check, to_fetch, workers=32):
+    for item, m, ok in ctx.parallel(check, to_fetch, workers=24):
         row, info, key, link, title, published = item
         if ok is None:
             skipped += 1

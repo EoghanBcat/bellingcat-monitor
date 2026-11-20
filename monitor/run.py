@@ -5,7 +5,9 @@ dashboard data, CSV, RSS feed and README digest.
 """
 from __future__ import annotations
 
+import faulthandler
 import json
+import sys
 import time
 from datetime import timedelta
 
@@ -94,6 +96,9 @@ def prune_state(state: dict, days: int = 30) -> None:
 
 
 def main() -> None:
+    # Show progress in the GitHub log as it happens, and explain any hard crash.
+    sys.stdout.reconfigure(line_buffering=True)
+    faulthandler.enable()
     start = time.time()
     ctx = Context()
     print(f"First run: {ctx.first_run}")
@@ -106,6 +111,7 @@ def main() -> None:
         found.extend(results)
 
     news.fill_snippets(ctx, found)
+    news.shutdown_pool()
     archive = [r for r in load_archive()
                if not (r.get("via") == ["Google News site search"]
                        and PLACEHOLDER_MARK in r.get("snippet", ""))]
