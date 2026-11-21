@@ -1,19 +1,22 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-20 18:56:26 UTC. Runs automatically every two days._
+_Last updated 2026-11-21 14:51:45 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 17 mentions · **Last 7 days:** 54 · **All time:** 69 · **New this run:** 1
+**Last 2 days:** 11 mentions · **Last 7 days:** 51 · **All time:** 72 · **New this run:** 3
 
-**Last 7 days by type:** News & periodicals 53, Social media 1
+**Last 7 days by type:** News & periodicals 48, Social media 3
 
-**Last 7 days by language:** hi 38, uk 8, ru 4, en 3, nl 1
+**Last 7 days by language:** hi 32, uk 8, en 5, ru 4, de 1, nl 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-21 | News & periodicals | The Insider (English) | [Russia designates The Insider’s investigative journalist Sergey Panov as a “foreign agent”](https://theins.press/en/news/299859) | en |
+| 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:wn65h3zqprbyf3tqb2m7ha3k/post/3n2sjq7nas22p) | en |
+| 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://mastodon.social/@LiloStart/117653140959618019) | de |
 | 2026-11-20 | News & periodicals | Dainik Bhaskar | [स्टूडेंट्स की मेंटल हेल्थ के लिए एहसास 2026 नीति लॉन्च: डिस्ट्रिक्ट वेल-बीइंग सेंटर बनेंगे; एंग्जाइटी, डिप्रेश](https://news.google.com/rss/articles/CBMizgFBVV95cUxOcDdSYkh1WkFqOU41MGtNOHBzeFE1ZlgyZmg2T3V0eG9MOWNkbFJIdllQS2dNaklOUW9nOHZhRlNldHozcjEwSzVRaGtBS0Q0Q0JMUjFxSFVnNGhwQ256VDViX1M4alh4TkFubGdyeTJzRGM0czBKeGxMWHdpd3BRdWhTa2d3amtUbVdPd09Ic0xxUVhyajh5LUU3UXhna1pRaTQxVHM2TVI3d1RpRjFBUDByZWY0MVBUUEw3VjlHM1JLWFRkNzZhek0xWWNyZw?oc=5) | hi |
 | 2026-11-20 | News & periodicals | Vietnam.vn | [VNPT ग्राहकों को बिलिंग संबंधी सूचनाएं प्राप्त करने के लिए अपना फोन नंबर अपडेट करने की सलाह देता है।](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOEN0MjFVUU5VVDd2ZGdpd3FiWHg1TzY3b1Y1RDlUTXdreEdkSTVqQUNjRTE0U2lrWXUtbnlkM0hpeVk5bjgyX1ktVGhDQld5TXFPS3FCbnl6T1N6ZXI4aTAxdkprSnExRDR0SXhwVTF0aTVsRHFBYWIweFZGUTd4VGpNMEVCVlRGNDdBS0JCNjdLdUQxZVZaOVI1dFE?oc=5) | hi |
 | 2026-11-20 | News & periodicals | Livemint | [गिरते बाजार में निवेशकों की चांदी! Firstsource Solutions के शेयर 5.44% भागे, जानें क्या है बड़ी वजह](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWo0cDA0aDZ2VWhmamFCNV9wWDNFOTlsN0U3Zk03WE9neGhDRjRfNTRSWWsxak9nRXlCa1A3M0VqOFM3eUpKX3VkWE1NRE5MRTF3QnQ2ZEFPNk5IN1NOa3hxYXRCVnRuN0cydW4yc0dpelk1T2J1UUpVTV81NjNPUGlYLVAxNFNmQTk0S1Bfeno3X09zX1FmOFR6STJ6b3BVamdpOEdrNnhuVzBmQUR2UGo4VXZWaTlYa2lGeE5yZy3SAcYBQVVfeXFMT0ZOalBBcGlMLWxpRmlhN0U3UzZXRjA0dWJOc3lOdk1uMklCelA3WjY2TzBIR3Z5ak9xU2dVRkNkTVhnZEkzLVdadi1neXNfV3FTdFM2SU03Y0FtazdFNW1WTEtDSkhERmhmWExxUER5eUZXNktfYVZ4SDI1UW9fMHREWE5CWTlzdkZycXVjazdFeWdudkswMkVoYjk5UlJMWHNfTVZnUDZLSlp4VXZjaTZDRGtydGdKSzVKNmItaS1oc2Ytb09n?oc=5) | hi |
@@ -71,21 +74,18 @@ _Last updated 2026-11-20 18:56:26 UTC. Runs automatically every two days._
 | 2026-11-13 | News & periodicals | दैनिक भास्कर हिन्दी | [महादेव ऑनलाइन बेटिंग सौरभ चंद्राकर गिरफ्तार, विशेष अदालत ने 19 नवंबर तक ईडी हिरासत में भेजा](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbkZKa3VEVDQ2Z0E1V2NrQU1oR3dCVk1QWVlzTHFZLWZxRjNLYTJoWWMxN2VEZWI2ZmV2Ri1DSkRTaWZueWdsZG9Yc0NaaThtbVJqUHVLYWNnWmgxc2pDTXhOcm5JY2I5TEJvb0JsWHlDQUZqYUZPMnotcXBackI5U0QtaG1lUXNlRU9mNzdrVTBiWU5oTTdwZ0JpMmxsbW90eFc3dmM1NFJtczJGWnFzZVdqSFpFZGJ4cDhXdURoTXlqcEtibk5SRmp1bk9wYkJ6T2g4cFkwVTBzak0?oc=5) | hi |
 | 2026-11-13 | News & periodicals | ABP News | [महादेव बेटिंग ऐप केस: प्रमोटर सौरभ चंद्राकर पर कसा शिंकजा, कोर्ट ने 7 दिन की ED कस्टडी](https://news.google.com/rss/articles/CBMiwwFBVV95cUxONnViRU9wU0dvNG9IYkNHWDZjUGFKWFVyRE5lSEhMbXpYMVpocXBCWGhLbHpMamUyQ3g0ZHR2RkNLVk1MLS1LQzltOUl2dnppQWNUNHJzVXVaR183b01ETTYzLVhKTHVtb1dhZDdhV0Y5M28wbHhfNU5kUTZYOUxJX3VyYUlPd2N0WVpGUGdtdWh2cHJXZFlNY1FzdW5ObGlnbzQzQ3pHbEdJZ05YM1hTVE9WQWxWbEVqaHNINTVVUW9TSmvSAcgBQVVfeXFMT05ESENlVFZvbU5vUmZCYVlReEdHeVJrZ1QweXdnaXpNcGRfZllURFdIZ1A1WjRBUy12Q1FWZ1FTck5XWF9fdDB1OGNQclVNeXFJR0JJaXZxbkZ4TTktYWswbTMwZERQSTc5LXpaYVZUanpPZE94a1BQM3BSaHNIX1c5clNFMEtKbUlQSm9iVFo0OXdqVlV3MndRUDV0b2ptZ1pCOVpnN19oWTIzZUhCNVBkREdLV1RHSVZaTmRoeWJOUDktYUk3czY?oc=5) | hi |
 | 2026-11-13 | Podcasts | Stage Talks with Bellingcat | ["Testing the Official Story: Investigating a Killing in the Amazon" with Gisela Pérez de Acha](https://podcasts.apple.com/us/podcast/testing-the-official-story-investigating-a-killing/id1842893341?i=1000801743071&uo=4) |  |
-| 2026-11-13 | News & periodicals | ABP News | [बिजली चोरी से लेकर बिलिंग तक, ऑडिट से CAG करेगा पूरे देश का हिसाब](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUlVPMDhCbEhYZzJ0RDFyN1FaV0xTNW42cHg5T2FPYTRoZWRaY3N0RXdjTjVOOU9zQVdOLUJOTjFTSFI4dS1xMVZ6eHJ3TU5aWGVDYnhDdEZvZWpQU1RoUW9xeGNKbWRXYkZzay1XN2NRSGVoczh0YjFtMjhzZkxtQ0xGU0hqaVRmRHo1dERTc2xVUHM0ZHZ3U2FGOTNSS0VieElqeDBiTkxUaXlxcjdDMDhzaTVvWHFZREpRb2V1dHVZby1CN0VxSGZ0YjJmcjdnZHJiY1NJX2N2Z0FM0gHiAUFVX3lxTE05YXJ4N3VJa1QyX0V0RHMxcTFBQUxZb0tENjJTOXdwaWlDVExEdHZZN0xTVlZMWEJrNGR5QmFJb2ZmRVhObkJNNXAzaFN2OW8zNEVnTktNUDBwR2stbVlpa2VsRnA5MTVXbURCZC1JX3U1bi1lOS1kMWltbmRxYXBjWDJSNklIZkJSNmJqaDR4c1pfbDFGNDdNeDJqSnlrelJqaHFUUDducldyOHNJNW1WaC1nbm9YOWVkc1pocjR3dWdVMHRMMzFDaVYyOXo5SnA5cXFBd0UxamNmZVljeFVVSVE?oc=5) | hi |
-| 2026-11-13 | News & periodicals | Amar Ujala | [महादेव बेटिंग एप: सीबीआई का मोहित सोमानी के आवास पर छापा, कागजों की जांच-पड़ताल कर रही टीम](https://news.google.com/rss/articles/CBMiygFBVV95cUxPQjl5aUlqQ0IzQ0ZBdVlsVHo0THFUNzY1cFQ1YjB3Yndia3V4ck5iaXNsQWY2NWxaQkV2cXd5WTg0V3BaMmxOTnVsRk1kTE85T1kyZ1N0cXRfOXY4R1lGaUs0QWV6cVdDLXE4T0dLZTRLaUtmNUVaMkZvMVNIYlZrM0NvTmpfd1lvUWo5TVZSclhTWi1zam11bkZwajZaeGFaWnVCd0QwcDRDb01QcTJjWjVNMktMSUNxa2d0U21rM3VBVEczMEMzdmVn0gHPAUFVX3lxTFBYQU12UjhlRks2NXVlb0VZamNsVVpuMkdiWXFsS1h0ZVEwbk9rRFdCd0NfVkpzX3J6WEtIN3FVMmVNbVp3SV9LNlJVZVhvMGNwM1ZxUUtVQUJfbTItSFVEbngzcW92dXd6VmFzYVYtV25Iclo2LUw2c3FYS1ZnMDZybGp6cGNVOF9nNXFiTkNIMkFmUGktX012MV84VjQ4QjZvSGpWcVJscnlOUVRYS0trRHZSYUpRYzNOMFBSakJOSFFKYTVNYkgxQU44YXFxWQ?oc=5) | hi |
-| 2026-11-06 | Social media | Mastodon | [Gravity Sucks...then it Falls on Mastodon](https://friendsofdesoto.social/@LGS/117567822910557750) | en |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 12 | 7 |  |
+| Google News | ✅ working | 10 | 5 |  |
 | GDELT | ✅ working | 0 | 0 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7405 | 7 | 674 read by RSS feed, 172 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7398 full articles read; 4228 left for next run |
+| Outlet list | ✅ working | 7420 | 3 | 667 read by RSS feed, 174 by news sitemap, 399 by Google News site search only, of 1240 outlets; 7417 full articles read; 4799 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
-| Mastodon | ✅ working | 85 | 0 |  |
-| Telegram | ✅ working | 1236 | 0 |  |
+| Mastodon | ✅ working | 85 | 3 |  |
+| Telegram | ✅ working | 1090 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
