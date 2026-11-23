@@ -74,3 +74,6 @@ max_run_minutes: 90
 
 # Safety limit: most full articles to download in one run.
 max_article_downloads: 8000
+
+google_alerts_feeds:
+  - https://www.google.com/alerts/feeds/09346331478609635806/17164485254108050053
