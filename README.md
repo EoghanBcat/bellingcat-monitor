@@ -1,19 +1,23 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-21 14:51:45 UTC. Runs automatically every two days._
+_Last updated 2026-11-23 11:37:43 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 11 mentions · **Last 7 days:** 51 · **All time:** 72 · **New this run:** 3
+**Last 2 days:** 5 mentions · **Last 7 days:** 50 · **All time:** 76 · **New this run:** 4
 
-**Last 7 days by type:** News & periodicals 48, Social media 3
+**Last 7 days by type:** News & periodicals 47, Social media 3
 
-**Last 7 days by language:** hi 32, uk 8, en 5, ru 4, de 1, nl 1
+**Last 7 days by language:** hi 30, uk 9, en 6, nl 2, ru 2, de 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-23 | News & periodicals | de Volkskrant | [In ‘Rond de Zwarte Zee’ stuit Jelle Brandt Corstius al zwemmend op een olietanker uit Poetins schaduwvloot](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOFVTX3N4c01mb2J2Z2RxdEhNQjZYQkZRWGZ5dlJVNGhWMzE0RFNZcUJlVnp3cV9ZZEE2U3paSl9OeGdjNjBGeWVCY0txSHRWNmRpRUxpSnNZOEZUMTg4c3dRUGZPbUUzVzBtRjhBWkU1SmNEYV9kcWE3Vnk4TzhEaFBKQ0QyZjA5UlZZcWlNZGl6V1RvODZTYlNESy03UkM4UE4zZlRPQ3YzZEZMTHM1MlF0LWtmTldIckt1bkVzcVBBbjVsckY0bGE1cGlCa0RKd1Z5TjZDdkR2TFYwamZ0cHFhNF8?oc=5) | nl |
+| 2026-11-23 | News & periodicals | livemint.com | [Fugitive criminals need a new hideout since the UAE started extraditing them](https://www.livemint.com/global/fugitive-criminals-need-a-new-hideout-since-the-uae-started-extraditing-them-11795396744758.html) | en |
+| 2026-11-22 | News & periodicals | dailymaverick.co.za | [SA links to global  sky trafficker exposed after fatal Brazil cocaine plane crash](https://www.dailymaverick.co.za/article/2026-11-22-sa-links-to-global-sky-traffickers-exposed-after-fatal-brazil-cocaine-plane-crash/) | en |
+| 2026-11-22 | News & periodicals | Новий формат | [Хакери, пов’язані з ФСБ, атакували Христо Грозєва та журналістів Le Monde](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkFuRktLaTVQZFFYc2lzVU1nMEF1bnZydDlpd1FLMGFJSVJudHp5MlF4M2psLUxuUDAxZVExbmNZU1FWNVpUdHg4SWJnbzU4eUtDSDM5SURoWWJ2Z3hsMkVoUWx1eEFoaWkyUUNhdHB5b1Q2WDN5Sm1hM3pIX21HTjEzWldRVXdWY21WQTNVSUEtVUdvdWJfUU5TTjNLUVp3QkdaX1lMUm0?oc=5) | uk |
 | 2026-11-21 | News & periodicals | The Insider (English) | [Russia designates The Insider’s investigative journalist Sergey Panov as a “foreign agent”](https://theins.press/en/news/299859) | en |
 | 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:wn65h3zqprbyf3tqb2m7ha3k/post/3n2sjq7nas22p) | en |
 | 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://mastodon.social/@LiloStart/117653140959618019) | de |
@@ -70,22 +74,18 @@ _Last updated 2026-11-21 14:51:45 UTC. Runs automatically every two days._
 | 2026-11-14 | News & periodicals | Nai Dunia | [साध्वी हर्षा रिछारिया हुईं ऑनलाइन बुलिंग की शिकार, भोपाल साइबर क्राइम में की शिकायत](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUGozRkpTWThjcE5TQ1NHNERiWjl5RjlIX3ZHOEIzTHJZZFRBZ3A3YlJyaUhFTm02ZW5vdmVUSlY1dEZjcTZnbk1jaWZjRGdlOWVveV92QTA2TU0tU2FqX29Fa0dzM3UxT01xYWlBZ1l5NC16a2ZaaklGNzJLaTBLTzRXX0N4YlNXbC0ya3RBRkxNWHBCNjdTUXhNelg4NDc2S1Z5X095SGV3VXhwZVJ6SVA1V0dvNFQw?oc=5) | hi |
 | 2026-11-14 | News & periodicals | CG SANDESH | [महादेव बेटिंग एप केस में CBI का बड़ा एक्शन, 6 राज्यों के 33 ठिकानों पर छापेमारी, हवाला नेटवर्क का खुलासा](https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEWFp1WGdXREVNX3FkMUprdVdhbEZxYXh5RVRjYVVxWEpTX201S3ZZLTJIT3FXcFF3U2xHc21TOWh1Z1EtZE9iUHBLRWc5c1dHQlhJWDZwMDg?oc=5) | hi |
 | 2026-11-14 | News & periodicals | Lagatar.in | [महादेव बेटिंग एप केस : 6 राज्यों के 33 ठिकानों पर CBI का छापा](https://news.google.com/rss/articles/CBMie0FVX3lxTE5SQzI5Tk81VHUxNG5aWUk5ZHY2MTlmMUpZZUV2bGF2UFJwUDVWbU56MVRZTlBSUzBjcDNmQWxEZlJwMDNDNmJJMkc5U3EzT0hNYk9kQlVZLU9uc0RXTnFlVWxlRDJKMTZhbWRUTWlMWWk4Z0lvQ2N0SVQ4MA?oc=5) | hi |
-| 2026-11-14 | News & periodicals | NDTV India | [महादेव ऑनलाइन बेटिंग ऐप मामले में CBI की बड़ी कार्रवाई, 6 राज्यों में 33 ठिकानों पर छापेमारी](https://news.google.com/rss/articles/CBMiugFBVV95cUxOZzlEODFZN0tvTXY3bjRxa09NcTJGNnVyMlJ0U0oyLTBGazNPWE1CRHdWSm9pYVZTZ0VvOXV0NkNmcEVXaUlzUzJDOVVnRU12WEZ2clVrTFNZbkZvOGdGVUdPc1R4S3NvWks0TlVPQXFBNFlIN3g1SDh2aFlhaUpNcnN4OG5ranBKa21hTFJjV3MtdWdzR29wZG1xRnB0TVdXbk5IRzFTc09XeXp1ZUlCYUxIQlo3WHV5aGc?oc=5) | hi |
-| 2026-11-13 | News & periodicals | दैनिक भास्कर हिन्दी | [महादेव ऑनलाइन बेटिंग सौरभ चंद्राकर गिरफ्तार, विशेष अदालत ने 19 नवंबर तक ईडी हिरासत में भेजा](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbkZKa3VEVDQ2Z0E1V2NrQU1oR3dCVk1QWVlzTHFZLWZxRjNLYTJoWWMxN2VEZWI2ZmV2Ri1DSkRTaWZueWdsZG9Yc0NaaThtbVJqUHVLYWNnWmgxc2pDTXhOcm5JY2I5TEJvb0JsWHlDQUZqYUZPMnotcXBackI5U0QtaG1lUXNlRU9mNzdrVTBiWU5oTTdwZ0JpMmxsbW90eFc3dmM1NFJtczJGWnFzZVdqSFpFZGJ4cDhXdURoTXlqcEtibk5SRmp1bk9wYkJ6T2g4cFkwVTBzak0?oc=5) | hi |
-| 2026-11-13 | News & periodicals | ABP News | [महादेव बेटिंग ऐप केस: प्रमोटर सौरभ चंद्राकर पर कसा शिंकजा, कोर्ट ने 7 दिन की ED कस्टडी](https://news.google.com/rss/articles/CBMiwwFBVV95cUxONnViRU9wU0dvNG9IYkNHWDZjUGFKWFVyRE5lSEhMbXpYMVpocXBCWGhLbHpMamUyQ3g0ZHR2RkNLVk1MLS1LQzltOUl2dnppQWNUNHJzVXVaR183b01ETTYzLVhKTHVtb1dhZDdhV0Y5M28wbHhfNU5kUTZYOUxJX3VyYUlPd2N0WVpGUGdtdWh2cHJXZFlNY1FzdW5ObGlnbzQzQ3pHbEdJZ05YM1hTVE9WQWxWbEVqaHNINTVVUW9TSmvSAcgBQVVfeXFMT05ESENlVFZvbU5vUmZCYVlReEdHeVJrZ1QweXdnaXpNcGRfZllURFdIZ1A1WjRBUy12Q1FWZ1FTck5XWF9fdDB1OGNQclVNeXFJR0JJaXZxbkZ4TTktYWswbTMwZERQSTc5LXpaYVZUanpPZE94a1BQM3BSaHNIX1c5clNFMEtKbUlQSm9iVFo0OXdqVlV3MndRUDV0b2ptZ1pCOVpnN19oWTIzZUhCNVBkREdLV1RHSVZaTmRoeWJOUDktYUk3czY?oc=5) | hi |
-| 2026-11-13 | Podcasts | Stage Talks with Bellingcat | ["Testing the Official Story: Investigating a Killing in the Amazon" with Gisela Pérez de Acha](https://podcasts.apple.com/us/podcast/testing-the-official-story-investigating-a-killing/id1842893341?i=1000801743071&uo=4) |  |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 10 | 5 |  |
-| GDELT | ✅ working | 0 | 0 |  |
+| Google News | ✅ working | 2 | 2 |  |
+| GDELT | ✅ working | 2 | 2 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7420 | 3 | 667 read by RSS feed, 174 by news sitemap, 399 by Google News site search only, of 1240 outlets; 7417 full articles read; 4799 left for next run |
+| Outlet list | ✅ working | 7376 | 3 | 669 read by RSS feed, 175 by news sitemap, 396 by Google News site search only, of 1240 outlets; 7373 full articles read; 6832 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 1090 | 0 |  |
+| Telegram | ✅ working | 678 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
