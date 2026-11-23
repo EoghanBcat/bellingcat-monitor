@@ -1,10 +1,10 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-23 11:37:43 UTC. Runs automatically every two days._
+_Last updated 2026-11-23 11:58:18 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 5 mentions · **Last 7 days:** 50 · **All time:** 76 · **New this run:** 4
+**Last 2 days:** 5 mentions · **Last 7 days:** 50 · **All time:** 76 · **New this run:** 0
 
 **Last 7 days by type:** News & periodicals 47, Social media 3
 
@@ -80,12 +80,12 @@ _Last updated 2026-11-23 11:37:43 UTC. Runs automatically every two days._
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
 | Google News | ✅ working | 2 | 2 |  |
-| GDELT | ✅ working | 2 | 2 |  |
+| GDELT | ⚠️ problem | 0 | 0 | GDELT busy or rate-limited after 5 tries (HTTP 429); will try again next run |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7376 | 3 | 669 read by RSS feed, 175 by news sitemap, 396 by Google News site search only, of 1240 outlets; 7373 full articles read; 6832 left for next run |
+| Outlet list | ✅ working | 6879 | 1 | 665 read by RSS feed, 173 by news sitemap, 402 by Google News site search only, of 1240 outlets; 6878 full articles read; 0 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 678 | 0 |  |
+| Telegram | ✅ working | 679 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
