@@ -11,7 +11,7 @@ from concurrent.futures import ProcessPoolExecutor
 from concurrent.futures.process import BrokenProcessPool
 from datetime import timedelta
 from itertools import zip_longest
-from urllib.parse import quote_plus, urljoin, urlparse
+from urllib.parse import parse_qs, quote_plus, urljoin, urlparse
 
 import feedparser
 from bs4 import BeautifulSoup
@@ -31,6 +31,7 @@ GDELT_LANGS = {
 }
 
 SEARCH_NOTE = "The search term appears in the article text (found by {name})."
+PLACEHOLDER_MARK = "appears in the article text"
 
 
 # Turning a web page into plain text uses lxml, a fast library written in C. Very rarely it
@@ -682,3 +683,98 @@ def fill_snippets(ctx, records: list[dict], limit: int = 80) -> None:
         ctx.parallel(work, todo, workers=10)
     for r in records:
         r.pop("_needs_snippet", None)
+
+
+# ------------------------------------------------------------------ Bing News and Google Alerts
+#
+# Search engines are allowed to read the full text of most news sites, including paywalled
+# ones like the Wall Street Journal, so their results catch mentions buried in article bodies
+# on sites the monitor can't read itself.
+
+def _real_url(link: str) -> str:
+    """Unwrap Bing/Google redirect links to the article's own address."""
+    try:
+        q = parse_qs(urlparse(link).query)
+        for key in ("url", "q"):
+            if q.get(key) and q[key][0].startswith("http"):
+                return q[key][0]
+    except ValueError:
+        pass
+    return link
+
+
+DEFAULT_BING_QUERIES = [
+    ["Bellingcat", "en-US"], ["Bellingcat", "en-GB"], ["Bellingcat", "nl-NL"], ["Bellingcat", "de-DE"],
+    ["Bellingcat", "fr-FR"], ["Bellingcat", "es-ES"], ["Bellingcat", "it-IT"], ["Bellingcat", "pt-BR"],
+    ["Bellingcat", "pl-PL"], ["Bellingcat", "tr-TR"], ["Bellingcat", "en-IN"], ["Беллингкэт", "ru-RU"],
+    ["Беллінгкет", "uk-UA"], ["بيلينغكات", "ar-XA"], ["ベリングキャット", "ja-JP"],
+]
+
+
+def bing_news(ctx) -> list[dict]:
+    queries = ctx.settings.get("bing_news_queries") or DEFAULT_BING_QUERIES
+    results, checked, errors, seen_links = [], 0, [], set()
+    for term, market in queries:
+        params = {"q": f'"{term}"', "format": "rss", "mkt": market, "count": 100,
+                  "qft": 'interval="8"'}  # past week
+        try:
+            r = ctx.get("https://www.bing.com/news/search", params=params, timeout=25)
+            r.raise_for_status()
+            feed = feedparser.parse(r.content)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{term}/{market}: {e}")
+            continue
+        for e in feed.entries:
+            checked += 1
+            url = _real_url(e.get("link", ""))
+            if not url or url in seen_links:
+                continue
+            seen_links.add(url)
+            published = parse_date(e.get("published"))
+            if too_old(published, ctx.max_age_days):
+                continue
+            title, summary = strip_html(e.get("title", "")), strip_html(e.get("summary", ""))
+            m = ctx.keywords.match(title, summary) or {
+                "term": term, "category": "main", "snippet": SEARCH_NOTE.format(name="Bing News")}
+            source = (e.get("news_source") or e.get("source", {}).get("title") or domain_of(url))
+            results.append(mention(url=url, title=title, snippet=m["snippet"], source=source,
+                                   channel=CHANNEL_NEWS, platform="Web", language=market.split("-")[0],
+                                   published=published, match=m, via="Bing News"))
+            results[-1]["_needs_snippet"] = PLACEHOLDER_MARK in m["snippet"]
+    ctx.record("bing_news", ok=len(errors) < len(queries), checked=checked,
+               found=len(results), message="; ".join(errors)[:280])
+    return results
+
+
+def google_alerts(ctx) -> list[dict]:
+    feeds = [f for f in (ctx.settings.get("google_alerts_feeds") or []) if f and str(f).startswith("http")]
+    if not feeds:
+        ctx.health["google_alerts"] = {"status": "off", "checked": 0, "found": 0, "time": None,
+                                       "message": "No Google Alerts feed added yet (optional, see settings.yml)"}
+        return []
+    results, checked, errors = [], 0, []
+    for feed_url in feeds:
+        try:
+            r = ctx.get(feed_url, timeout=25)
+            r.raise_for_status()
+            feed = feedparser.parse(r.content)
+        except Exception as e:  # noqa: BLE001
+            errors.append(str(e))
+            continue
+        for e in feed.entries:
+            checked += 1
+            url = _real_url(e.get("link", ""))
+            published = parse_date(e.get("published") or e.get("updated"))
+            if not url or too_old(published, ctx.max_age_days):
+                continue
+            title = strip_html(e.get("title", ""))
+            body = " ".join(strip_html(c.get("value", "")) for c in e.get("content", []) or [])
+            summary = body or strip_html(e.get("summary", ""))
+            m = ctx.keywords.match(title, summary) or {
+                "term": "Bellingcat", "category": "main", "snippet": SEARCH_NOTE.format(name="Google Alerts")}
+            results.append(mention(url=url, title=title, snippet=m["snippet"], source=domain_of(url),
+                                   channel=CHANNEL_NEWS, platform="Web", language="",
+                                   published=published, match=m, via="Google Alerts"))
+    ctx.record("google_alerts", ok=len(errors) < len(feeds), checked=checked,
+               found=len(results), message="; ".join(errors)[:280])
+    return results

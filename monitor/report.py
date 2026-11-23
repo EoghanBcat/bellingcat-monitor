@@ -14,7 +14,8 @@ CSV_FIELDS = ["published", "found", "channel", "platform", "source", "domain", "
               "country", "outlet_type", "author", "title", "url", "term", "category", "snippet", "via"]
 
 SOURCE_LABELS = {
-    "google_news": "Google News", "gdelt": "GDELT", "guardian_api": "Guardian API",
+    "google_news": "Google News", "gdelt": "GDELT", "bing_news": "Bing News",
+    "google_alerts": "Google Alerts", "guardian_api": "Guardian API",
     "outlets": "Outlet list", "bluesky": "Bluesky", "mastodon": "Mastodon",
     "telegram": "Telegram", "hacker_news": "Hacker News", "podcasts": "Podcasts (Apple)",
     "youtube": "YouTube",

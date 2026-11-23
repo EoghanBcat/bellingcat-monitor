@@ -20,6 +20,8 @@ from .report import write_outputs
 COLLECTORS = [
     ("google_news", news.google_news),
     ("gdelt", news.gdelt),
+    ("bing_news", news.bing_news),
+    ("google_alerts", news.google_alerts),
     ("guardian_api", news.guardian_api),
     ("outlets", news.outlets),
     ("bluesky", social.bluesky),
