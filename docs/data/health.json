@@ -1,36 +1,36 @@
 {
- "last_run": "2026-11-23T23:29:29Z",
- "duration_seconds": 517,
- "added_last_run": 22,
- "total": 98,
+ "last_run": "2026-11-24T10:18:24Z",
+ "duration_seconds": 643,
+ "added_last_run": 14,
+ "total": 112,
  "sources": {
   "Google News": {
    "status": "ok",
    "checked": 2,
    "found": 2,
    "message": "",
-   "time": "2026-11-23T23:20:53Z"
+   "time": "2026-11-24T10:07:42Z"
   },
   "GDELT": {
    "status": "error",
    "checked": 0,
    "found": 0,
    "message": "GDELT busy or rate-limited after 5 tries (HTTP 429); will try again next run",
-   "time": "2026-11-23T23:26:50Z"
+   "time": "2026-11-24T10:13:43Z"
   },
   "Bing News": {
    "status": "ok",
    "checked": 98,
    "found": 22,
    "message": "",
-   "time": "2026-11-23T23:26:53Z"
+   "time": "2026-11-24T10:13:46Z"
   },
   "Google Alerts": {
    "status": "ok",
    "checked": 5,
    "found": 5,
    "message": "",
-   "time": "2026-11-23T23:26:53Z"
+   "time": "2026-11-24T10:13:46Z"
   },
   "Guardian API": {
    "status": "off",
@@ -41,45 +41,45 @@
   },
   "Outlet list": {
    "status": "ok",
-   "checked": 550,
-   "found": 4,
-   "message": "670 read by RSS feed, 178 by news sitemap, 392 by Google News site search only, of 1240 outlets; 546 full articles read; 0 left for next run",
-   "time": "2026-11-23T23:29:16Z"
+   "checked": 7430,
+   "found": 7,
+   "message": "667 read by RSS feed, 179 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7423 full articles read; 609 left for next run",
+   "time": "2026-11-24T10:18:13Z"
   },
   "Bluesky": {
    "status": "error",
    "checked": 0,
    "found": 0,
    "message": "Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide).",
-   "time": "2026-11-23T23:29:16Z"
+   "time": "2026-11-24T10:18:13Z"
   },
   "Mastodon": {
    "status": "ok",
    "checked": 85,
    "found": 3,
    "message": "",
-   "time": "2026-11-23T23:29:19Z"
+   "time": "2026-11-24T10:18:15Z"
   },
   "Telegram": {
    "status": "ok",
-   "checked": 699,
+   "checked": 765,
    "found": 0,
    "message": "",
-   "time": "2026-11-23T23:29:25Z"
+   "time": "2026-11-24T10:18:21Z"
   },
   "Hacker News": {
    "status": "ok",
    "checked": 0,
    "found": 0,
    "message": "",
-   "time": "2026-11-23T23:29:25Z"
+   "time": "2026-11-24T10:18:22Z"
   },
   "Podcasts (Apple)": {
    "status": "ok",
    "checked": 100,
    "found": 1,
    "message": "Searches episode titles and descriptions (not the audio itself)",
-   "time": "2026-11-23T23:29:26Z"
+   "time": "2026-11-24T10:18:22Z"
   },
   "YouTube": {
    "status": "off",
@@ -2661,6 +2661,16 @@
    "message": "Can't read this site directly (no RSS feed or news sitemap found (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
   },
   {
+   "name": "Sanchar Kendra",
+   "website": "https://sancharkendra.com/",
+   "feed": "",
+   "source": "",
+   "status": "partial",
+   "items": 0,
+   "mentions": 0,
+   "message": "Can't read this site directly (https://sancharkendra.com/feed: HTTPSConnectionPool(host='sancharkendra.com', port=443): Max retries exceeded with url: /feed (Caused by ResponseError). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
+  },
+  {
    "name": "Sarasota Herald-Tribune",
    "website": "https://www.heraldtribune.com/",
    "feed": "",
@@ -2901,16 +2911,6 @@
    "message": "Can't read this site directly (homepage unreachable (ConnectionError) (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
   },
   {
-   "name": "TVN24",
-   "website": "https://tvn24.pl",
-   "feed": "",
-   "source": "",
-   "status": "partial",
-   "items": 0,
-   "mentions": 0,
-   "message": "Can't read this site directly (https://tvn24.pl/najnowsze.xml: HTTP 403; site blocks automated readers (HTTP 403) (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
-  },
-  {
    "name": "Tallahassee Democrat",
    "website": "https://www.tallahassee.com/",
    "feed": "",
@@ -2929,6 +2929,16 @@
    "items": 0,
    "mentions": 0,
    "message": "Can't read this site directly (homepage answered HTTP 402; no RSS feed or news sitemap found (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
+  },
+  {
+   "name": "Texas Monthly",
+   "website": "https://www.texasmonthly.com/",
+   "feed": "",
+   "source": "",
+   "status": "partial",
+   "items": 0,
+   "mentions": 0,
+   "message": "Can't read this site directly (https://www.texasmonthly.com/feed/: HTTP 403; site blocks automated readers (HTTP 403) (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
   },
   {
    "name": "Texas Observer",
@@ -3129,6 +3139,16 @@
    "items": 0,
    "mentions": 0,
    "message": "Can't read this site directly (homepage answered HTTP 402; no RSS feed or news sitemap found (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
+  },
+  {
+   "name": "The Hawk Eye",
+   "website": "https://www.thehawkeye.com/",
+   "feed": "",
+   "source": "",
+   "status": "partial",
+   "items": 0,
+   "mentions": 0,
+   "message": "Can't read this site directly (http://www.mississippivalleypublishing.com/search/?f=rss&t=article&c=the_hawk_eye&l=50&s=start_time&sd=desc: HTTPSConnectionPool(host='www.mississippi). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
   },
   {
    "name": "The Herald",
@@ -3807,7 +3827,7 @@
    "source": "",
    "status": "partial",
    "items": 0,
-   "mentions": 0,
+   "mentions": 1,
    "message": "Can't read this site directly (homepage unreachable (ConnectionError) (checked again weekly)). Covered by Google News headline search of the site, plus GDELT and the general Google News search."
   },
   {
@@ -4036,7 +4056,7 @@
    "feed": "https://www.11alive.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -4046,7 +4066,7 @@
    "feed": "https://www.12newsnow.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -4056,7 +4076,7 @@
    "feed": "https://www.13wmaz.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -4086,7 +4106,7 @@
    "feed": "https://www.1news.co.nz/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -4096,7 +4116,7 @@
    "feed": "https://www.20minutes.fr/feeds/rss-une.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -4116,7 +4136,7 @@
    "feed": "https://www.41nbc.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4126,9 +4146,9 @@
    "feed": "https://www.wowt.com/arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
-   "message": "Found RSS feed automatically"
+   "message": ""
   },
   {
    "name": "6abc",
@@ -4136,7 +4156,7 @@
    "feed": "https://6abc.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -4156,7 +4176,7 @@
    "feed": "https://www.9news.com/feeds/syndication/rss/news/local",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -4166,7 +4186,7 @@
    "feed": "https://9to5mac.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -4176,7 +4196,7 @@
    "feed": "https://www.abc.es/rss/2.0/portada/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -4186,7 +4206,7 @@
    "feed": "https://abc3340.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -4226,7 +4246,7 @@
    "feed": "https://abc7.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -4236,7 +4256,7 @@
    "feed": "https://abc7news.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -4246,7 +4266,7 @@
    "feed": "https://www.ansa.it/sito/ansait_rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -4266,7 +4286,7 @@
    "feed": "https://abovethelaw.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -4276,7 +4296,7 @@
    "feed": "https://www.adnkronos.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -4286,7 +4306,7 @@
    "feed": "https://www.aerotime.aero/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4296,7 +4316,7 @@
    "feed": "https://www.aftenposten.no/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -4306,7 +4326,7 @@
    "feed": "https://aftermath.site/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4356,7 +4376,7 @@
    "feed": "https://www.aljazeera.net/aljazeerarss/a7c186be-1baa-4bd4-9d80-a84db769f779/73d0e1b4-532f-45ef-b135-bfdff8b8cab9",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 25,
    "mentions": 0,
    "message": ""
   },
@@ -4366,7 +4386,7 @@
    "feed": "https://www.aljazeera.com/xml/rss/all.xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 25,
    "mentions": 0,
    "message": ""
   },
@@ -4376,7 +4396,7 @@
    "feed": "https://www.al.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 33,
    "mentions": 0,
    "message": ""
   },
@@ -4386,7 +4406,7 @@
    "feed": "https://www.apr.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -4396,7 +4416,7 @@
    "feed": "https://www.alreporter.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4416,7 +4436,7 @@
    "feed": "https://alaskapublic.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -4426,7 +4446,7 @@
    "feed": "https://www.alaskasnewssource.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -4436,7 +4456,7 @@
    "feed": "https://www.alligator.org/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4446,7 +4466,7 @@
    "feed": "https://www.alternet.org/feeds/feed.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -4456,7 +4476,7 @@
    "feed": "https://www.amarujala.com/rss/editors-pick.xml",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -4466,7 +4486,7 @@
    "feed": "https://prospect.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4476,7 +4496,7 @@
    "feed": "https://www.adn.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 7,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -4506,7 +4526,7 @@
    "feed": "https://www.annapurnapost.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -4526,7 +4546,7 @@
    "feed": "https://editorial.aristeguinoticias.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -4546,7 +4566,7 @@
    "feed": "https://tucson.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -4556,7 +4576,7 @@
    "feed": "https://azdailysun.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4566,7 +4586,7 @@
    "feed": "https://www.arkansasonline.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 40,
    "mentions": 0,
    "message": ""
   },
@@ -4586,7 +4606,7 @@
    "feed": "https://arktimes.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4606,7 +4626,7 @@
    "feed": "https://arthasarokar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -4616,7 +4636,7 @@
    "feed": "https://www.asahi.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -4626,7 +4646,7 @@
    "feed": "https://aawsat.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 56,
    "mentions": 0,
    "message": ""
   },
@@ -4646,7 +4666,7 @@
    "feed": "https://ashland.news/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -4666,7 +4686,7 @@
    "feed": "https://www.aspenpublicradio.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -4676,7 +4696,7 @@
    "feed": "https://www.aspentimes.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4686,7 +4706,7 @@
    "feed": "https://feeds.ajc.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -4736,7 +4756,7 @@
    "feed": "https://www.bbc.com/news/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 26,
    "mentions": 0,
    "message": ""
   },
@@ -4746,7 +4766,7 @@
    "feed": "https://feeds.bbci.co.uk/arabic/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -4756,7 +4776,7 @@
    "feed": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -4766,7 +4786,7 @@
    "feed": "https://feeds.bbci.co.uk/mundo/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -4776,7 +4796,7 @@
    "feed": "https://feeds.bbci.co.uk/news/world/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -4786,7 +4806,7 @@
    "feed": "https://feeds.bbci.co.uk/portuguese/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -4796,7 +4816,7 @@
    "feed": "https://feeds.bbci.co.uk/persian/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -4806,7 +4826,7 @@
    "feed": "https://feeds.bbci.co.uk/russian/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -4816,7 +4836,7 @@
    "feed": "https://feeds.bbci.co.uk/turkce/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -4826,7 +4846,7 @@
    "feed": "https://feeds.bbci.co.uk/ukrainian/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4836,7 +4856,7 @@
    "feed": "https://www.bfmtv.com/rss/news-24-7/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -4846,7 +4866,7 @@
    "feed": "https://baahrakhari.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -4883,10 +4903,10 @@
   {
    "name": "Bakersfield Californian",
    "website": "https://www.bakersfield.com/",
-   "feed": "https://www.bakersfield.com/rss/news",
+   "feed": "https://www.bakersfield.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 7,
    "mentions": 0,
    "message": "Found RSS feed automatically"
   },
@@ -4896,7 +4916,7 @@
    "feed": "https://balkaninsight.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -4906,7 +4926,7 @@
    "feed": "https://www.thebaltimorebanner.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -4956,7 +4976,7 @@
    "feed": "https://www.bangordailynews.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -4976,7 +4996,7 @@
    "feed": "https://www.newsletter.co.uk/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -4996,7 +5016,7 @@
    "feed": "https://www.bt.no/rss?characteristicsHotness=50..100",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -5016,7 +5036,7 @@
    "feed": "http://www.bild.de/rss-feeds/rss-16725492,feed=home.bild.html",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 80,
    "mentions": 0,
    "message": ""
   },
@@ -5026,7 +5046,7 @@
    "feed": "https://billingsgazette.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -5076,7 +5096,7 @@
    "feed": "https://www.theblaze.com/feeds/feed.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -5086,7 +5106,7 @@
    "feed": "https://feeds.bleacherreport.com/articles",
    "source": "feed",
    "status": "ok",
-   "items": 5,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -5106,7 +5126,7 @@
    "feed": "https://boingboing.net/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -5116,7 +5136,7 @@
    "feed": "https://www.bonappetit.com/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5146,7 +5166,7 @@
    "feed": "https://www.bostonglobe.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -5196,7 +5216,7 @@
    "feed": "https://feeds.feedburner.com/breitbart",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 25,
    "mentions": 0,
    "message": ""
   },
@@ -5216,7 +5236,7 @@
    "feed": "https://www.buckscountyherald.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 42,
    "mentions": 0,
    "message": ""
   },
@@ -5226,7 +5246,7 @@
    "feed": "https://buffalonews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -5236,7 +5256,7 @@
    "feed": "https://www.thebulwark.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -5256,7 +5276,7 @@
    "feed": "https://www.buzzfeed.com/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 42,
    "mentions": 0,
    "message": ""
   },
@@ -5266,7 +5286,7 @@
    "feed": "https://www.cbc.ca/webfeed/rss/rss-topstories",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -5276,7 +5296,7 @@
    "feed": "https://www.cbsnews.com/latest/rss/main",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -5296,7 +5316,7 @@
    "feed": "https://www.cbs46.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -5306,7 +5326,7 @@
    "feed": "https://www.cbs7.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -5326,7 +5346,7 @@
    "feed": "https://www.cnet.com/rss/all/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -5336,7 +5356,7 @@
    "feed": "https://www.cnn.com/sitemap/news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 3,
+   "items": 28,
    "mentions": 0,
    "message": ""
   },
@@ -5346,7 +5366,7 @@
    "feed": "https://www.cnnbrasil.com.br/feed",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 58,
    "mentions": 0,
    "message": ""
   },
@@ -5376,7 +5396,7 @@
    "feed": "https://www.ctvnews.ca/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 60,
    "mentions": 0,
    "message": ""
   },
@@ -5386,7 +5406,7 @@
    "feed": "https://cadenaser.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 94,
    "mentions": 0,
    "message": ""
   },
@@ -5396,7 +5416,7 @@
    "feed": "https://calgaryherald.com/feed/atom",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5426,7 +5446,7 @@
    "feed": "http://www.capradio.org/sitemap",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -5496,7 +5516,7 @@
    "feed": "https://trib.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 3,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -5506,7 +5526,7 @@
    "feed": "https://www.thegazette.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 3,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -5526,7 +5546,7 @@
    "feed": "https://www.centraloregondaily.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 9,
+   "items": 40,
    "mentions": 0,
    "message": ""
   },
@@ -5546,7 +5566,7 @@
    "feed": "https://www.chalkbeat.org/arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5556,7 +5576,7 @@
    "feed": "https://www.wvgazettemail.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -5566,7 +5586,7 @@
    "feed": "https://charliehebdo.fr/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5596,7 +5616,7 @@
    "feed": "https://www.chess.com/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5636,7 +5656,7 @@
    "feed": "https://chicago.suntimes.com/rss/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -5656,7 +5676,7 @@
    "feed": "https://www.chinatimes.com/sitemaps/sitemap_todaynews.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 5,
+   "items": 400,
    "mentions": 0,
    "message": ""
   },
@@ -5676,7 +5696,7 @@
    "feed": "https://www.chunichi.co.jp/sitemap_news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 105,
    "mentions": 0,
    "message": ""
   },
@@ -5696,7 +5716,7 @@
    "feed": "https://www.cityandstateny.com/rss/all/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5736,7 +5756,7 @@
    "feed": "https://civil.ge/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -5756,7 +5776,7 @@
    "feed": "https://www.clarin.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -5786,7 +5806,7 @@
    "feed": "https://gazette.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -5796,7 +5816,7 @@
    "feed": "https://coloradosun.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -5816,7 +5836,7 @@
    "feed": "https://www.columbiamissourian.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -5826,7 +5846,7 @@
    "feed": "https://www.commondreams.org/feeds/feed.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5836,7 +5856,7 @@
    "feed": "https://ctmirror.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -5876,7 +5896,7 @@
    "feed": "https://xml2.corriereobjects.it/feed-hp/homepage-restyle-2025.xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 65,
    "mentions": 0,
    "message": ""
   },
@@ -5886,7 +5906,7 @@
    "feed": "https://www.crikey.com.au/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -5896,7 +5916,7 @@
    "feed": "https://www.cronista.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 26,
    "mentions": 0,
    "message": ""
   },
@@ -5906,7 +5926,7 @@
    "feed": "https://www.cronica.com.ar/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -5936,7 +5956,7 @@
    "feed": "https://dcnepal.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -5946,7 +5966,7 @@
    "feed": "https://rss.dw.com/rdf/rss-ar-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -5956,7 +5976,7 @@
    "feed": "https://rss.dw.com/rdf/rss-br-all",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5966,7 +5986,7 @@
    "feed": "https://rss.dw.com/rdf/rss-chi-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -5976,7 +5996,7 @@
    "feed": "https://rss.dw.com/rdf/rss-en-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -5986,7 +6006,7 @@
    "feed": "https://rss.dw.com/rdf/rss-sp-all",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -5996,7 +6016,7 @@
    "feed": "https://rss.dw.com/rdf/rss-de-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6006,7 +6026,7 @@
    "feed": "https://rss.dw.com/rdf/rss-per-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -6016,7 +6036,7 @@
    "feed": "https://rss.dw.com/rdf/rss-ru-all",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -6026,7 +6046,7 @@
    "feed": "https://rss.dw.com/rdf/rss-tur-all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -6036,7 +6056,7 @@
    "feed": "https://www.dagbladet.no/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -6046,7 +6066,7 @@
    "feed": "https://services.dn.no/api/feed/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -6056,7 +6076,7 @@
    "feed": "https://www.thedailybeast.com/arc/outboundfeeds/rss/articles",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -6066,7 +6086,7 @@
    "feed": "https://api.dailycaller.com/?feed=full&key=abad8678eeda58de4efcc7e9a704d008",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6096,7 +6116,7 @@
    "feed": "https://www.dailyecho.co.uk/news/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 44,
    "mentions": 0,
    "message": ""
   },
@@ -6116,7 +6136,7 @@
    "feed": "https://www.heraldscotland.com/news/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -6126,7 +6146,7 @@
    "feed": "https://www.dailykos.com/blogs/main.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6136,7 +6156,7 @@
    "feed": "https://www.dailymail.com/home/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 83,
    "mentions": 0,
    "message": ""
   },
@@ -6146,7 +6166,7 @@
    "feed": "https://www.dailymaverick.co.za/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -6156,7 +6176,7 @@
    "feed": "https://www.mirror.co.uk/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 25,
    "mentions": 0,
    "message": ""
   },
@@ -6166,7 +6186,7 @@
    "feed": "https://www.dailynebraskan.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -6176,7 +6196,7 @@
    "feed": "https://www.nydailynews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -6186,7 +6206,7 @@
    "feed": "https://www.thedp.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -6196,7 +6216,7 @@
    "feed": "https://www.dailyrecord.co.uk/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -6206,7 +6226,7 @@
    "feed": "https://www.snl24.com/arc/outboundfeeds/sitemap-news-index/?outputType=xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -6216,7 +6236,7 @@
    "feed": "https://dailytarheel.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -6226,7 +6246,7 @@
    "feed": "https://www.dailywire.com/feeds/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -6246,7 +6266,7 @@
    "feed": "https://www.bhaskar.com/rss-v1--category-1944.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -6256,7 +6276,7 @@
    "feed": "https://www.jagran.com/all-news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 391,
    "mentions": 0,
    "message": ""
   },
@@ -6296,7 +6316,7 @@
    "feed": "https://deadline.com/feed/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -6336,7 +6356,7 @@
    "feed": "https://www.delawarepublic.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -6386,7 +6406,7 @@
    "feed": "https://www.denver7.com/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6396,7 +6416,7 @@
    "feed": "https://www.spiegel.de/schlagzeilen/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 29,
    "mentions": 0,
    "message": ""
   },
@@ -6406,7 +6426,7 @@
    "feed": "https://www.derstandard.at/rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 58,
    "mentions": 0,
    "message": ""
   },
@@ -6416,7 +6436,7 @@
    "feed": "https://www.deseret.com/rss/latest.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -6436,7 +6456,7 @@
    "feed": "https://deshsanchar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -6446,7 +6466,7 @@
    "feed": "https://detector.media/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -6486,7 +6506,7 @@
    "feed": "https://newsfeed.zeit.de/index",
    "source": "feed",
    "status": "ok",
-   "items": 9,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -6506,7 +6526,7 @@
    "feed": "https://thedispatch.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -6556,7 +6576,7 @@
    "feed": "https://www.telegraphherald.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 37,
    "mentions": 0,
    "message": ""
   },
@@ -6566,7 +6586,7 @@
    "feed": "https://www.eonline.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -6616,7 +6636,7 @@
    "feed": "https://www.leadertelegram.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -6626,7 +6646,7 @@
    "feed": "https://www.elcorreo.com/rss/2.0/?section=",
    "source": "feed",
    "status": "ok",
-   "items": 46,
+   "items": 62,
    "mentions": 0,
    "message": ""
   },
@@ -6636,7 +6656,7 @@
    "feed": "https://www.elmundo.es/rss/googlenews/portada.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 26,
    "mentions": 0,
    "message": ""
   },
@@ -6646,7 +6666,7 @@
    "feed": "https://elpasomatters.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -6656,7 +6676,7 @@
    "feed": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 86,
    "mentions": 0,
    "message": ""
   },
@@ -6666,7 +6686,7 @@
    "feed": "https://www.elperiodico.com/es/cds/rss/?id=board.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 62,
    "mentions": 0,
    "message": ""
   },
@@ -6686,7 +6706,7 @@
    "feed": "https://www.eluniversal.com.mx/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 46,
    "mentions": 0,
    "message": ""
   },
@@ -6696,7 +6716,7 @@
    "feed": "https://www.engadget.com/category/news/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -6706,7 +6726,7 @@
    "feed": "https://www.theepochtimes.com/sitemap/sitemap-news.xml.gz",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 40,
    "mentions": 0,
    "message": ""
   },
@@ -6716,7 +6736,7 @@
    "feed": "https://www.em.com.br/feed",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -6736,7 +6756,7 @@
    "feed": "https://euromaidanpress.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6746,7 +6766,7 @@
    "feed": "https://www.euronews.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 26,
    "mentions": 0,
    "message": ""
   },
@@ -6756,7 +6776,7 @@
    "feed": "https://evanstonroundtable.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -6766,7 +6786,7 @@
    "feed": "https://www.standard.co.uk/rss",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 41,
    "mentions": 0,
    "message": ""
   },
@@ -6786,7 +6806,7 @@
    "feed": "https://www.excelsior.com.mx/rss",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 35,
    "mentions": 0,
    "message": ""
   },
@@ -6816,7 +6836,7 @@
    "feed": "https://www.foxla.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6826,7 +6846,7 @@
    "feed": "https://www.fox29.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -6836,7 +6856,7 @@
    "feed": "https://www.newsminer.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -6876,7 +6896,7 @@
    "feed": "https://financialpost.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -6886,7 +6906,7 @@
    "feed": "https://www.elfinanciero.com.mx/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -6936,7 +6956,7 @@
    "feed": "https://floridapolitics.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -6946,7 +6966,7 @@
    "feed": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
    "source": "feed",
    "status": "ok",
-   "items": 5,
+   "items": 74,
    "mentions": 0,
    "message": ""
   },
@@ -6966,7 +6986,7 @@
    "feed": "https://fortworthreport.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -6976,7 +6996,7 @@
    "feed": "https://diariodonordeste.verdesmares.com.br/cmlink/feed-1.3009099",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -6986,7 +7006,7 @@
    "feed": "https://fortune.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -6996,7 +7016,7 @@
    "feed": "https://www.kptv.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -7016,7 +7036,7 @@
    "feed": "https://www.fox5atlanta.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -7036,7 +7056,7 @@
    "feed": "https://moxie.foxnews.com/google-publisher/latest.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -7056,7 +7076,7 @@
    "feed": "https://api.foxsports.com/v2/content/optimized-rss?partnerKey=MB0Wehpmuj2lUhuRhQaafhBjAJqaPU244mlTDK1i&size=30",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -7066,7 +7086,7 @@
    "feed": "https://www.france24.com/fr/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7076,7 +7096,7 @@
    "feed": "https://www.france24.com/ar/rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -7086,7 +7106,7 @@
    "feed": "https://www.france24.com/en/rss",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7096,7 +7116,7 @@
    "feed": "https://www.france24.com/es/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -7106,7 +7126,7 @@
    "feed": "https://www.state-journal.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7126,7 +7146,7 @@
    "feed": "https://www.thefp.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7166,7 +7186,7 @@
    "feed": "https://www.galvnews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -7176,7 +7196,7 @@
    "feed": "https://www.thegatewaypundit.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -7186,7 +7206,7 @@
    "feed": "https://www.gazetadopovo.com.br/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 32,
    "mentions": 0,
    "message": ""
   },
@@ -7196,7 +7216,7 @@
    "feed": "https://www.gazeta.ru/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 5,
+   "items": 119,
    "mentions": 0,
    "message": ""
   },
@@ -7226,7 +7246,7 @@
    "feed": "https://globalnews.ca/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7236,7 +7256,7 @@
    "feed": "https://globalvoices.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -7246,7 +7266,7 @@
    "feed": "https://gorkhapatraonline.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7276,7 +7296,7 @@
    "feed": "https://www.grandforksherald.com/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -7286,7 +7306,7 @@
    "feed": "https://thegrio.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -7296,7 +7316,7 @@
    "feed": "https://grist.org/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -7306,7 +7326,7 @@
    "feed": "https://www.gwinnettdailypost.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -7316,7 +7336,7 @@
    "feed": "https://www.haaretz.co.il/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 27,
    "mentions": 0,
    "message": ""
   },
@@ -7366,7 +7386,7 @@
    "feed": "https://www.hawaiipublicradio.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -7376,7 +7396,7 @@
    "feed": "https://www.hawaiitribune-herald.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 21,
    "mentions": 0,
    "message": ""
   },
@@ -7406,7 +7426,7 @@
    "feed": "https://www.hcn.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7416,7 +7436,7 @@
    "feed": "https://api.livehindustan.com/feeds/rss/weather/rssfeed.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -7426,7 +7446,7 @@
    "feed": "https://www.hollywoodreporter.com/feed/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -7436,7 +7456,7 @@
    "feed": "https://www.civilbeat.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7446,7 +7466,7 @@
    "feed": "https://hotair.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -7466,7 +7486,7 @@
    "feed": "https://hromadske.ua/sitemap/news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -7476,7 +7496,7 @@
    "feed": "https://www.huffpost.com/static-assets/isolated/huffpostsitemapgeneratorjob-prod-public/us/sitemaps/sitemap-google-news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7506,7 +7526,7 @@
    "feed": "https://isolezwelesixhosa.co.za/atom/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -7536,7 +7556,7 @@
    "feed": "https://www.ilpost.it/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -7546,7 +7566,7 @@
    "feed": "https://ilanganews.co.za/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7556,7 +7576,7 @@
    "feed": "https://www.imagekhabar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -7576,7 +7596,7 @@
    "feed": "https://iol.co.za/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -7586,7 +7606,7 @@
    "feed": "https://www.indiatoday.in/rss/home",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 76,
    "mentions": 0,
    "message": ""
   },
@@ -7596,7 +7616,7 @@
    "feed": "https://ictnews.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7616,7 +7636,7 @@
    "feed": "https://www.infobae.com/arc/outboundfeeds/rss/category/estados-unidos/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -7666,7 +7686,7 @@
    "feed": "https://www.iowapublicradio.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -7676,7 +7696,7 @@
    "feed": "https://www.iranintl.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 21,
    "mentions": 0,
    "message": ""
   },
@@ -7696,7 +7716,7 @@
    "feed": "https://www.irishexaminer.com/feed/35-top_news.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -7706,7 +7726,7 @@
    "feed": "https://www.irishtimes.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 87,
    "mentions": 0,
    "message": ""
   },
@@ -7726,7 +7746,7 @@
    "feed": "https://www.jhnewsandguide.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -7756,7 +7776,7 @@
    "feed": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -7776,7 +7796,7 @@
    "feed": "https://www.jiji.com/rss/ranking.rdf",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -7796,7 +7816,7 @@
    "feed": "https://www.joplinglobe.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7806,7 +7826,7 @@
    "feed": "https://atarde.com.br/rss",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -7816,7 +7836,7 @@
    "feed": "https://www.jb.com.br/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -7826,7 +7846,7 @@
    "feed": "https://www.thejournal.ie/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -7846,7 +7866,7 @@
    "feed": "https://justthenews.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -7856,7 +7876,7 @@
    "feed": "https://www.kake.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -7866,7 +7886,7 @@
    "feed": "https://katv.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -7876,7 +7896,7 @@
    "feed": "https://www.kcci.com/sitemap_google_news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -7886,7 +7906,7 @@
    "feed": "https://www.kcrg.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -7896,7 +7916,7 @@
    "feed": "http://www.kcur.org/feeds/all.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7906,7 +7926,7 @@
    "feed": "https://www.ketv.com/sitemap_google_news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 3,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -7916,7 +7936,7 @@
    "feed": "https://kffhealthnews.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -7926,7 +7946,7 @@
    "feed": "https://www.kgou.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -7936,7 +7956,7 @@
    "feed": "https://www.khou.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -7946,7 +7966,7 @@
    "feed": "https://www.king5.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -7956,7 +7976,7 @@
    "feed": "https://www.kitv.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -7966,7 +7986,7 @@
    "feed": "https://www.3newsnow.com/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -7976,7 +7996,7 @@
    "feed": "https://www.komu.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -7986,7 +8006,7 @@
    "feed": "https://www.kpbs.org/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -7996,7 +8016,7 @@
    "feed": "https://laist.com/index.atom",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -8006,7 +8026,7 @@
    "feed": "https://www.kpcw.org/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8016,7 +8036,7 @@
    "feed": "https://ww2.kqed.org/news/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8026,7 +8046,7 @@
    "feed": "https://news3lv.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -8036,7 +8056,7 @@
    "feed": "https://www.ktoo.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -8046,7 +8066,7 @@
    "feed": "https://www.ualrpublicradio.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -8066,7 +8086,7 @@
    "feed": "https://kvia.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -8076,7 +8096,7 @@
    "feed": "https://www.kvue.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -8096,7 +8116,7 @@
    "feed": "https://www.karobardaily.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 23,
    "mentions": 0,
    "message": ""
   },
@@ -8106,7 +8126,7 @@
    "feed": "https://dailytimes.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8126,7 +8146,7 @@
    "feed": "https://www.kommersant.ru/RSS/main.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8136,7 +8156,7 @@
    "feed": "https://api.krone.at/v1/rss/rssfeed-google.xml?id=2311992",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 105,
    "mentions": 0,
    "message": ""
   },
@@ -8146,7 +8166,7 @@
    "feed": "https://kyivindependent.com/news-archive/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -8156,7 +8176,7 @@
    "feed": "https://www.kyivpost.com/uk/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -8186,7 +8206,7 @@
    "feed": "https://www.lex18.com/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8206,7 +8226,7 @@
    "feed": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 61,
    "mentions": 0,
    "message": ""
   },
@@ -8216,7 +8236,7 @@
    "feed": "https://www.lne.es/rss",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -8226,7 +8246,7 @@
    "feed": "https://www.laopinioncoruna.es/rss",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -8236,7 +8256,7 @@
    "feed": "https://www.laprensa.com.ar/sitemap.aspx",
    "source": "sitemap",
    "status": "ok",
-   "items": 5,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8246,7 +8266,7 @@
    "feed": "https://www.lapresse.ca/newsSitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 38,
    "mentions": 0,
    "message": ""
   },
@@ -8256,7 +8276,7 @@
    "feed": "https://www.larazon.es/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 143,
    "mentions": 0,
    "message": ""
   },
@@ -8266,7 +8286,7 @@
    "feed": "https://www.lastampa.it/rss/copertina.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 44,
    "mentions": 0,
    "message": ""
   },
@@ -8276,7 +8296,7 @@
    "feed": "https://www.lavanguardia.com/rss/home.xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 104,
    "mentions": 0,
    "message": ""
   },
@@ -8286,7 +8306,7 @@
    "feed": "https://www.lavozdegalicia.es/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 63,
    "mentions": 0,
    "message": ""
   },
@@ -8296,9 +8316,9 @@
    "feed": "https://lacrossetribune.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 38,
+   "items": 5,
    "mentions": 0,
-   "message": "Found news sitemap automatically"
+   "message": ""
   },
   {
    "name": "Labor Notes",
@@ -8316,7 +8336,7 @@
    "feed": "https://www.lance.com.br/sitemap/news/today.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 38,
    "mentions": 0,
    "message": ""
   },
@@ -8326,7 +8346,7 @@
    "feed": "https://www.reviewjournal.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -8336,7 +8356,7 @@
    "feed": "https://lasvegassun.com/feeds/headlines/all/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -8346,7 +8366,7 @@
    "feed": "https://www.ledevoir.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -8356,7 +8376,7 @@
    "feed": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -8366,7 +8386,7 @@
    "feed": "https://www.huffingtonpost.fr/rss/all_headline.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -8376,7 +8396,7 @@
    "feed": "https://www.lemonde.fr/rss/une.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -8386,7 +8406,7 @@
    "feed": "https://www.lemonde.fr/en/rss/une.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8416,7 +8436,7 @@
    "feed": "https://lenta.ru/rss",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 200,
    "mentions": 0,
    "message": ""
   },
@@ -8426,7 +8446,7 @@
    "feed": "https://www.levernews.com/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8436,7 +8456,7 @@
    "feed": "https://news.ltn.com.tw/rss/all.xml",
    "source": "feed",
    "status": "ok",
-   "items": 16,
+   "items": 40,
    "mentions": 0,
    "message": ""
   },
@@ -8456,7 +8476,7 @@
    "feed": "https://littlegreenfootballs.com/lgf.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -8476,7 +8496,7 @@
    "feed": "https://localnewsmatters.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -8486,7 +8506,7 @@
    "feed": "https://lokaantar.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8496,7 +8516,7 @@
    "feed": "https://www.lokpath.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 21,
    "mentions": 0,
    "message": ""
   },
@@ -8516,7 +8536,7 @@
    "feed": "https://lookout.co/feed",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -8526,7 +8546,7 @@
    "feed": "https://www.latimes.com/index.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8546,7 +8566,7 @@
    "feed": "https://www.nouvelobs.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -8556,7 +8576,7 @@
    "feed": "https://www.mdr.de/nachrichten/index~atom.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -8606,7 +8626,7 @@
    "feed": "https://www.maariv.co.il/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -8616,7 +8636,7 @@
    "feed": "https://feeds.macrumors.com/MacRumors-All",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -8626,7 +8646,7 @@
    "feed": "https://mg.co.za/atom/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8646,7 +8666,7 @@
    "feed": "https://maldita.es/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8656,7 +8676,7 @@
    "feed": "https://www.marfapublicradio.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -8666,7 +8686,7 @@
    "feed": "https://www.mdjonline.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -8676,7 +8696,7 @@
    "feed": "https://maroelamedia.co.za/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -8686,7 +8706,7 @@
    "feed": "https://thedailyrecord.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8706,7 +8726,7 @@
    "feed": "https://mashable.com/feeds/rss/all",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 22,
    "mentions": 0,
    "message": ""
   },
@@ -8726,7 +8746,7 @@
    "feed": "https://www.mediamatters.org/index%2ephp/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -8736,7 +8756,7 @@
    "feed": "https://www.mediapart.fr/news_sitemap_editor_choice.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -8746,7 +8766,7 @@
    "feed": "https://zona.media/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8756,7 +8776,7 @@
    "feed": "https://meduza.io/rss/all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -8766,7 +8786,7 @@
    "feed": "https://meduza.io/rss/en/all",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -8776,7 +8796,7 @@
    "feed": "https://mendovoice.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -8786,7 +8806,7 @@
    "feed": "https://www.mercurynews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 33,
    "mentions": 0,
    "message": ""
   },
@@ -8796,7 +8816,7 @@
    "feed": "https://www.metropoles.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -8806,7 +8826,7 @@
    "feed": "https://www.michigandaily.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -8816,7 +8836,7 @@
    "feed": "https://www.middleeasteye.net/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -8826,7 +8846,7 @@
    "feed": "https://www.milenio.com/sitemap/sitemap-google-news-index.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 19,
+   "items": 178,
    "mentions": 0,
    "message": ""
   },
@@ -8846,7 +8866,7 @@
    "feed": "https://missionlocal.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -8856,7 +8876,7 @@
    "feed": "https://www.mississippifreepress.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -8876,7 +8896,7 @@
    "feed": "https://missoulian.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -8896,7 +8916,7 @@
    "feed": "https://news.mongabay.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -8916,7 +8936,7 @@
    "feed": "https://montrealgazette.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -8936,7 +8956,7 @@
    "feed": "https://www.morningbrew.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8966,7 +8986,7 @@
    "feed": "https://www.nbcbayarea.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -8976,7 +8996,7 @@
    "feed": "https://www.nbcchicago.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -8986,7 +9006,7 @@
    "feed": "https://www.nbcconnecticut.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -8996,7 +9016,7 @@
    "feed": "https://www.nbcdfw.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -9006,7 +9026,7 @@
    "feed": "https://www.nbcnews.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 5,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -9016,7 +9036,7 @@
    "feed": "https://www.nbcphiladelphia.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -9036,7 +9056,7 @@
    "feed": "https://feeds.nos.nl/nosnieuwsalgemeen",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -9046,7 +9066,7 @@
    "feed": "https://feeds.npr.org/1004/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -9056,7 +9076,7 @@
    "feed": "https://www.nrc.nl/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 23,
    "mentions": 0,
    "message": ""
   },
@@ -9066,7 +9086,7 @@
    "feed": "https://www.nrk.no/toppsaker.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -9076,7 +9096,7 @@
    "feed": "https://www.nu.nl/rss/Algemeen",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -9086,7 +9106,7 @@
    "feed": "http://www.ny1.com/services/contentfeed.nyc%7Call-boroughs%7Cnews.landing.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -9096,7 +9116,7 @@
    "feed": "https://www.nzherald.co.nz/arc/outboundfeeds/rss/curated/78/?outputType=xml&_website=nzh",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -9106,7 +9126,7 @@
    "feed": "https://nagariknews.nagariknetwork.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -9116,7 +9136,7 @@
    "feed": "https://www.thenational.scot/news/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -9126,7 +9146,7 @@
    "feed": "https://www.ncronline.org/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -9146,7 +9166,7 @@
    "feed": "https://nationalpost.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -9166,7 +9186,7 @@
    "feed": "https://www.nayapatrikadaily.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -9176,7 +9196,7 @@
    "feed": "https://nepalkhabar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -9186,7 +9206,7 @@
    "feed": "https://www.newsofnepal.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -9196,7 +9216,7 @@
    "feed": "https://www.knpr.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -9226,7 +9246,7 @@
    "feed": "https://newrepublic.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -9236,7 +9256,7 @@
    "feed": "https://www.newscientist.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -9246,7 +9266,7 @@
    "feed": "https://www.newstatesman.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9266,7 +9286,7 @@
    "feed": "https://nypost.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 13,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -9286,7 +9306,7 @@
    "feed": "https://www.newyorker.com/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9296,7 +9316,7 @@
    "feed": "https://www.wrdw.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -9306,7 +9326,7 @@
    "feed": "https://www.kvoa.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -9316,7 +9336,7 @@
    "feed": "https://newjersey.news12.com/sitemaps/news.xml.gz",
    "source": "sitemap",
    "status": "ok",
-   "items": 3,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -9326,7 +9346,7 @@
    "feed": "https://www.newsday.com/api/rss/recent",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 237,
    "mentions": 0,
    "message": ""
   },
@@ -9336,7 +9356,7 @@
    "feed": "https://www.newslaundry.com/stories.rss?time-period=last-7-days&exclude-section-ids=15848,15817",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9386,7 +9406,7 @@
    "feed": "https://www.nikkei.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9406,7 +9426,7 @@
    "feed": "https://www.nwaonline.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 40,
    "mentions": 0,
    "message": ""
   },
@@ -9416,7 +9436,7 @@
    "feed": "https://notthebee.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9426,7 +9446,7 @@
    "feed": "https://notesfrompoland.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9436,7 +9456,7 @@
    "feed": "https://novayagazeta.eu/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -9446,7 +9466,7 @@
    "feed": "https://oglobo.globo.com/rss/oglobo",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 100,
    "mentions": 0,
    "message": ""
   },
@@ -9456,7 +9476,7 @@
    "feed": "https://www.opovo.com.br/sitemap-news-day.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 94,
    "mentions": 0,
    "message": ""
   },
@@ -9466,7 +9486,7 @@
    "feed": "https://oc-media.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9476,7 +9496,7 @@
    "feed": "https://www.occrp.org/en/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9486,7 +9506,7 @@
    "feed": "https://oko.press/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -9496,7 +9516,7 @@
    "feed": "https://rss.orf.at/news.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -9506,7 +9526,7 @@
    "feed": "https://www.osnepal.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -9536,7 +9556,7 @@
    "feed": "https://observer-reporter.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -9566,7 +9586,7 @@
    "feed": "https://www.theoldie.co.uk/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9586,7 +9606,7 @@
    "feed": "https://www.omelete.com.br/sitemap-news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 2,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -9606,7 +9626,7 @@
    "feed": "https://www.onlinekhabar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 55,
    "mentions": 0,
    "message": ""
   },
@@ -9616,7 +9636,7 @@
    "feed": "https://www.open.online/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -9646,7 +9666,7 @@
    "feed": "https://oregoncapitalchronicle.com/feed/localFeed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -9656,7 +9676,7 @@
    "feed": "https://www.oregonlive.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 29,
    "mentions": 0,
    "message": ""
   },
@@ -9666,7 +9686,7 @@
    "feed": "https://ottawacitizen.com/feed/atom",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -9676,7 +9696,7 @@
    "feed": "https://www.ottumwacourier.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9696,7 +9716,7 @@
    "feed": "https://oxpeckers.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9706,7 +9726,7 @@
    "feed": "https://www.pbs.org/newshour/feeds/rss/headlines",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -9716,7 +9736,7 @@
    "feed": "https://pagesix.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -9756,7 +9776,7 @@
    "feed": "https://www.perfil.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 50,
    "mentions": 0,
    "message": ""
   },
@@ -9776,8 +9796,8 @@
    "feed": "https://www.inquirer.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 15,
-   "mentions": 0,
+   "items": 99,
+   "mentions": 1,
    "message": ""
   },
   {
@@ -9786,7 +9806,7 @@
    "feed": "https://www.phillytrib.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -9796,7 +9816,7 @@
    "feed": "https://pitchfork.com/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -9816,7 +9836,7 @@
    "feed": "https://www.post-gazette.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -9836,7 +9856,7 @@
    "feed": "https://www.platformer.news/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9846,7 +9866,7 @@
    "feed": "https://www.poder360.com.br/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -9886,7 +9906,7 @@
    "feed": "https://www.portlandmercury.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -9896,7 +9916,7 @@
    "feed": "https://www.pressherald.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -9906,7 +9926,7 @@
    "feed": "https://www.postandcourier.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 33,
    "mentions": 0,
    "message": ""
   },
@@ -9916,7 +9936,7 @@
    "feed": "https://www.powerlineblog.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -9936,7 +9956,7 @@
    "feed": "https://www.prabhatkhabar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -10046,7 +10066,7 @@
    "feed": "https://www.pagina12.com.ar/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 8,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -10056,7 +10076,7 @@
    "feed": "https://feeds.feedburner.com/PublicoRSS",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10066,19 +10086,19 @@
    "feed": "https://qctimes.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
   {
    "name": "Quartz",
    "website": "https://qz.com/",
-   "feed": "https://qz.com/rss",
-   "source": "feed",
+   "feed": "https://qz.com/sitemap.xml",
+   "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 16,
    "mentions": 0,
-   "message": ""
+   "message": "Found news sitemap automatically"
   },
   {
    "name": "Quillette",
@@ -10106,7 +10126,7 @@
    "feed": "https://www.rfi.fr/fr/rss",
    "source": "feed",
    "status": "ok",
-   "items": 6,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -10116,7 +10136,7 @@
    "feed": "https://ria.ru/export/rss2/archive/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 7,
+   "items": 95,
    "mentions": 0,
    "message": ""
   },
@@ -10126,7 +10146,7 @@
    "feed": "https://www.rnz.co.nz/rss/news.xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -10136,7 +10156,7 @@
    "feed": "https://www.rt.com/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -10146,7 +10166,7 @@
    "feed": "https://russian.rt.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 50,
    "mentions": 0,
    "message": ""
   },
@@ -10166,7 +10186,7 @@
    "feed": "https://www.rtl.nl/nieuws/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -10176,7 +10196,7 @@
    "feed": "https://www.radiofarda.com/api/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -10186,7 +10206,7 @@
    "feed": "https://www.svoboda.org/api/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10196,7 +10216,7 @@
    "feed": "https://www.radiosvoboda.org/api/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -10206,7 +10226,7 @@
    "feed": "https://www.patrika.com/google-news-sitemap-v1.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 178,
    "mentions": 0,
    "message": ""
   },
@@ -10216,7 +10236,7 @@
    "feed": "https://rajdhanidaily.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10226,7 +10246,7 @@
    "feed": "https://www.ratopati.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 5,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -10236,7 +10256,7 @@
    "feed": "https://www.rawstory.com/feeds/feed.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -10266,7 +10286,7 @@
    "feed": "https://reason.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -10286,7 +10306,7 @@
    "feed": "https://redstate.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -10296,7 +10316,7 @@
    "feed": "https://reductress.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -10306,7 +10326,7 @@
    "feed": "https://www.reforma.com/rss/portada.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -10336,7 +10356,7 @@
    "feed": "https://richmond.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 21,
    "mentions": 0,
    "message": ""
   },
@@ -10356,7 +10376,7 @@
    "feed": "https://www.riotimesonline.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10366,7 +10386,7 @@
    "feed": "https://rollcall.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -10376,7 +10396,7 @@
    "feed": "https://www.rollingstone.com/feed/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -10388,7 +10408,7 @@
    "status": "ok",
    "items": 0,
    "mentions": 0,
-   "message": "Found RSS feed automatically"
+   "message": ""
   },
   {
    "name": "Root",
@@ -10426,7 +10446,7 @@
    "feed": "https://www.sbtnews.com.br/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 23,
    "mentions": 0,
    "message": ""
   },
@@ -10456,7 +10476,7 @@
    "feed": "https://www.statnews.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -10511,22 +10531,12 @@
    "message": ""
   },
   {
-   "name": "Sanchar Kendra",
-   "website": "https://sancharkendra.com/",
-   "feed": "https://sancharkendra.com/feed",
-   "source": "feed",
-   "status": "ok",
-   "items": 0,
-   "mentions": 0,
-   "message": ""
-  },
-  {
    "name": "Sankei Shimbun",
    "website": "https://www.sankei.com/",
    "feed": "https://www.sankei.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 13,
+   "items": 99,
    "mentions": 0,
    "message": ""
   },
@@ -10546,7 +10556,7 @@
    "feed": "https://www.santafenewmexican.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -10566,7 +10576,7 @@
    "feed": "https://www.scotsman.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 27,
    "mentions": 0,
    "message": ""
   },
@@ -10576,7 +10586,7 @@
    "feed": "https://www.thescottishsun.co.uk/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10596,7 +10606,7 @@
    "feed": "https://www.semafor.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -10606,7 +10616,7 @@
    "feed": "https://www.setopati.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -10626,7 +10636,7 @@
    "feed": "https://signalcleveland.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -10646,7 +10656,7 @@
    "feed": "https://simpleflying.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -10656,7 +10666,7 @@
    "feed": "https://feeds.skynews.com/feeds/rss/world.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -10666,7 +10676,7 @@
    "feed": "https://slate.com/feeds/all.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -10686,7 +10696,7 @@
    "feed": "https://sourcenm.com/feed/localFeed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -10716,7 +10726,7 @@
    "feed": "https://www.sowetan.co.za//arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -10736,7 +10746,7 @@
    "feed": "https://www.space.com/feeds.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -10746,7 +10756,7 @@
    "feed": "https://www.spectator.co.uk/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -10756,7 +10766,7 @@
    "feed": "https://www.spokesman.com/feeds/stories/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -10766,7 +10776,7 @@
    "feed": "https://www.si.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 38,
+   "items": 87,
    "mentions": 0,
    "message": ""
   },
@@ -10786,7 +10796,7 @@
    "feed": "https://www.spotlightpa.org/feeds/full.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -10796,7 +10806,7 @@
    "feed": "https://sgfcitizen.org/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -10806,7 +10816,7 @@
    "feed": "https://sputnikglobe.com/export/rss2/archive/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -10826,7 +10836,7 @@
    "feed": "https://www.stltoday.com/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -10836,7 +10846,7 @@
    "feed": "https://www.stlpr.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -10866,7 +10876,7 @@
    "feed": "https://studyfinds.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -10876,7 +10886,7 @@
    "feed": "https://www.stuff.co.nz/feed",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 33,
    "mentions": 0,
    "message": ""
   },
@@ -10886,7 +10896,7 @@
    "feed": "https://suspilne.media/rss/all.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 126,
    "mentions": 0,
    "message": ""
   },
@@ -10896,7 +10906,7 @@
    "feed": "https://rss.sueddeutsche.de/rss/Topthemen",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -10906,7 +10916,7 @@
    "feed": "https://tass.ru/rss/v2.xml",
    "source": "feed",
    "status": "ok",
-   "items": 10,
+   "items": 100,
    "mentions": 0,
    "message": ""
   },
@@ -10916,7 +10926,7 @@
    "feed": "https://www.thv11.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -10926,7 +10936,7 @@
    "feed": "https://time.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -10936,7 +10946,7 @@
    "feed": "https://www.tmz.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -10946,7 +10956,7 @@
    "feed": "https://talkingpointsmemo.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -10961,12 +10971,22 @@
    "message": ""
   },
   {
+   "name": "TVN24",
+   "website": "https://tvn24.pl",
+   "feed": "https://tvn24.pl/najnowsze.xml",
+   "source": "feed",
+   "status": "ok",
+   "items": 23,
+   "mentions": 0,
+   "message": ""
+  },
+  {
    "name": "Tagesschau",
    "website": "https://www.tagesschau.de",
    "feed": "https://www.tagesschau.de/xml/rss2",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -10996,7 +11016,7 @@
    "feed": "https://techcrunch.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -11006,7 +11026,7 @@
    "feed": "https://www.techmeme.com/feed.xml",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -11036,17 +11056,7 @@
    "feed": "https://www.telemundochicago.com/?rss=y",
    "source": "feed",
    "status": "ok",
-   "items": 0,
-   "mentions": 0,
-   "message": ""
-  },
-  {
-   "name": "Texas Monthly",
-   "website": "https://www.texasmonthly.com/",
-   "feed": "https://www.texasmonthly.com/feed/",
-   "source": "feed",
-   "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -11066,7 +11076,7 @@
    "feed": "https://www.texastribune.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11076,7 +11086,7 @@
    "feed": "https://www.thahakhabar.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -11096,7 +11106,7 @@
    "feed": "https://www.berkeleyside.org/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11106,7 +11116,7 @@
    "feed": "https://bismarcktribune.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -11116,7 +11126,7 @@
    "feed": "https://thebrunswicknews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -11126,7 +11136,7 @@
    "feed": "https://www.thecityreporter.nyc/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11136,7 +11146,7 @@
    "feed": "https://theconversation.com/global/articles.atom",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11156,7 +11166,7 @@
    "feed": "https://www.thecut.com/_news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11176,7 +11186,7 @@
    "feed": "https://dbknews.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -11196,7 +11206,7 @@
    "feed": "https://www.straight.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11216,17 +11226,7 @@
    "feed": "https://www.theguardian.com/world/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
-   "mentions": 0,
-   "message": ""
-  },
-  {
-   "name": "The Hawk Eye",
-   "website": "https://www.thehawkeye.com/",
-   "feed": "http://www.mississippivalleypublishing.com/search/?f=rss&t=article&c=the_hawk_eye&l=50&s=start_time&sd=desc",
-   "source": "feed",
-   "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -11236,7 +11236,7 @@
    "feed": "https://www.hilltimes.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11246,7 +11246,7 @@
    "feed": "https://www.independent.co.uk/news/world/rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 21,
    "mentions": 0,
    "message": ""
   },
@@ -11256,7 +11256,7 @@
    "feed": "https://theins.ru/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 6,
    "mentions": 0,
    "message": ""
   },
@@ -11266,7 +11266,7 @@
    "feed": "https://theins.press/en/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11306,7 +11306,7 @@
    "feed": "https://www.themoscowtimes.com/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11336,7 +11336,7 @@
    "feed": "https://oaklandside.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11346,7 +11346,7 @@
    "feed": "https://www.postregister.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11356,7 +11356,7 @@
    "feed": "https://therecord.media/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11366,7 +11366,7 @@
    "feed": "https://sfstandard.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11376,7 +11376,7 @@
    "feed": "https://www.thesouthafrican.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 29,
    "mentions": 0,
    "message": ""
   },
@@ -11396,7 +11396,7 @@
    "feed": "https://www.thesun.co.uk/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 30,
    "mentions": 0,
    "message": ""
   },
@@ -11406,7 +11406,7 @@
    "feed": "https://www.telegraph.co.uk/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11436,7 +11436,7 @@
    "feed": "https://www.theverge.com/rss/index.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -11446,7 +11446,7 @@
    "feed": "https://theweek.com/feeds.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11466,7 +11466,7 @@
    "feed": "https://theticker.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11476,7 +11476,7 @@
    "feed": "https://www.eltiempo.com/rss/opinion.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -11496,7 +11496,7 @@
    "feed": "https://timesofindia.indiatimes.com/staticsitemap/toi/news/sitemap-index.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 381,
    "mentions": 0,
    "message": ""
   },
@@ -11506,7 +11506,7 @@
    "feed": "https://www.timeslive.co.za/arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 53,
    "mentions": 0,
    "message": ""
   },
@@ -11516,8 +11516,8 @@
    "feed": "https://www.thestar.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 14,
-   "mentions": 0,
+   "items": 154,
+   "mentions": 1,
    "message": ""
   },
   {
@@ -11526,7 +11526,7 @@
    "feed": "https://torontosun.com/feed/atom",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -11536,7 +11536,7 @@
    "feed": "https://torrentfreak.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11546,7 +11546,7 @@
    "feed": "https://townhall.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 13,
    "mentions": 0,
    "message": ""
   },
@@ -11566,7 +11566,7 @@
    "feed": "https://tribunedelyon.fr/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11576,7 +11576,7 @@
    "feed": "https://floridatrib.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11596,7 +11596,7 @@
    "feed": "https://www.tucsonsentinel.com/index.php/site/rss",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11616,7 +11616,7 @@
    "feed": "https://tylerpaper.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11626,7 +11626,7 @@
    "feed": "https://ujyaaloonline.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -11636,7 +11636,7 @@
    "feed": "https://www.pravda.com.ua/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -11646,7 +11646,7 @@
    "feed": "https://www.ukrinform.ua/sitemap/last.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 68,
    "mentions": 0,
    "message": ""
   },
@@ -11656,7 +11656,7 @@
    "feed": "https://unherd.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11676,7 +11676,7 @@
    "feed": "https://udn.com/news/rssfeed",
    "source": "feed",
    "status": "ok",
-   "items": 7,
+   "items": 196,
    "mentions": 0,
    "message": ""
   },
@@ -11686,7 +11686,7 @@
    "feed": "https://www.univision.com/feed-sitemap/google-news",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 34,
    "mentions": 0,
    "message": ""
   },
@@ -11706,7 +11706,7 @@
    "feed": "https://www.usmagazine.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 20,
    "mentions": 0,
    "message": ""
   },
@@ -11726,7 +11726,7 @@
    "feed": "https://www.vg.no/rss/feed/?format=rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -11736,7 +11736,7 @@
    "feed": "https://www.vrt.be/vrtnws/nl.rss.articles.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 31,
    "mentions": 0,
    "message": ""
   },
@@ -11766,7 +11766,7 @@
    "feed": "https://www.kvpr.org/news-sitemap-content.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -11776,7 +11776,7 @@
    "feed": "https://valor.globo.com/rss/valor",
    "source": "feed",
    "status": "ok",
-   "items": 4,
+   "items": 78,
    "mentions": 0,
    "message": ""
   },
@@ -11786,7 +11786,7 @@
    "feed": "https://vancouversun.com/feed/atom",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11806,7 +11806,7 @@
    "feed": "https://variety.com/feed/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -11816,7 +11816,7 @@
    "feed": "https://www.vermontpublic.org/feeds/all.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11836,7 +11836,7 @@
    "feed": "https://www.vice.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11846,7 +11846,7 @@
    "feed": "https://www.vogue.com/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -11866,7 +11866,7 @@
    "feed": "https://voiceofsandiego.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -11886,7 +11886,7 @@
    "feed": "https://www.votebeat.org/arc/outboundfeeds/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -11906,7 +11906,7 @@
    "feed": "https://www.vulture.com/_news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 4,
    "mentions": 0,
    "message": ""
   },
@@ -11926,7 +11926,7 @@
    "feed": "https://www.walb.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 11,
    "mentions": 0,
    "message": ""
   },
@@ -11936,7 +11936,7 @@
    "feed": "https://www.wave3.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -11956,7 +11956,7 @@
    "feed": "https://www.wbrc.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -11966,7 +11966,7 @@
    "feed": "https://www.wbtv.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -11986,7 +11986,7 @@
    "feed": "https://www.wfaa.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -11996,7 +11996,7 @@
    "feed": "https://www.lpm.org/news.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -12006,7 +12006,7 @@
    "feed": "https://www.wgrz.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -12016,7 +12016,7 @@
    "feed": "https://www.whas11.com/feeds/syndication/rss/news",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -12026,7 +12026,7 @@
    "feed": "https://whyy.org/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 3,
    "mentions": 0,
    "message": ""
   },
@@ -12036,7 +12036,7 @@
    "feed": "https://www.wkyt.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -12046,7 +12046,7 @@
    "feed": "https://www.wnd.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 2,
+   "items": 5,
    "mentions": 0,
    "message": ""
   },
@@ -12076,7 +12076,7 @@
    "feed": "https://www.local10.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 7,
+   "items": 38,
    "mentions": 0,
    "message": ""
   },
@@ -12086,7 +12086,7 @@
    "feed": "https://www.wral.com/news-sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 83,
    "mentions": 0,
    "message": ""
   },
@@ -12096,7 +12096,7 @@
    "feed": "https://www.wsbtv.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 12,
    "mentions": 0,
    "message": ""
   },
@@ -12106,7 +12106,7 @@
    "feed": "https://www.wtoc.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -12126,7 +12126,7 @@
    "feed": "https://www.wtvm.com/arc/outboundfeeds/rss/?outputType=xml",
    "source": "feed",
    "status": "ok",
-   "items": 3,
+   "items": 16,
    "mentions": 0,
    "message": ""
   },
@@ -12136,7 +12136,7 @@
    "feed": "https://warontherocks.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -12146,7 +12146,7 @@
    "feed": "https://www.washingtonexaminer.com/feed",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -12156,7 +12156,7 @@
    "feed": "https://freebeacon.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -12166,7 +12166,7 @@
    "feed": "https://wcfcourier.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 8,
    "mentions": 0,
    "message": ""
   },
@@ -12176,7 +12176,7 @@
    "feed": "https://weather.com/api/payload/v1/sitemaps/en-US/news.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 0,
+   "items": 2,
    "mentions": 0,
    "message": ""
   },
@@ -12196,7 +12196,7 @@
    "feed": "https://www.windowscentral.com/feeds.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -12206,7 +12206,7 @@
    "feed": "https://www.wired.com/feed/rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 19,
    "mentions": 0,
    "message": ""
   },
@@ -12216,7 +12216,7 @@
    "feed": "https://madison.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 1,
+   "items": 7,
    "mentions": 0,
    "message": ""
   },
@@ -12236,7 +12236,7 @@
    "feed": "https://www.thewrap.com/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -12246,7 +12246,7 @@
    "feed": "https://www.wyomingnews.com/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 4,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -12276,7 +12276,7 @@
    "feed": "https://news.yahoo.com/rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 9,
    "mentions": 0,
    "message": ""
   },
@@ -12286,7 +12286,7 @@
    "feed": "https://www.ynet.co.il/Integration/StoryRss2.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 14,
    "mentions": 0,
    "message": ""
   },
@@ -12296,7 +12296,7 @@
    "feed": "https://www.yomiuri.co.jp/sitemap.xml",
    "source": "sitemap",
    "status": "ok",
-   "items": 109,
+   "items": 237,
    "mentions": 0,
    "message": ""
   },
@@ -12306,7 +12306,7 @@
    "feed": "https://zn.ua/ukr/rss/full/",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 25,
    "mentions": 0,
    "message": ""
   },
@@ -12326,7 +12326,7 @@
    "feed": "https://cms.zerohedge.com/fullrss2.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 18,
    "mentions": 0,
    "message": ""
   },
@@ -12346,7 +12346,7 @@
    "feed": "https://bianet.org/rss/bianet",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 17,
    "mentions": 0,
    "message": ""
   },
@@ -12356,7 +12356,7 @@
    "feed": "https://www.volkskrant.nl/voorpagina/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -12366,7 +12366,7 @@
    "feed": "https://www.enca.com/rss.xml",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -12376,7 +12376,7 @@
    "feed": "https://www.eldiario.es/rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 69,
    "mentions": 0,
    "message": ""
   },
@@ -12386,7 +12386,7 @@
    "feed": "https://www.francetvinfo.fr/titres.rss",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -12396,7 +12396,7 @@
    "feed": "https://g1.globo.com/rss/g1/",
    "source": "feed",
    "status": "ok",
-   "items": 25,
+   "items": 98,
    "mentions": 0,
    "message": ""
   },
@@ -12406,7 +12406,7 @@
    "feed": "https://inews.co.uk/feed",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 10,
    "mentions": 0,
    "message": ""
   },
@@ -12416,7 +12416,7 @@
    "feed": "https://ilmanifesto.it/feed",
    "source": "feed",
    "status": "ok",
-   "items": 31,
+   "items": 0,
    "mentions": 0,
    "message": ""
   },
@@ -12426,7 +12426,7 @@
    "feed": "https://inewsource.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -12436,7 +12436,7 @@
    "feed": "https://www.repubblica.it/rss/homepage/rss2.0.xml",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 24,
    "mentions": 0,
    "message": ""
   },
@@ -12446,7 +12446,7 @@
    "feed": "https://netzpolitik.org/feed/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 1,
    "mentions": 0,
    "message": ""
   },
@@ -12476,7 +12476,7 @@
    "feed": "https://taz.de/!p4608;rss/",
    "source": "feed",
    "status": "ok",
-   "items": 0,
+   "items": 15,
    "mentions": 0,
    "message": ""
   },
@@ -12486,7 +12486,7 @@
    "feed": "https://www.ultimahora.es/feed.rss",
    "source": "feed",
    "status": "ok",
-   "items": 1,
+   "items": 35,
    "mentions": 0,
    "message": ""
   }
