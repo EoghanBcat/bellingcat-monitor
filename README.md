@@ -1,21 +1,31 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-24 10:18:24 UTC. Runs automatically every two days._
+_Last updated 2026-11-25 00:22:35 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 28 mentions · **Last 7 days:** 76 · **All time:** 112 · **New this run:** 14
+**Last 2 days:** 35 mentions · **Last 7 days:** 83 · **All time:** 124 · **New this run:** 12
 
-**Last 7 days by type:** News & periodicals 74, Social media 2
+**Last 7 days by type:** News & periodicals 81, Social media 2
 
-**Last 7 days by language:** hi 24, de 20, en 7, uk 7, ? 5, fr 4, pl 3, es 2, nl 2, pt 1, ru 1
+**Last 7 days by language:** de 24, hi 20, ? 11, en 7, uk 7, fr 5, pl 3, pt 2, es 2, nl 2
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-24 | News & periodicals | x.com | [Jayanta Bhattacharya on X: "Well, @ bellingcat should independently investigate this matter." / X](https://x.com/goldenarcher/status/2125163790849523737) |  |
+| 2026-11-24 | News & periodicals | x.com | [Bellingcat's Eliot Higgins warns AI deepfakes can turn "one picture" of any woman or child ...](https://x.com/FurkanGozukara/status/2125205990245011747/video/1) |  |
+| 2026-11-24 | News & periodicals | reddit.com | [What if 3D models weren't just the end product of research, but a tool for discovery? - Reddit](https://www.reddit.com/r/bellingcat/comments/1y3pkez/what_if_3d_models_werent_just_the_end_product_of/) |  |
+| 2026-11-24 | News & periodicals | The Slovak Spectator | [Women in Slovakia are joining the national defence forces, to prepare for crises](https://spectator.sme.sk/politics-and-society/c/women-in-slovakia-are-joining-the-national-defence-forces-to-prepare-for-crises) | de |
+| 2026-11-24 | News & periodicals | contestedground.info | [Credited Collaborations & Outreach - Contested Ground Portfolio](https://contestedground.info/portfolio) |  |
+| 2026-11-24 | News & periodicals | BOL | [Minas terrestres deixam 6.929 vítimas e atingem recorde em 5 anos](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1BJMURJQ1RRRXhWSW15TVZtV2lnVGUtNHQ3bEpDT1lYYm1JcHA5OUZNdVhlSXNWSEE3MkpBaFMtN1R2N1N6eW1nQnBiWUlqTm5ZclpzMmVCT0lsZ05sTVEyM1dGWGk3bmF6cGc1VklfbFZ3NEd4aVBFZGVpUGptX013TVNkejVFSWRHNG5zRGRpN1k3X0o5eVdHVWVRV29wX21pbDBMSU1TUDdtczhPbDRQcEc5QklhMTFB0gG7AUFVX3lxTE4zUEkxRElDVFFFeFZJbXlNVm1XaWdUZS00dDdsSkNPWVhibUlwcDk5Rk11WGVJc1ZIQTcySkFoUy03VHY3U3p5bWdCcGJZSWpObllyWnMyZUJPSWxnTmxNUTIzV0ZYaTduYXpwZzVWSV9sVnc0R3hpUEVkZWlQam1fTXdNU2R6NUVJZEc0bnNEZGk3WTdfSjl5V0dVZVFXb3BfbWlsMExJTVNQN21zOE9sNFBwRzlCSWExMUE?oc=5) | pt |
+| 2026-11-24 | News & periodicals | The Baltimore Sun | [Global land mine casualties hit a 5-year high, driven by Myanmar’s brutal civil war and Syria](https://www.baltimoresun.com/2026/11/24/global-land-mine-casualties-myanmar/) | de |
 | 2026-11-24 | News & periodicals | Toronto Star | [Global land mine casualties hit a 5-year high, driven by Myanmar’s brutal civil war and Syria](https://www.thestar.com/news/world/asia/global-land-mine-casualties-hit-a-5-year-high-driven-by-myanmar-s-brutal-civil-war-and-syria/article_4552182b-05bf-5309-9863-2889f2a6ccee.html) | en |
 | 2026-11-24 | News & periodicals | Philadelphia Inquirer | [Global land mine casualties hit a 5-year high, driven by Myanmar’s brutal civil war and Syria](https://www.inquirer.com/wires/ap/global-land-mine-casualties-hit-5-year-high-driven-by-myanmars-brutal-civil-war-syria-20261124.html) | en |
+| 2026-11-24 | News & periodicals | Bastille Post | [Meet the major players in Spain's general election](https://www.bastillepost.com/global/article/6392117-meet-the-major-players-in-spains-general-election) | de |
+| 2026-11-24 | News & periodicals | South China Morning Post on MSN | [Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000](https://www.msn.com/en-xl/news/other/myanmar-syria-top-list-as-global-landmine-casualties-hit-5-year-high-of-7000/ar-AA2i7w7R) | de |
+| 2026-11-24 | News & periodicals | bsky.app | [19 reposts - Post by @bellingcat.com — Bluesky](https://bsky.app/profile/bellingcat.com/post/3n2iqshftg22n/reposted-by) |  |
 | 2026-11-24 | News & periodicals | Asharq Al-Awsat | [Trump to Meet NATO Chief Mark Rutte on Wednesday, White House Says](https://english.aawsat.com/world/5345009-trump-meet-nato-chief-mark-rutte-wednesday-white-house-says) | de |
 | 2026-11-24 | News & periodicals | spravy.stvr | [Míny alebo nevybuchnutá munícia v roku 2025 zabili alebo zranili 6 929 ľudí, čo je najviac za uplynulých päť r](https://spravy.stvr.sk/spravy-po-minute/miny-alebo-nevybuchnuta-municia-v-roku-2025-zabili-alebo-zranili-6-929-ludi-co-je-najviac-za-uplynulych-pat-rokov/) | de |
 | 2026-11-24 | News & periodicals | Asharq Al-Awsat | [South Korea Says Several Russian Aircraft Flew into Its Air Defense Zone](https://english.aawsat.com/world/5345004-south-korea-says-several-russian-aircraft-flew-its-air-defense-zone) | de |
@@ -24,6 +34,8 @@ _Last updated 2026-11-24 10:18:24 UTC. Runs automatically every two days._
 | 2026-11-24 | News & periodicals | Teraz.sk | [ICBL: V roku 2025 míny zabili a zranili najviac ľudí za päť rokov](https://www.teraz.sk/zahranicie/icbl-v-roku-2025-miny-zabili-a-zranili/1010020-clanok.html) | de |
 | 2026-11-24 | News & periodicals | UOL Notícias | [Minas terrestres deixam 6.929 vítimas e atingem recorde em 5 anos](https://noticias.uol.com.br/internacional/ultimas-noticias/2026/11/24/minas-terrestres-deixam-6929-vitimas-e-atingem-recorde-em-5-anos.ghtm) | es |
 | 2026-11-23 | News & periodicals | The Rio Times | [Mali Gets Nearly 58 Million Litres of Fuel](https://www.riotimesonline.com/mali-fuel-supply-58-million-litres-week/) | de |
+| 2026-11-23 | News & periodicals | Bastille Post | [The Coca-Cola Company Names David Elkins as Incoming Chief Financial Officer](https://www.bastillepost.com/global/article/6391231-the-coca-cola-company-names-david-elkins-as-incoming-chief-financial-officer) | fr |
+| 2026-11-23 | News & periodicals | medium.com | [Bellingcat Challenge #116 “Rendered Rendering” : how a video game screenshot became ...](https://medium.com/@zetrocleirbag/bellingcat-challenge-116-rendered-rendering-how-a-video-game-screenshot-became-a-trip-through-b780a2b590e2) |  |
 | 2026-11-23 | News & periodicals | github.com | [Repo insights · bellingcat /osm-search - GitHub](https://github.com/bellingcat/osm-search/insights) |  |
 | 2026-11-23 | News & periodicals | linkedin.com | [Bellingcat's Post - LinkedIn](https://www.linkedin.com/posts/bellingcat_opensourceresearch-bellingcat-stagetalkswithbellingcat-activity-7530694532120731648-7P3v) |  |
 | 2026-11-23 | News & periodicals | threads.com | [What if 3D models weren't just the end product of research, but a tool for discovery? Join ... - Threads](https://www.threads.com/@bellingcatofficial/post/DgF_X9QiCW9) |  |
@@ -62,32 +74,20 @@ _Last updated 2026-11-24 10:18:24 UTC. Runs automatically every two days._
 | 2026-11-19 | News & periodicals | note | [I saw the preparatory document 5 submitted by the plaintiff, but I did not read it—Gaze and documents at the f](https://note.com/agile_duck9283/n/n3c84810ba40f?hl=en) | de |
 | 2026-11-19 | News & periodicals | Ghamasan News | [महादेव बेटिंग ऐप केस: सौरभ चंद्राकर की न्यायिक हिरासत 2 दिसंबर तक बढ़ी](https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3dVbzNZTlB4NTg3d21LMkduVzdOMjRsSXdxWjI2OUZfbllEOGNOM3BhNjhjX01TdWhxNEVOVjZOelMyT0JrQkxRUEp4ang0TnRqY0FTQU9Sb1RZVXFvMzY5ZEd6SHlyTkVxUWJzYzF6MmRTUU45U2R3WFMyZk8ya0R5OE4tdTl3OWZtWmlGRTlzTHlRTnNETlV4NGQ3c2pYT0ZYOHVMOFFmeXM3WEhoRFk3VGRqQXRmNmQtQVJ3?oc=5) | hi |
 | 2026-11-19 | News & periodicals | Hindustan | [Unnao News: गलत बिलिंग पर 15 दिन में सुधार नहीं तो अभियंताओं का रुकेगा वेतन](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWlFVaVU5Y1NBN2M3a1Y0REdHZDd0OXk3WTFCU3FiYm80THFjMTVfTVhhSUJuRlNwVnc4S0J3SXNiS0pURXF0b09RaEJTd1kzRXhQYVFHV0JvTEJtZ2dWUm02dUtyYThPNnRncWlTenNraXNFOGZ6NGtUdk0xenp5eEdVWlo3YnNXeEZLcDAzcEtLWFFFR1RGdWlvMDduWnZkc1htX0RlbG9zakpmdVZqcXY3ODVZUU1yQ1dxZENfLTNFR2hHdUN4eE1GUlFFQWtYaTNTeU51bFRya2VUanfSAeMBQVVfeXFMUE9Bbm5oRnVnaEI5OHhMcGFHUjNnb2ZFWEF3NE9XeVJqb1EyaUlmMUJwdTVLNFgzOEV4OVVnOFlFUE05STBfLWpLd0VZSXJZeWRsdTJfNWczM3lEMVNaQ0VJYnA0Y2FZMFFQVmJiNGZLYzNMVTF3X3E5M3VFczJtVG5DQVQyMlZIN1h5MFdoTVpqaE00ei1ERWNBMHZNaUR6Tl9abXRqMXRMVVgydnJ2NFpsTHdUWlk1WFFrOXIzblRkbGMtdjNyRFlQaXlQZFZTbzJSVFJHZXIzaEs2ejBHWXhZYUE?oc=5) | hi |
-| 2026-11-19 | News & periodicals | Dainik Savera News and Media Network | [महादेव बेटिंग ऐप केस में सौरभ चंद्राकर को झटका, 2 दिसंबर तक न्यायिक हिरासत में भेजा गया](https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0hQa0NGNVBxQW1qeGRpbHB2WjdJSmVBOTMxNEcySEs1SnZRcHBZeEJyU29fRElHcXZva0J6QjRQU2JLNmRMRU9HV1RiVW84R3A5d1ByWGpNWWNMVGdkVURORlVIZU1TVWlKbzJPa1lvRXBCU3ZRekItdE1lM3d5RFFyck5pTHhpQ1BKTWF4VjVQUkFnZlFDc3JKdkRBUUd4VlR1U2ZxSzdoNG85WTBrS9IBuAFBVV95cUxPdmhQUlgzSWFMMVRBbDN4SXA4NkY1QnlzdzRRbC1lSk1TU2YySGVXdXEwdW16bV9MbXVqMHBZbXJxM2VqUU9CcmNta2Q4X0RCLVRDYTFCUUNOSFJPOEU0ZklsUFBkUy1qQ2pkallQQU52SGQ2R00wS2U5aVU3ci1ucUhWY0llVUdJNHJPTVJJTVVxMTNEbEFrRk1jWktuOU11WnJ4bTcyRS11ZnZVUFBxNWMyR0ZLaTdk?oc=5) | hi |
-| 2026-11-19 | News & periodicals | АрміяInform | [GRU diplomat: how a russian intelligence officer involved in the poisoning of a bulgarian arms dealer operated](https://news.google.com/rss/articles/CBMikAJBVV95cUxPMEpUX2lGMjNxYWxLQzF2dGxtTkNpdUNCZzd5OGRKcVZWZEhFeEMyVEtLNDZNQmxnV2JzQ2l3UjR5VGhnanJYbGp2MkhCanlfM3BJcGtPQU4waDhJcUpTcUNPSEN5OTk5dDRORWZMUkU5el9BQXFFb0RjWV9weW1DZGVCUXpTMC1ubXFmVkNGdTZQd0lzNGVqa00xa2d0WGEzUVZwZFd5cE0xNVZzX3l1eERQMmtwRnFfMzRnSExLaW5NM09EaXdKaWVhVk1nM2RiUzZmMVJtejdSSG1MNkNQUC0xcFFHR3dhRDNsVDhabE5sc0pTSWI1VjBJV252NGROQWZtc255azVOeEw3NlV0bQ?oc=5) | en |
-| 2026-11-19 | News & periodicals | АрміяInform | [Дипломат із гру: як російський розвідник, причетний до отруєння болгарського зброяра, працював під прикриттям ](https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbW5oaGdER0FXc29QZ19GLWs5TXZMMXhVV1dQa1Aybk55ckUybXdmYzEtOUxsSktSTndpQmRUSmV4WC1EMG1GMW14LXhQMzB1TXJOUERxRHZaY0ZHbHduU2pWZXpuSkppS2o0RGtHOExQSE96MndsMnFGOVdjcFhRdjBPcHVhYnFIMDJxM08zWlV2cXpwNzdxY2c3ckFWdlNIalZfbEpPcFprdjBWeXNJckVEb3FBM0pEZlQ0QlBqZENDd1JZbVl0azdIbWZmeDY2Z0lMbi1QVjVTaXh5WFVOQkNjVFFQZFllbzFzWThSSFM1QQ?oc=5) | uk |
-| 2026-11-19 | News & periodicals | Dainik Bhaskar | [कोटा के रेस्टोरेंट में खाना-खाने आए युवकों ने की मारपीट: बिलिंग मशीन को काउंटर से उठाकर पटका; रेस्टोरेंट मा...](https://news.google.com/rss/articles/CBMizwFBVV95cUxQVE4wTDg2ZkRrLVNqUlg0eWE5RDgzSnFKVjN1VklOSjkwN2hMX0xuSUZ2TjVqcXkxcHJOVG9XdHAxb3owY0xhM3R6TzR4bzFWcTdxdDRpdVB1NHloTExIN2hIN0t6VVBOWFJhNXJjRVpPalFQRXhrc1JzcEVOV09Ib3JBOXRteE5FOEpzSTJKMFJVUUduZ2dzOXNQa1NlVGVweXNoQWNmbzU1QlE1YmhBcW1hdDU3aVprMjM2TGxUcV85dmNHSGxjOG5KX052WXfSAdQBQVVfeXFMT1RpeHJaRG9GVU1pdjYyMUh0N1U2eXprNGZlWUItSjhKeklqNlZBN0JLQVRYZGRvRG51ejJGVFAyd01CMlVvNkw1azU2allUaEhQSG5nN1p6R3ZDSFJVYkxBTjY5MXFFWWJQS0g4bXFOQmstaktlOEpzYlJRM3ZVcDZxbklRcnJvNTZFcTZMUVBTWHRYU0xvMjlmSTNLMzlVTDNrRE12aFluYWc0QjlDMkR5eVhmZ2d1amYxMmYzVHpWVFZKSXIwUkM3eW5zdk90V2hkbGw?oc=5) | hi |
-| 2026-11-19 | News & periodicals | Focus Knack | [‘Pano’ ruikt bloed: neonazi’s krijgen uppercut met ijzersterke docu](https://news.google.com/rss/articles/CBMitgFBVV95cUxPakxhSy03MnBrUURiMXN4eWdsbGJEZV9QZXdhWTRrUjRrOTFxV2lQenF6aXQ2aHAxVVItS0Y2RUJjWnV1M3g0Z3FNSnpOTy1EdXN5Ym9vR0V4RE9GRFZGZ1A3UmtsQUNTdnFkWmZMWWRkWUsxRXZLSXo1YlQwc192LXl3T1NidndQOEV4TnVpYl94cXJsQ3ZrQWs3NTlMRXgwTVAxVXRWMlVudkNNUGFjR25xYkV4UQ?oc=5) | nl |
-| 2026-11-19 | News & periodicals | Εφημερίδα Θάρρος | [Αυλαία αύριο για το 12ο Διεθνές Φεστιβάλ Ντοκιμαντέρ Πελοποννήσου](https://www.tharrosnews.gr/2026/11/avlaia-avrio-gia-to-12o-diethnes-festival-ntokimanter-peloponnisou/) | fr |
-| 2026-11-19 | News & periodicals | Національна спілка журналістів України | [Стипендії імені Вікторії Амеліної отримали французька журналістка Клара Маршо та українська документалістка Яр](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSnhrRHR0V251OTVaMlljYmhwZUgzUGstS3Z2Y0U1dWFqaUI5MGhldUlBckl1RXFCSU4xUnA1by1yRFF1V0dSSHpCVjljY0RjUFR4TzhuTTFOM0lUM3ZoM0pYbDZLWkNEU1NuZElYV1BJbV9tcjFOX1A0ZG5pcEY3VHFUVEc0VTBWVl80Y2dYeVFqUEdGN0RydmFEcS1OXy1HSEJTbnIyQVYtMGtqNTVLZjlVMHQ2eFdfMjhZYzkwNE1PRXNsNWEzQ1hGSTNpVGM4dWowcE54VWVxQUhBV0hrSWdkOFpBQjdHZGZqSTBR?oc=5) | uk |
-| 2026-11-19 | News & periodicals | Prabhat Khabar | [वेतन बकाया पर ऊर्जा मित्रों का अर्धनग्न प्रदर्शन](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd0tndWNpaGRxT3g0VnVVVW5IS2M3T1N3aFZmRkZMYWozekctM1o5eHZidnE1cWQwaUNWM3drNk56MzNMazRKcUFsSzMzZUVZYlVnazE4Q2NlVWtzZld4S0xNSlZHaDRDdzBGQ054X01EOUJSZ0Y1c2R1aUhSRkZ1YVVjZG42cVRUU0lzSTJvNGFRNG1oaUJZUEptZDM4UWJ1cTQ5aVRGYWFfMjFKblU3QjFkX3lpOFNZ0gG-AUFVX3lxTE0xN2RCbTVZZFZIcHFzdHpJZ2ZRd0otRmJkbUp3Q1ZmbkxOeWxRS0ZFczE4dUNINWVUQi1TVklndDFUWlY1VjJVM0lvV2hRaXBHME53U3VlMS1vYU1WRENZUHBsTDRfck10Ym9yek5qbHMzeEREVFFRRF9rTVhWajN6T0tFSENPaGpMOUNYVmdBNm50ekcwczVxeXJQSzFXQUV5dWdsNnFJUGc1SzJESzFYazRYNTZRV2YydXhzVFE?oc=5) | hi |
-| 2026-11-19 | News & periodicals | Nai Dunia | [PNG in MP: पाइपलाइन पहुंची, पर गैस नहीं; 1.17 लाख कनेक्शन इनएक्टिव](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMEY4THhXcTNOcGpJWXpFa2lqeGd0R0lzbWxXSTNXY2VZeGZHVUsxOVcwcGdhUkZ4VzZfOWl2SkJGTkR2OTRQeGI3VEM3ZHI5NEtUeERCMDUwam00X0RfZjY3NzdoSllBaG8tM3JPOHROUmNYTmFtSnRqV181TTB1ZHA1VGJVOHVNanhWSDJMcFRhN3ZQdHZrdGU2dHdYUDM0OEV1QTR0ZzYyMTd1Yzl2aWZvX1RfbWF2RmxaU25ueU1pQQ?oc=5) | hi |
-| 2026-11-19 | News & periodicals | abseits.at | [AI फुटबॉल प्रेडिक्शन 2027: 7 सबसे अच्छे ऐप्स और टूल्स](https://news.google.com/rss/articles/CBMiWkFVX3lxTE55dzFKUWNaN2V1VXc5cE41VzludzFDd3hoRlQ2TlFsbk1lSkpUY29pSFNhdHFyNWxBRElNN2U1M1J1aXVHWkc3SWVLLWNMS1d3QjZsWHA2SzZlUQ?oc=5) | hi |
-| 2026-11-18 | News & periodicals | Hindustan | [Dhanbad News: ऊर्जा मित्रों का अर्धनग्न प्रदर्शन, वार्ता बेनतीजा](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMFRzMmdOa2RuaElNb3NxOGttT1hHNXhjbnZ3NExHWkd3bERHSlgwQWt4eHl0NGhpeXlDUkl3T1M4bk5kbTd2bFR5bDJOWG5ia0NMTkdqa1AxZE9ydGI5eUpsdGhINzVKb211d0JVcVJBdkFOTXhXRzJJNjBid01GWFJqakdWZVNzVGJPMkhwYmxsOXc2MENQS1hGTFRZTDJTb1BobDhRSHE0Y0dCZVlTVGlpNEdEOGJJTHN0NDJqTXU0cVpVUU1hQUN2bFd6MHMyWlM3VTJPeENYYzI0a3NGZWZZYy1yVXVoVE9zR9IB8gFBVV95cUxPVE92SUpiSFB4SXdBaDV0QVhLVmE2SHdKd2VZSGR1NHdtNFZLRFVlOFVuZGExOWJ6ekt1Rl8tOGNjTEtQeVhYVC01V3lFRzJQaHc1Mk1QeWh2eHVmQ3hId2Y2cFl6N1JXcU9KZklWNzlFMXJtSk9jZi1TQWt5RmZDZUIwckVKZ19nX1ByYXkzSUZyYlp6SjIwNHZHOENETHlObnFxVTNkdkI0U0djanNCMVNxWVZLWTQzODZSdHFKMms1dnZGZXlBaENjUDlKdjVSS3VtajJqQnItLW50ZDFndnZzN2tvQ2VVMXBhb3p1bmNlQQ?oc=5) | hi |
-| 2026-11-18 | News & periodicals | NDTV India | [5 राज्यों में बिहार STF का शिकंजा, इंटरनेशनल बेटिंग ऐप रैकेट पर छापा, 43 गिरफ्तार, लाखों कैश बरामद](https://news.google.com/rss/articles/CBMivwFBVV95cUxNejVqdzdzaFk5aDJkeFowOUxJZWszWEZQaDJGNE0yRWVyQzBqUVIxZ3NReUtrUTczalVhVmZNcVR5anJoTmJneWFEU0tjV2FSYUx0RDVzTkVXUnY0ZWRxYVMwREhDYmtnQVdzckVJTzlZMG5BdDNna0tlT0ZwRWFPdy10ZTFJT3BCMUlFMTRyOWQ2LWUzRkNRaFlybkdFcmFJWGd3SER6V056MmVkNXN6MmhocTJyV1p4Y3hfeVVUdw?oc=5) | hi |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 2 | 2 |  |
-| GDELT | ⚠️ problem | 0 | 0 | GDELT busy or rate-limited after 5 tries (HTTP 429); will try again next run |
-| Bing News | ✅ working | 98 | 22 |  |
-| Google Alerts | ✅ working | 5 | 5 |  |
+| Google News | ✅ working | 3 | 3 |  |
+| GDELT | ✅ working | 2 | 2 |  |
+| Bing News | ✅ working | 71 | 14 |  |
+| Google Alerts | ✅ working | 6 | 6 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7430 | 7 | 667 read by RSS feed, 179 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7423 full articles read; 609 left for next run |
+| Outlet list | ✅ working | 7450 | 6 | 662 read by RSS feed, 179 by news sitemap, 399 by Google News site search only, of 1240 outlets; 7444 full articles read; 3613 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 765 | 0 |  |
+| Telegram | ✅ working | 819 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
