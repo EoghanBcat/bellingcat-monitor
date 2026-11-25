@@ -1,19 +1,28 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-25 09:39:00 UTC. Runs automatically every two days._
+_Last updated 2026-11-25 17:25:43 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 34 mentions · **Last 7 days:** 83 · **All time:** 129 · **New this run:** 5
+**Last 2 days:** 39 mentions · **Last 7 days:** 85 · **All time:** 138 · **New this run:** 9
 
-**Last 7 days by type:** News & periodicals 81, Social media 2
+**Last 7 days by type:** News & periodicals 83, Social media 2
 
-**Last 7 days by language:** de 26, hi 17, ? 12, en 8, uk 6, fr 5, pl 3, pt 2, es 2, nl 2
+**Last 7 days by language:** de 28, ? 15, hi 13, en 9, fr 5, uk 4, pl 3, pt 2, es 2, nl 2, ru 1, ar 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-25 | News & periodicals | facebook.com | [Our first-ever merchandise store is now open! Featuring a limited-edition community capsule ...](https://www.facebook.com/bellingcat/posts/our-first-ever-merchandise-store-is-now-open-featuring-a-limited-edition-communi/1811464104106895/) |  |
+| 2026-11-25 | News & periodicals | The Insider | [Грузинские спецслужбы обвинили Россию в подготовке к аннексии Абхазии и Южной Осетии. Москва усиливает контрол](https://theins.ru/news/299990) | ru |
+| 2026-11-25 | News & periodicals | الجزائر الآن | [تحت بريق الأبراج.. دبي في قلب فضائح الأموال المشبوهة والمطلوبين دوليا](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM1hkMWlyR3lsbTd6RUlwRjRaWFVWa1d4WlN6eDMyMDZkMDA5ZEhUT3RuNWRYTTNGZ21fYnZTb3hjdjlqSHpkUUdOeUJrd2JWVE1nUmlhR196WXFXX29Jc2RfdUlGU05RX1U4ZW9IalhjT3JZZUFtV3V1bkVoU2NSTVdqblJJQklLQ1U2X3hMOWdlTUN4cmtaczhjWllpdGU1X1NpM1BORXd2azFDS01XeFdkNlBqNjVGTERHcjRxVVhlZw?oc=5) | ar |
+| 2026-11-25 | News & periodicals | bookmarks.taint.org | [Shared bookmarks - Linkding](https://bookmarks.taint.org/t:bellingcat) |  |
+| 2026-11-25 | News & periodicals | Ukr.net | [Чёрная пятница перед зимними праздниками: как получить выгоду от распродажи на Rozetka](https://news.google.com/rss/articles/CBMiakFVX3lxTE5oUG9fc2llMHRuX3VRRUI4MWZ4UDRnTVRneER3VkxSTDBhQmJDZlNjS0VhUlBRSzI4RW9HeGhrYjJCNHRMbEhSQXN6RjBtbWRZRTJWSlRMMmFnWUN0RS1HYVBIRmZ5N0V2T3c?oc=5) | uk |
+| 2026-11-25 | News & periodicals | ABC News - Breaking News, Latest News and Videos | [US missile seen hitting building near Iranian girls' school, experts say](https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDlHRmd2UzVIcC02dS1GZ0JVMGZGME8zVlpBNF84TXZaWGpmU1RMdXBuVlFjRzFJS1NyandyTE1UQ2NmdmNYTUFCbDN4OTlKUlJfaWtVa3hTQTJ1TzM2R1NLb0c3UEVjbTl2YkwxUUJCYnp6cjNzZG1jem9hajhNQzRkWTd1dmwtdVZlaXFPTm1tclVhWmNPWWxNaUZOcVnSAaQBQVVfeXFMUG1CZktpZXBQRGNON3hBQXR4N2hnTkV3c2o2MC1UdnlSNVpIaHNtMWRtYVhPc1dadnNNdXpUWjRFaGJMS1BKb3puUUQyOC00akRwR2YzM1AxLXUyNTZwYm9NTHVfeEh3Y2JLenNab1BCcHNnRWVlWFF4OEtISUZ6bURjNTl6c0F0N2dJeEExbm1PemJLU1VUcmpJcHZJd21CMExBVW0?oc=5) | en |
+| 2026-11-25 | News & periodicals | Global Centre for the Responsibility to Protect | [Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali](https://www.globalr2p.org/publications/atrocity-alert-no-504/) | de |
+| 2026-11-25 | News & periodicals | Arkansas Democrat-Gazette | [Global land mine casualties hit 5-year high](https://www.arkansasonline.com/news/2026/nov/25/global-land-mine-casualties-hit-5-year-high/) | de |
+| 2026-11-24 | News & periodicals | newssky.com.ua | [Bellingcat is preparing an investigation into the death of two RUSADA officials in 2016](https://www.newssky.com.ua/en/bellingcat-gotovit-rassledovanie-o-smerti-dvuh-chinovnikov-rusada-v-2016-godu/) |  |
 | 2026-11-24 | News & periodicals | bellingcat-shop.fourthwall.com | [Bellingcat](https://bellingcat-shop.fourthwall.com/) |  |
 | 2026-11-24 | News & periodicals | Military Africa | [Africa Corps runs Mali’s long-range drone war with Russian systems](https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkVDR1ptTlFkSFdhSXJZTkRycnRwRXM3ZzNRa3hneV9GbG9pdXhBaFJ2dTMyNTdyaFQ4dm9BVlJaV0Y4d3FGeXNkdzVDU2V3a1ZOX3ZYc2NXdWZ3Z1NLS3lPVWJab090NW93YnRBYUh6VzluY21qVC1POUR1N1JsdnVqbXlKWHNHa25UU2ZnbG9lWGk0NnQzOWZyMmg2WkJNbmdfMw?oc=5) | en |
 | 2026-11-24 | News & periodicals | Wits University | [Investigative journalists gather in East Africa for AIJC 2026](https://www.wits.ac.za/news/latest-news/research-news/2026/2026-11/investigative-journalists-gather-in-east-africa-for-aijc-2026-.html) | de |
@@ -65,29 +74,20 @@ _Last updated 2026-11-25 09:39:00 UTC. Runs automatically every two days._
 | 2026-11-22 | News & periodicals | WP Wiadomości | [Kreml znów szuka pretekstu. Udaremniony sabotaż to sprawdzony scenariusz Moskwy](https://wiadomosci.wp.pl/kreml-znow-szuka-pretekstu-udaremniony-sabotaz-to-sprawdzony-scenariusz-moskwy-7352651696674816a) | de |
 | 2026-11-21 | News & periodicals | Деловой Петербург | [Девелоперам придётся платить в 5 раз больше налогов за сельхозземли в Петербурге](https://www.dp.ru/a/2026/11/22/developeram-pridjotsja-platit) | de |
 | 2026-11-21 | News & periodicals | Jeune Afrique | [Militaires libérés au Mali : raid spectaculaire des Fama et d’Africa Corps ou opération menée sans combat ?](https://www.jeuneafrique.com/1864187/politique/militaires-liberes-au-mali-raid-spectaculaire-des-fama-et-dafrica-corps-ou-operation-menee-sans-combat/) | fr |
-| 2026-11-21 | News & periodicals | The Insider (English) | [Russia designates The Insider’s investigative journalist Sergey Panov as a “foreign agent”](https://theins.press/en/news/299859) | en |
-| 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://bsky.brid.gy/r/https://bsky.app/profile/did:plc:wn65h3zqprbyf3tqb2m7ha3k/post/3n2sjq7nas22p) | en |
-| 2026-11-21 | Social media | Mastodon | [Lilo Start on Mastodon](https://mastodon.social/@LiloStart/117653140959618019) | de |
-| 2026-11-21 | News & periodicals | europesays | [Russia designates The Insider’s investigative journalist Sergey Panov as a “foreign agent” — The Insider in En](https://www.europesays.com/3390768/) | de |
-| 2026-11-20 | News & periodicals | Humo | [Laura Duchâtelet, dochter van Roland Duchâtelet: ‘Ineens kwam een vriendinnetje aanzetten: ‘Je papa staat in H](https://www.humo.be/achter-het-nieuws/laura-duchatelet-dochter-van-roland-duchatelet-ineens-kwam-een-vriendinnetje-aanzetten-je-papa-staat-in-humo-als-een-van-de-rijkste-belgen-ik-was-verbouwereerd~b4f30e1a/) | fr |
-| 2026-11-20 | News & periodicals | Dainik Bhaskar | [स्टूडेंट्स की मेंटल हेल्थ के लिए एहसास 2026 नीति लॉन्च: डिस्ट्रिक्ट वेल-बीइंग सेंटर बनेंगे; एंग्जाइटी, डिप्रेश](https://news.google.com/rss/articles/CBMizgFBVV95cUxOcDdSYkh1WkFqOU41MGtNOHBzeFE1ZlgyZmg2T3V0eG9MOWNkbFJIdllQS2dNaklOUW9nOHZhRlNldHozcjEwSzVRaGtBS0Q0Q0JMUjFxSFVnNGhwQ256VDViX1M4alh4TkFubGdyeTJzRGM0czBKeGxMWHdpd3BRdWhTa2d3amtUbVdPd09Ic0xxUVhyajh5LUU3UXhna1pRaTQxVHM2TVI3d1RpRjFBUDByZWY0MVBUUEw3VjlHM1JLWFRkNzZhek0xWWNyZw?oc=5) | hi |
-| 2026-11-20 | News & periodicals | Vietnam.vn | [VNPT ग्राहकों को बिलिंग संबंधी सूचनाएं प्राप्त करने के लिए अपना फोन नंबर अपडेट करने की सलाह देता है।](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOEN0MjFVUU5VVDd2ZGdpd3FiWHg1TzY3b1Y1RDlUTXdreEdkSTVqQUNjRTE0U2lrWXUtbnlkM0hpeVk5bjgyX1ktVGhDQld5TXFPS3FCbnl6T1N6ZXI4aTAxdkprSnExRDR0SXhwVTF0aTVsRHFBYWIweFZGUTd4VGpNMEVCVlRGNDdBS0JCNjdLdUQxZVZaOVI1dFE?oc=5) | hi |
-| 2026-11-20 | News & periodicals | Livemint | [गिरते बाजार में निवेशकों की चांदी! Firstsource Solutions के शेयर 5.44% भागे, जानें क्या है बड़ी वजह](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWo0cDA0aDZ2VWhmamFCNV9wWDNFOTlsN0U3Zk03WE9neGhDRjRfNTRSWWsxak9nRXlCa1A3M0VqOFM3eUpKX3VkWE1NRE5MRTF3QnQ2ZEFPNk5IN1NOa3hxYXRCVnRuN0cydW4yc0dpelk1T2J1UUpVTV81NjNPUGlYLVAxNFNmQTk0S1Bfeno3X09zX1FmOFR6STJ6b3BVamdpOEdrNnhuVzBmQUR2UGo4VXZWaTlYa2lGeE5yZy3SAcYBQVVfeXFMT0ZOalBBcGlMLWxpRmlhN0U3UzZXRjA0dWJOc3lOdk1uMklCelA3WjY2TzBIR3Z5ak9xU2dVRkNkTVhnZEkzLVdadi1neXNfV3FTdFM2SU03Y0FtazdFNW1WTEtDSkhERmhmWExxUER5eUZXNktfYVZ4SDI1UW9fMHREWE5CWTlzdkZycXVjazdFeWdudkswMkVoYjk5UlJMWHNfTVZnUDZLSlp4VXZjaTZDRGtydGdKSzVKNmItaS1oc2Ytb09n?oc=5) | hi |
-| 2026-11-20 | News & periodicals | Amar Ujala | [पंचकूला में सीजीएसटी सुपरिंटेंडेंट गिरफ्तार: 30 करोड़ फर्जी बिलिंग मामले में मांगे थे 50 लाख, सीबीआई ने पकड़ा](https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXJ4eHRQUGNwSWs0aE9tdG5mZGNKQnhZekNFb0pyWHhqY0wzQVFYemQyaXcxSkdYd3A1RW94dG9ZeE56bXlveVNJQ1QwbkdLUzk5OFRITDREdFZvSjJGbnR0NE40V1JmMy1FM1ZCVnJKckRMcWVQWU9ET0otd3pFU181cTBpcnUtRkVWY2w1c0czbWRMUTlVTmk0ZzNLY0VYbWdSMnYzLUF4MWlibzF4aUdMQmU2NFHSAbwBQVVfeXFMTm55c29VMFllbjBGOTRlLW96UlNzazNPZzEzdkhDNzQ2RUJrTF9KU05mdEQyYURsZFVuNklMeUx1S3JabU5DTDRzMERvNGFaSExmSDdMS2tyNzFRalRmQlhHdm5vWUpRLVc2Ml9FbER0eFRNNUJqSVRRS1Y0LUxOcWV2amQ4YmZOaWlMZE91eElHR2czb09xdjRaVHRHVEtpRUlEemtRS1pxLTVuOWZuQVJkOEhRVWJtWEVhOHo?oc=5) | hi |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 9 | 4 |  |
-| GDELT | ⚠️ problem | 0 | 0 | GDELT busy or rate-limited after 5 tries (HTTP 429); will try again next run |
-| Bing News | ✅ working | 67 | 14 |  |
-| Google Alerts | ✅ working | 7 | 7 |  |
+| Google News | ✅ working | 17 | 7 |  |
+| GDELT | ✅ working | 2 | 2 |  |
+| Bing News | ✅ working | 75 | 14 |  |
+| Google Alerts | ✅ working | 10 | 10 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7356 | 5 | 666 read by RSS feed, 180 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7351 full articles read; 1721 left for next run |
+| Outlet list | ✅ working | 7402 | 5 | 665 read by RSS feed, 181 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7397 full articles read; 2171 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 856 | 0 |  |
+| Telegram | ✅ working | 980 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
