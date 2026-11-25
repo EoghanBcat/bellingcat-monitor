@@ -1,20 +1,24 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-25 00:22:35 UTC. Runs automatically every two days._
+_Last updated 2026-11-25 09:39:00 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 35 mentions · **Last 7 days:** 83 · **All time:** 124 · **New this run:** 12
+**Last 2 days:** 34 mentions · **Last 7 days:** 83 · **All time:** 129 · **New this run:** 5
 
 **Last 7 days by type:** News & periodicals 81, Social media 2
 
-**Last 7 days by language:** de 24, hi 20, ? 11, en 7, uk 7, fr 5, pl 3, pt 2, es 2, nl 2
+**Last 7 days by language:** de 26, hi 17, ? 12, en 8, uk 6, fr 5, pl 3, pt 2, es 2, nl 2
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-24 | News & periodicals | bellingcat-shop.fourthwall.com | [Bellingcat](https://bellingcat-shop.fourthwall.com/) |  |
+| 2026-11-24 | News & periodicals | Military Africa | [Africa Corps runs Mali’s long-range drone war with Russian systems](https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkVDR1ptTlFkSFdhSXJZTkRycnRwRXM3ZzNRa3hneV9GbG9pdXhBaFJ2dTMyNTdyaFQ4dm9BVlJaV0Y4d3FGeXNkdzVDU2V3a1ZOX3ZYc2NXdWZ3Z1NLS3lPVWJab090NW93YnRBYUh6VzluY21qVC1POUR1N1JsdnVqbXlKWHNHa25UU2ZnbG9lWGk0NnQzOWZyMmg2WkJNbmdfMw?oc=5) | en |
+| 2026-11-24 | News & periodicals | Wits University | [Investigative journalists gather in East Africa for AIJC 2026](https://www.wits.ac.za/news/latest-news/research-news/2026/2026-11/investigative-journalists-gather-in-east-africa-for-aijc-2026-.html) | de |
 | 2026-11-24 | News & periodicals | x.com | [Jayanta Bhattacharya on X: "Well, @ bellingcat should independently investigate this matter." / X](https://x.com/goldenarcher/status/2125163790849523737) |  |
+| 2026-11-24 | News & periodicals | The Star | [Global land mine casualties hit a five-year high, driven by Myanmar’s brutal civil war and Syria](https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/25/global-land-mine-casualties-hit-a-five-year-high-driven-by-myanmars-brutal-civil-war-and-syria) | de |
 | 2026-11-24 | News & periodicals | x.com | [Bellingcat's Eliot Higgins warns AI deepfakes can turn "one picture" of any woman or child ...](https://x.com/FurkanGozukara/status/2125205990245011747/video/1) |  |
 | 2026-11-24 | News & periodicals | reddit.com | [What if 3D models weren't just the end product of research, but a tool for discovery? - Reddit](https://www.reddit.com/r/bellingcat/comments/1y3pkez/what_if_3d_models_werent_just_the_end_product_of/) |  |
 | 2026-11-24 | News & periodicals | The Slovak Spectator | [Women in Slovakia are joining the national defence forces, to prepare for crises](https://spectator.sme.sk/politics-and-society/c/women-in-slovakia-are-joining-the-national-defence-forces-to-prepare-for-crises) | de |
@@ -36,6 +40,7 @@ _Last updated 2026-11-25 00:22:35 UTC. Runs automatically every two days._
 | 2026-11-23 | News & periodicals | The Rio Times | [Mali Gets Nearly 58 Million Litres of Fuel](https://www.riotimesonline.com/mali-fuel-supply-58-million-litres-week/) | de |
 | 2026-11-23 | News & periodicals | Bastille Post | [The Coca-Cola Company Names David Elkins as Incoming Chief Financial Officer](https://www.bastillepost.com/global/article/6391231-the-coca-cola-company-names-david-elkins-as-incoming-chief-financial-officer) | fr |
 | 2026-11-23 | News & periodicals | medium.com | [Bellingcat Challenge #116 “Rendered Rendering” : how a video game screenshot became ...](https://medium.com/@zetrocleirbag/bellingcat-challenge-116-rendered-rendering-how-a-video-game-screenshot-became-a-trip-through-b780a2b590e2) |  |
+| 2026-11-23 | News & periodicals | Newsday | [Global land mine casualties hit a 5-year high, driven by Myanmar's brutal civil war and Syria](https://www.newsday.com/news/nation/landmine-ordnance-myanmar-russia-ukraine-report-t18499) | de |
 | 2026-11-23 | News & periodicals | github.com | [Repo insights · bellingcat /osm-search - GitHub](https://github.com/bellingcat/osm-search/insights) |  |
 | 2026-11-23 | News & periodicals | linkedin.com | [Bellingcat's Post - LinkedIn](https://www.linkedin.com/posts/bellingcat_opensourceresearch-bellingcat-stagetalkswithbellingcat-activity-7530694532120731648-7P3v) |  |
 | 2026-11-23 | News & periodicals | threads.com | [What if 3D models weren't just the end product of research, but a tool for discovery? Join ... - Threads](https://www.threads.com/@bellingcatofficial/post/DgF_X9QiCW9) |  |
@@ -69,25 +74,20 @@ _Last updated 2026-11-25 00:22:35 UTC. Runs automatically every two days._
 | 2026-11-20 | News & periodicals | Vietnam.vn | [VNPT ग्राहकों को बिलिंग संबंधी सूचनाएं प्राप्त करने के लिए अपना फोन नंबर अपडेट करने की सलाह देता है।](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOEN0MjFVUU5VVDd2ZGdpd3FiWHg1TzY3b1Y1RDlUTXdreEdkSTVqQUNjRTE0U2lrWXUtbnlkM0hpeVk5bjgyX1ktVGhDQld5TXFPS3FCbnl6T1N6ZXI4aTAxdkprSnExRDR0SXhwVTF0aTVsRHFBYWIweFZGUTd4VGpNMEVCVlRGNDdBS0JCNjdLdUQxZVZaOVI1dFE?oc=5) | hi |
 | 2026-11-20 | News & periodicals | Livemint | [गिरते बाजार में निवेशकों की चांदी! Firstsource Solutions के शेयर 5.44% भागे, जानें क्या है बड़ी वजह](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWo0cDA0aDZ2VWhmamFCNV9wWDNFOTlsN0U3Zk03WE9neGhDRjRfNTRSWWsxak9nRXlCa1A3M0VqOFM3eUpKX3VkWE1NRE5MRTF3QnQ2ZEFPNk5IN1NOa3hxYXRCVnRuN0cydW4yc0dpelk1T2J1UUpVTV81NjNPUGlYLVAxNFNmQTk0S1Bfeno3X09zX1FmOFR6STJ6b3BVamdpOEdrNnhuVzBmQUR2UGo4VXZWaTlYa2lGeE5yZy3SAcYBQVVfeXFMT0ZOalBBcGlMLWxpRmlhN0U3UzZXRjA0dWJOc3lOdk1uMklCelA3WjY2TzBIR3Z5ak9xU2dVRkNkTVhnZEkzLVdadi1neXNfV3FTdFM2SU03Y0FtazdFNW1WTEtDSkhERmhmWExxUER5eUZXNktfYVZ4SDI1UW9fMHREWE5CWTlzdkZycXVjazdFeWdudkswMkVoYjk5UlJMWHNfTVZnUDZLSlp4VXZjaTZDRGtydGdKSzVKNmItaS1oc2Ytb09n?oc=5) | hi |
 | 2026-11-20 | News & periodicals | Amar Ujala | [पंचकूला में सीजीएसटी सुपरिंटेंडेंट गिरफ्तार: 30 करोड़ फर्जी बिलिंग मामले में मांगे थे 50 लाख, सीबीआई ने पकड़ा](https://news.google.com/rss/articles/CBMitwFBVV95cUxPTXJ4eHRQUGNwSWs0aE9tdG5mZGNKQnhZekNFb0pyWHhqY0wzQVFYemQyaXcxSkdYd3A1RW94dG9ZeE56bXlveVNJQ1QwbkdLUzk5OFRITDREdFZvSjJGbnR0NE40V1JmMy1FM1ZCVnJKckRMcWVQWU9ET0otd3pFU181cTBpcnUtRkVWY2w1c0czbWRMUTlVTmk0ZzNLY0VYbWdSMnYzLUF4MWlibzF4aUdMQmU2NFHSAbwBQVVfeXFMTm55c29VMFllbjBGOTRlLW96UlNzazNPZzEzdkhDNzQ2RUJrTF9KU05mdEQyYURsZFVuNklMeUx1S3JabU5DTDRzMERvNGFaSExmSDdMS2tyNzFRalRmQlhHdm5vWUpRLVc2Ml9FbER0eFRNNUJqSVRRS1Y0LUxOcWV2amQ4YmZOaWlMZE91eElHR2czb09xdjRaVHRHVEtpRUlEemtRS1pxLTVuOWZuQVJkOEhRVWJtWEVhOHo?oc=5) | hi |
-| 2026-11-20 | News & periodicals | Breaking Tube | [MP में PNG कनेक्शन का हाल बेहाल, 1.17 लाख घरों तक पाइपलाइन पहुंची लेकिन गैस नहीं](https://news.google.com/rss/articles/CBMiswFBVV95cUxNS2plYklJbk9KVWZlRzFvMVBkdUZBdGJQUEtiWkZzb0l6aHBneHNuQjk2Y0JGc3Q5MUdPNG00LTY2YXJVb3BRamFBMkxCTUx6Z2xXWXZRV3JTTnlMM2Nwa1NkaGZaWmJ4UTF4SVZHR3VxdWtJaXBGVk5RSnJscDFrY1RDS1AzVGZNbk5WdklsUURRZjhBWV9WdHJzVjdaQmlZVzdac2hBeUpvTi03Y1J3dWFZUQ?oc=5) | hi |
-| 2026-11-20 | News & periodicals | Gazeta Wyborcza | [Anne Applebaum: Spotkanie Trumpa, Putina i Xi Jinpinga przynosi dobrą wiadomość](https://wyborcza.pl/magazyn/7,124059,33142066,anne-applebaum-spotkanie-trumpa-putina-i-xi-jinpinga-przynosi.html) | pl |
-| 2026-11-19 | News & periodicals | note | [I saw the preparatory document 5 submitted by the plaintiff, but I did not read it—Gaze and documents at the f](https://note.com/agile_duck9283/n/n3c84810ba40f?hl=en) | de |
-| 2026-11-19 | News & periodicals | Ghamasan News | [महादेव बेटिंग ऐप केस: सौरभ चंद्राकर की न्यायिक हिरासत 2 दिसंबर तक बढ़ी](https://news.google.com/rss/articles/CBMivgFBVV95cUxQc3dVbzNZTlB4NTg3d21LMkduVzdOMjRsSXdxWjI2OUZfbllEOGNOM3BhNjhjX01TdWhxNEVOVjZOelMyT0JrQkxRUEp4ang0TnRqY0FTQU9Sb1RZVXFvMzY5ZEd6SHlyTkVxUWJzYzF6MmRTUU45U2R3WFMyZk8ya0R5OE4tdTl3OWZtWmlGRTlzTHlRTnNETlV4NGQ3c2pYT0ZYOHVMOFFmeXM3WEhoRFk3VGRqQXRmNmQtQVJ3?oc=5) | hi |
-| 2026-11-19 | News & periodicals | Hindustan | [Unnao News: गलत बिलिंग पर 15 दिन में सुधार नहीं तो अभियंताओं का रुकेगा वेतन](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWlFVaVU5Y1NBN2M3a1Y0REdHZDd0OXk3WTFCU3FiYm80THFjMTVfTVhhSUJuRlNwVnc4S0J3SXNiS0pURXF0b09RaEJTd1kzRXhQYVFHV0JvTEJtZ2dWUm02dUtyYThPNnRncWlTenNraXNFOGZ6NGtUdk0xenp5eEdVWlo3YnNXeEZLcDAzcEtLWFFFR1RGdWlvMDduWnZkc1htX0RlbG9zakpmdVZqcXY3ODVZUU1yQ1dxZENfLTNFR2hHdUN4eE1GUlFFQWtYaTNTeU51bFRya2VUanfSAeMBQVVfeXFMUE9Bbm5oRnVnaEI5OHhMcGFHUjNnb2ZFWEF3NE9XeVJqb1EyaUlmMUJwdTVLNFgzOEV4OVVnOFlFUE05STBfLWpLd0VZSXJZeWRsdTJfNWczM3lEMVNaQ0VJYnA0Y2FZMFFQVmJiNGZLYzNMVTF3X3E5M3VFczJtVG5DQVQyMlZIN1h5MFdoTVpqaE00ei1ERWNBMHZNaUR6Tl9abXRqMXRMVVgydnJ2NFpsTHdUWlk1WFFrOXIzblRkbGMtdjNyRFlQaXlQZFZTbzJSVFJHZXIzaEs2ejBHWXhZYUE?oc=5) | hi |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 3 | 3 |  |
-| GDELT | ✅ working | 2 | 2 |  |
-| Bing News | ✅ working | 71 | 14 |  |
-| Google Alerts | ✅ working | 6 | 6 |  |
+| Google News | ✅ working | 9 | 4 |  |
+| GDELT | ⚠️ problem | 0 | 0 | GDELT busy or rate-limited after 5 tries (HTTP 429); will try again next run |
+| Bing News | ✅ working | 67 | 14 |  |
+| Google Alerts | ✅ working | 7 | 7 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7450 | 6 | 662 read by RSS feed, 179 by news sitemap, 399 by Google News site search only, of 1240 outlets; 7444 full articles read; 3613 left for next run |
+| Outlet list | ✅ working | 7356 | 5 | 666 read by RSS feed, 180 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7351 full articles read; 1721 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 819 | 0 |  |
+| Telegram | ✅ working | 856 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
