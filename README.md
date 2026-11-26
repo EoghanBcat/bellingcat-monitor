@@ -1,21 +1,26 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-25 17:25:43 UTC. Runs automatically every two days._
+_Last updated 2026-11-26 15:31:40 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 39 mentions · **Last 7 days:** 85 · **All time:** 138 · **New this run:** 9
+**Last 2 days:** 17 mentions · **Last 7 days:** 79 · **All time:** 144 · **New this run:** 6
 
-**Last 7 days by type:** News & periodicals 83, Social media 2
+**Last 7 days by type:** News & periodicals 77, Social media 2
 
-**Last 7 days by language:** de 28, ? 15, hi 13, en 9, fr 5, uk 4, pl 3, pt 2, es 2, nl 2, ru 1, ar 1
+**Last 7 days by language:** de 32, ? 16, en 8, hi 6, fr 4, uk 3, pl 3, pt 2, es 2, ru 1, ar 1, nl 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-26 | News & periodicals | RG | [Oilers' Connor Clattenburg Opens Up On First NHL Goal, Sens Idols](https://rg.org/en-ca/news/hockey/oilers-connor-clattenburg-opens-up-on-first-nhl-goal-sens-idols) | de |
+| 2026-11-25 | News & periodicals | theins | [Georgian intelligence accuses Russia of preparing to annex occupied Abkhazia and South Ossetia](https://theins.press/en/news/300010) | de |
+| 2026-11-25 | News & periodicals | NV | [Росія готує анексію невизнаних Абхазії та Південної Осетії — The Insider](https://news.google.com/rss/articles/CBMizgFBVV95cUxNc2FvcVN0YUt0LXpiU2p2QXluZmpNOEdvWkE3VS04b2c2ejdSSDRkLWtrNmVCazZub1RlRVpQTUlhWVhrRmFHQm5DbmtuMjJyNTRQMFRhYnpseFluRHhRdXJRci13OFg5cFBZUkhyYzkyaHp0MnNxTTFBSGV5ZmM1eThoLWdHTmVqalFabnBiWEJJOXZoWHh0MFR5Q1VMdWxfTmR1R2lvaFduQWlPVkkzaVVCLW9rVlJtMmJQMWh2THp1MEd6dFF4QmZ4STEzd9IBuwFBVV95cUxNdzdXXzdKNkhtcURKdXRxYjQyTGNScHA1eHVhYXJXZE8xMVI2dVpnczN3MmtyZXNHTVVfcTB3WFR6d0pZYUFCMy1BM0pwa0x5VHYyUDc0R3FrdVlaNGR0QTJjY0xZanllV1FzZEpRTHV3enlLbmlJQ1dvbmUwaVMzVlVDYXVmMnZfRUxBODVaOExCX0JGUlc2NzRKUEN5eTFxb0NBSWVPUU5XUDdsWkRrZkpMLTl3RFVIVExB?oc=5) | uk |
+| 2026-11-25 | News & periodicals | linkedin.com | [Bellingcat Challenge #117 Walkthrough – Carbon Copy — Kurdaitcha / Nathaniel Dillon](https://www.linkedin.com/posts/nathaniel-dillon-566bb015b_osint-bellingcat-geolocation-activity-7531008949039345665-4Y_w) |  |
 | 2026-11-25 | News & periodicals | facebook.com | [Our first-ever merchandise store is now open! Featuring a limited-edition community capsule ...](https://www.facebook.com/bellingcat/posts/our-first-ever-merchandise-store-is-now-open-featuring-a-limited-edition-communi/1811464104106895/) |  |
 | 2026-11-25 | News & periodicals | The Insider | [Грузинские спецслужбы обвинили Россию в подготовке к аннексии Абхазии и Южной Осетии. Москва усиливает контрол](https://theins.ru/news/299990) | ru |
+| 2026-11-25 | News & periodicals | RG | [About Ash Anjum](https://rg.org/en-ca/authors/ash-anjum) | de |
 | 2026-11-25 | News & periodicals | الجزائر الآن | [تحت بريق الأبراج.. دبي في قلب فضائح الأموال المشبوهة والمطلوبين دوليا](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM1hkMWlyR3lsbTd6RUlwRjRaWFVWa1d4WlN6eDMyMDZkMDA5ZEhUT3RuNWRYTTNGZ21fYnZTb3hjdjlqSHpkUUdOeUJrd2JWVE1nUmlhR196WXFXX29Jc2RfdUlGU05RX1U4ZW9IalhjT3JZZUFtV3V1bkVoU2NSTVdqblJJQklLQ1U2X3hMOWdlTUN4cmtaczhjWllpdGU1X1NpM1BORXd2azFDS01XeFdkNlBqNjVGTERHcjRxVVhlZw?oc=5) | ar |
 | 2026-11-25 | News & periodicals | bookmarks.taint.org | [Shared bookmarks - Linkding](https://bookmarks.taint.org/t:bellingcat) |  |
 | 2026-11-25 | News & periodicals | Ukr.net | [Чёрная пятница перед зимними праздниками: как получить выгоду от распродажи на Rozetka](https://news.google.com/rss/articles/CBMiakFVX3lxTE5oUG9fc2llMHRuX3VRRUI4MWZ4UDRnTVRneER3VkxSTDBhQmJDZlNjS0VhUlBRSzI4RW9HeGhrYjJCNHRMbEhSQXN6RjBtbWRZRTJWSlRMMmFnWUN0RS1HYVBIRmZ5N0V2T3c?oc=5) | uk |
@@ -32,6 +37,7 @@ _Last updated 2026-11-25 17:25:43 UTC. Runs automatically every two days._
 | 2026-11-24 | News & periodicals | reddit.com | [What if 3D models weren't just the end product of research, but a tool for discovery? - Reddit](https://www.reddit.com/r/bellingcat/comments/1y3pkez/what_if_3d_models_werent_just_the_end_product_of/) |  |
 | 2026-11-24 | News & periodicals | The Slovak Spectator | [Women in Slovakia are joining the national defence forces, to prepare for crises](https://spectator.sme.sk/politics-and-society/c/women-in-slovakia-are-joining-the-national-defence-forces-to-prepare-for-crises) | de |
 | 2026-11-24 | News & periodicals | contestedground.info | [Credited Collaborations & Outreach - Contested Ground Portfolio](https://contestedground.info/portfolio) |  |
+| 2026-11-24 | News & periodicals | scmp.com | [Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000](https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000) | de |
 | 2026-11-24 | News & periodicals | BOL | [Minas terrestres deixam 6.929 vítimas e atingem recorde em 5 anos](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM1BJMURJQ1RRRXhWSW15TVZtV2lnVGUtNHQ3bEpDT1lYYm1JcHA5OUZNdVhlSXNWSEE3MkpBaFMtN1R2N1N6eW1nQnBiWUlqTm5ZclpzMmVCT0lsZ05sTVEyM1dGWGk3bmF6cGc1VklfbFZ3NEd4aVBFZGVpUGptX013TVNkejVFSWRHNG5zRGRpN1k3X0o5eVdHVWVRV29wX21pbDBMSU1TUDdtczhPbDRQcEc5QklhMTFB0gG7AUFVX3lxTE4zUEkxRElDVFFFeFZJbXlNVm1XaWdUZS00dDdsSkNPWVhibUlwcDk5Rk11WGVJc1ZIQTcySkFoUy03VHY3U3p5bWdCcGJZSWpObllyWnMyZUJPSWxnTmxNUTIzV0ZYaTduYXpwZzVWSV9sVnc0R3hpUEVkZWlQam1fTXdNU2R6NUVJZEc0bnNEZGk3WTdfSjl5V0dVZVFXb3BfbWlsMExJTVNQN21zOE9sNFBwRzlCSWExMUE?oc=5) | pt |
 | 2026-11-24 | News & periodicals | The Baltimore Sun | [Global land mine casualties hit a 5-year high, driven by Myanmar’s brutal civil war and Syria](https://www.baltimoresun.com/2026/11/24/global-land-mine-casualties-myanmar/) | de |
 | 2026-11-24 | News & periodicals | Toronto Star | [Global land mine casualties hit a 5-year high, driven by Myanmar’s brutal civil war and Syria](https://www.thestar.com/news/world/asia/global-land-mine-casualties-hit-a-5-year-high-driven-by-myanmar-s-brutal-civil-war-and-syria/article_4552182b-05bf-5309-9863-2889f2a6ccee.html) | en |
@@ -68,26 +74,20 @@ _Last updated 2026-11-25 17:25:43 UTC. Runs automatically every two days._
 | 2026-11-22 | News & periodicals | Deník N | [Zástupce EU na COP31 bouchl pěstí do stolu a světový klimatický summit končí krachem](https://denikn.cz/2266266/zastupce-eu-na-cop31-bouchl-pesti-do-stolu-a-svetovy-klimaticky-summit-konci-krachem/) | de |
 | 2026-11-22 | News & periodicals | The Wall Street Journal on MSN | [Fugitive criminals need a new hideout since the UAE started extraditing them](https://www.msn.com/en-us/news/other/fugitive-criminals-need-a-new-hideout-since-the-uae-started-extraditing-them/ar-AA2hZEhD) | de |
 | 2026-11-22 | News & periodicals | Новий формат | [Хакери, пов’язані з ФСБ, атакували Христо Грозєва та журналістів Le Monde](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkFuRktLaTVQZFFYc2lzVU1nMEF1bnZydDlpd1FLMGFJSVJudHp5MlF4M2psLUxuUDAxZVExbmNZU1FWNVpUdHg4SWJnbzU4eUtDSDM5SURoWWJ2Z3hsMkVoUWx1eEFoaWkyUUNhdHB5b1Q2WDN5Sm1hM3pIX21HTjEzWldRVXdWY21WQTNVSUEtVUdvdWJfUU5TTjNLUVp3QkdaX1lMUm0?oc=5) | uk |
-| 2026-11-22 | News & periodicals | Online47.ru | [За год в Ленобласти вырос спрос на эвакуаторы](https://online47.ru/2026/11/22/za-god-v-lenoblasti-vyros-spros-na-evakuatory-248127) | pt |
-| 2026-11-22 | News & periodicals | Патріоти України | [Біженці проти тих, хто залишився: як Росія за допомогою ШІ намагається розколоти українців і ...](https://patrioty.org.ua/blogs/bizhentsi-proty-tykh-khto-zalyshyvsia-iak-rosiia-za-dopomohoiu-shi-namahaietsia-rozkoloty-ukraintsiv-i-posvaryty-ikh-z-ievropoiu-615491.html) | pl |
-| 2026-11-22 | News & periodicals | Espreso TV | [Вигадані українці та штучне протистояння](https://espreso.tv/suspilstvo-bizhentsi-proti-tikh-khto-zalishivsya-yak-rosiya-za-dopomogoyu-shi-namagaetsya-rozkoloti-ukraintsiv-i-posvariti-ikh-z-evropoyu) | pl |
-| 2026-11-22 | News & periodicals | WP Wiadomości | [Kreml znów szuka pretekstu. Udaremniony sabotaż to sprawdzony scenariusz Moskwy](https://wiadomosci.wp.pl/kreml-znow-szuka-pretekstu-udaremniony-sabotaz-to-sprawdzony-scenariusz-moskwy-7352651696674816a) | de |
-| 2026-11-21 | News & periodicals | Деловой Петербург | [Девелоперам придётся платить в 5 раз больше налогов за сельхозземли в Петербурге](https://www.dp.ru/a/2026/11/22/developeram-pridjotsja-platit) | de |
-| 2026-11-21 | News & periodicals | Jeune Afrique | [Militaires libérés au Mali : raid spectaculaire des Fama et d’Africa Corps ou opération menée sans combat ?](https://www.jeuneafrique.com/1864187/politique/militaires-liberes-au-mali-raid-spectaculaire-des-fama-et-dafrica-corps-ou-operation-menee-sans-combat/) | fr |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 17 | 7 |  |
-| GDELT | ✅ working | 2 | 2 |  |
-| Bing News | ✅ working | 75 | 14 |  |
-| Google Alerts | ✅ working | 10 | 10 |  |
+| Google News | ✅ working | 18 | 7 |  |
+| GDELT | ✅ working | 0 | 0 |  |
+| Bing News | ✅ working | 84 | 16 |  |
+| Google Alerts | ✅ working | 4 | 4 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 7402 | 5 | 665 read by RSS feed, 181 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7397 full articles read; 2171 left for next run |
+| Outlet list | ✅ working | 7333 | 2 | 658 read by RSS feed, 182 by news sitemap, 400 by Google News site search only, of 1240 outlets; 7331 full articles read; 5825 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 980 | 0 |  |
+| Telegram | ✅ working | 984 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
