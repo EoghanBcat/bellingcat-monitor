@@ -1,19 +1,25 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-27 12:31:35 UTC. Runs automatically every two days._
+_Last updated 2026-11-27 16:51:20 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 15 mentions · **Last 7 days:** 81 · **All time:** 153 · **New this run:** 9
+**Last 2 days:** 19 mentions · **Last 7 days:** 87 · **All time:** 161 · **New this run:** 8
 
-**Last 7 days by type:** News & periodicals 79, Social media 2
+**Last 7 days by type:** News & periodicals 85, Social media 2
 
-**Last 7 days by language:** de 33, ? 19, en 8, uk 4, fr 4, ru 3, pt 2, es 2, pl 2, ja 1, ar 1, nl 1
+**Last 7 days by language:** de 35, ? 19, en 11, uk 4, fr 4, es 3, ru 3, ja 2, pt 2, pl 2, ar 1, nl 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-27 | News & periodicals | Frontline Magazine | [Edward Anderson on the Global Networks of Hindu Nationalism](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQjVXM3NhYTlQVDdpMmlhdnhLdlhob19EZVA2RHpvVWhoeV9BcEphLWRBOF9CUVNFVC0wWm5qdXVuSmxZZ3dmdUl3cVljb1Atd1RqMnNiVnpERXpyZUg1dnhnYnR2aUdpRkV5YWdjQUFjNXBGSzlUS0d6enAwSHhWT2Qyd3JYMWNMWW0yd1d5NFZibVJsMDdJamc3SG1FUG10Szl2T1ZNMnFpNWQwdkw4WTVYazdMa1QyUWNvQ3o2SzZuZ9IBwgFBVV95cUxOQjVXM3NhYTlQVDdpMmlhdnhLdlhob19EZVA2RHpvVWhoeV9BcEphLWRBOF9CUVNFVC0wWm5qdXVuSmxZZ3dmdUl3cVljb1Atd1RqMnNiVnpERXpyZUg1dnhnYnR2aUdpRkV5YWdjQUFjNXBGSzlUS0d6enAwSHhWT2Qyd3JYMWNMWW0yd1d5NFZibVJsMDdJamc3SG1FUG10Szl2T1ZNMnFpNWQwdkw4WTVYazdMa1QyUWNvQ3o2SzZuZw?oc=5) | en |
+| 2026-11-27 | News & periodicals | BBC | [Government to limit 'abusive lawsuits' aimed at silencing whistleblowers](https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwYzE4ZnMtYjVhaDRSelBmTHNyS3hqM0xjZUVuY2dyYllJUVV3NGZGT1FXdzYtcG1jZUhBdzlCcjlXVGVSWlo3SUdOLUJpV2pmSExDMWdBQVRSTjdRTGc?oc=5) | en |
+| 2026-11-27 | News & periodicals | Yahoo!ニュース | [そもそもドンバスの親ロシア派の武装蜂起は地元主導ではなく、ロシア極右人脈とロシア軍・情報機関の工作](https://news.yahoo.co.jp/expert/articles/462fe0726b7a0de7fe28b403a3965b27c33c2cc3) | ja |
+| 2026-11-27 | News & periodicals | Yahoo News Canada | [Government to limit costly legal claims aimed at silencing whistleblowers](https://ca.news.yahoo.com/government-limit-abusive-lawsuits-aimed-125633845.html) | de |
+| 2026-11-27 | News & periodicals | Frontline | [The diaspora may export its anxieties as much as it imports them: Edward Anderson](https://frontline.thehindu.com/interviews/edward-anderson-interview-hindutva-transnational-politics/article71734160.ece) | de |
+| 2026-11-27 | News & periodicals | BBC on MSN | [Government to limit 'abusive lawsuits' aimed at silencing whistleblowers](https://www.msn.com/en-us/news/other/government-to-limit-abusive-lawsuits-aimed-at-silencing-whistleblowers/ar-AA2im16Q) | es |
 | 2026-11-26 | News & periodicals | Yahoo!ニュース | [プーチン「ウクライナ戦争は終結に向かっている」 慎重論がある一方でEUでも交渉の検討が進む背景 #エキスパートトピ](https://news.google.com/rss/articles/CBMijgFBVV95cUxOajU1NUt6T056Vm5QM0pCWXBzSzFwM2JVRHIyZl9CU3NBaE5RckFfdEFkUWltTmtOY0d4YU05NlpqY2I5R2JKZDc2M1NyQUdjUGYzdTJObWlzV2l4ZjdzZ3dITHJ5XzJyUjlPZDZHamNCYTR2WEhHQjhuUzFHV25xZk1QWGFrck53Z05Ca21B?oc=5) | ja |
 | 2026-11-26 | News & periodicals | Активатика | [Глава МИД Литвы призвал ЕС признать ГРУ террористической организацией](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3V2dzZfOEptR2RBMkRIeG1VSjBaQ0lCQjNCQVBrT0lYRUtDZHA0VE5uY3cycEE1QnBxbzNaWXV5Q3Z0dHJwcFRZUFp0OGNFT2FUajFlTUo4OTJENmVIdWRaSlhpS2U3Q2JpUVN1SV9nY0VwNFE1NDBCMGE2d1FOX3JOU1F4Szk0WXRTbnRlZGxaUnphXzNGbEFmUXpkY2VZRnpaOW15RTA2X0xyV1FfVUM0SW1oVHV1Z0Ytb1hYbHA0Nmc5X2dCclVpQ3NuYXF6NmkwUA?oc=5) | ru |
 | 2026-11-26 | News & periodicals | x.com | [Sam Bent on X: "#OPSEC365 250/365 That photo doesn't need GPS to reveal your location ...](https://x.com/DoingFedTime/status/2125816965260357717) |  |
@@ -34,6 +40,7 @@ _Last updated 2026-11-27 12:31:35 UTC. Runs automatically every two days._
 | 2026-11-25 | News & periodicals | bookmarks.taint.org | [Shared bookmarks - Linkding](https://bookmarks.taint.org/t:bellingcat) |  |
 | 2026-11-25 | News & periodicals | Ukr.net | [Чёрная пятница перед зимними праздниками: как получить выгоду от распродажи на Rozetka](https://news.google.com/rss/articles/CBMiakFVX3lxTE5oUG9fc2llMHRuX3VRRUI4MWZ4UDRnTVRneER3VkxSTDBhQmJDZlNjS0VhUlBRSzI4RW9HeGhrYjJCNHRMbEhSQXN6RjBtbWRZRTJWSlRMMmFnWUN0RS1HYVBIRmZ5N0V2T3c?oc=5) | uk |
 | 2026-11-25 | News & periodicals | ABC News - Breaking News, Latest News and Videos | [US missile seen hitting building near Iranian girls' school, experts say](https://news.google.com/rss/articles/CBMinwFBVV95cUxNWDlHRmd2UzVIcC02dS1GZ0JVMGZGME8zVlpBNF84TXZaWGpmU1RMdXBuVlFjRzFJS1NyandyTE1UQ2NmdmNYTUFCbDN4OTlKUlJfaWtVa3hTQTJ1TzM2R1NLb0c3UEVjbTl2YkwxUUJCYnp6cjNzZG1jem9hajhNQzRkWTd1dmwtdVZlaXFPTm1tclVhWmNPWWxNaUZOcVnSAaQBQVVfeXFMUG1CZktpZXBQRGNON3hBQXR4N2hnTkV3c2o2MC1UdnlSNVpIaHNtMWRtYVhPc1dadnNNdXpUWjRFaGJMS1BKb3puUUQyOC00akRwR2YzM1AxLXUyNTZwYm9NTHVfeEh3Y2JLenNab1BCcHNnRWVlWFF4OEtISUZ6bURjNTl6c0F0N2dJeEExbm1PemJLU1VUcmpJcHZJd21CMExBVW0?oc=5) | en |
+| 2026-11-25 | News & periodicals | Centre for Information Resilience | [Eyes on Russia Map](https://news.google.com/rss/articles/CBMickFVX3lxTE54YXRxVURoZU1Ja19pbnRZTkpNTjdvZlVLVG1oOE44cUdGMDNwLWNtd0V0Vjdya1hDUW1naFAwdHRkSDk2Ykd1RzJxM0RzTjc0WU9UV3hYV2E0a2ZVMDMwWG5zTzA2THQ1TGhqbnIwaTVOQQ?oc=5) | en |
 | 2026-11-25 | News & periodicals | Global Centre for the Responsibility to Protect | [Atrocity Alert No. 504: Myanmar (Burma), South Sudan and Mali](https://www.globalr2p.org/publications/atrocity-alert-no-504/) | de |
 | 2026-11-25 | News & periodicals | Arkansas Democrat-Gazette | [Global land mine casualties hit 5-year high](https://www.arkansasonline.com/news/2026/nov/25/global-land-mine-casualties-hit-5-year-high/) | de |
 | 2026-11-24 | News & periodicals | newssky.com.ua | [Bellingcat is preparing an investigation into the death of two RUSADA officials in 2016](https://www.newssky.com.ua/en/bellingcat-gotovit-rassledovanie-o-smerti-dvuh-chinovnikov-rusada-v-2016-godu/) |  |
@@ -67,27 +74,20 @@ _Last updated 2026-11-27 12:31:35 UTC. Runs automatically every two days._
 | 2026-11-23 | News & periodicals | Newsday | [Global land mine casualties hit a 5-year high, driven by Myanmar's brutal civil war and Syria](https://www.newsday.com/news/nation/landmine-ordnance-myanmar-russia-ukraine-report-t18499) | de |
 | 2026-11-23 | News & periodicals | github.com | [Repo insights · bellingcat /osm-search - GitHub](https://github.com/bellingcat/osm-search/insights) |  |
 | 2026-11-23 | News & periodicals | linkedin.com | [Bellingcat's Post - LinkedIn](https://www.linkedin.com/posts/bellingcat_opensourceresearch-bellingcat-stagetalkswithbellingcat-activity-7530694532120731648-7P3v) |  |
-| 2026-11-23 | News & periodicals | threads.com | [What if 3D models weren't just the end product of research, but a tool for discovery? Join ... - Threads](https://www.threads.com/@bellingcatofficial/post/DgF_X9QiCW9) |  |
-| 2026-11-23 | News & periodicals | Press Trust of India on MSN | [Global land mine casualties hit 5-year high, driven by Myanmar's brutal civil war and Syria](https://www.msn.com/en-in/news/other/global-land-mine-casualties-hit-5-year-high-driven-by-myanmars-brutal-civil-war-and-syria/ar-AA2i6T4r) | de |
-| 2026-11-23 | News & periodicals | ink | [Ρωσία – Ουκρανία: Έρευνες κάνουν λόγο για σχεδόν 500.000 νεκρούς Ρώσους στρατιωτικούς – Τι ...](https://ink.com/articles/675223/rosia-oykrania-ereynes-kanoyn-logo-gia-shedon-500000-nekroys-rosoys-stratiotikoys-ti-gnorizoyme-gia) | de |
-| 2026-11-23 | News & periodicals | SME.sk | [V roku 2025 míny zabili a zranili najviac ľudí za uplynulých päť rokov](https://www.sme.sk/svet/c/v-roku-2025-miny-zabili-a-zranili-najviac-ludi-za-uplynulych-pat-rokov) | de |
-| 2026-11-23 | News & periodicals | Деловой Петербург | [Психология комфорта: как запрос на ментальное здоровье меняет новостройки](https://www.dp.ru/a/2026/11/24/psihologija-komforta-kak-zapros) | de |
-| 2026-11-23 | News & periodicals | de Volkskrant | [In ‘Rond de Zwarte Zee’ stuit Jelle Brandt Corstius al zwemmend op een olietanker uit Poetins schaduwvloot](https://www.volkskrant.nl/televisie/in-rond-de-zwarte-zee-stuit-jelle-brandt-corstius-al-zwemmend-op-een-olietanker-uit-poetins-schaduwvloot~b1e82514/) | nl |
-| 2026-11-23 | News & periodicals | Деловой Петербург | [На 15% больше кредитов получил петербургский бизнес за год](https://www.dp.ru/a/2026/11/23/na-15-bolshe-kreditov-poluchil) | de |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 21 | 10 |  |
+| Google News | ✅ working | 30 | 11 |  |
 | GDELT | ✅ working | 0 | 0 |  |
-| Bing News | ✅ working | 96 | 19 |  |
+| Bing News | ✅ working | 97 | 22 |  |
 | Google Alerts | ✅ working | 3 | 3 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 1 | 1 | 660 read by RSS feed, 188 by news sitemap, 392 by Google News site search only, of 1240 outlets; 0 full articles read; 11764 left for next run |
+| Outlet list | ✅ working | 7484 | 2 | 660 read by RSS feed, 186 by news sitemap, 394 by Google News site search only, of 1240 outlets; 7482 full articles read; 5983 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 988 | 0 |  |
+| Telegram | ✅ working | 981 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
-| Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
+| Podcasts (Apple) | ✅ working | 100 | 0 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
