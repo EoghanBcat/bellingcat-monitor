@@ -1,23 +1,32 @@
 # Bellingcat media monitor
 
-_Last updated 2026-11-26 15:46:57 UTC. Runs automatically every two days._
+_Last updated 2026-11-27 12:31:35 UTC. Runs automatically every two days._
 
 **[Open the dashboard](https://eoghanbcat.github.io/bellingcat-monitor/)** · [Download all mentions (CSV)](docs/mentions.csv) · [RSS feed](https://eoghanbcat.github.io/bellingcat-monitor/feed.xml) · [How to change what is monitored](HOW-TO-EDIT.md)
 
-**Last 2 days:** 17 mentions · **Last 7 days:** 79 · **All time:** 144 · **New this run:** 0
+**Last 2 days:** 15 mentions · **Last 7 days:** 81 · **All time:** 153 · **New this run:** 9
 
-**Last 7 days by type:** News & periodicals 77, Social media 2
+**Last 7 days by type:** News & periodicals 79, Social media 2
 
-**Last 7 days by language:** de 32, ? 16, en 8, hi 6, fr 4, uk 3, pl 3, pt 2, es 2, ru 1, ar 1, nl 1
+**Last 7 days by language:** de 33, ? 19, en 8, uk 4, fr 4, ru 3, pt 2, es 2, pl 2, ja 1, ar 1, nl 1
 
 ## Latest mentions
 
 | Date | Type | Source | Mention | Lang |
 |---|---|---|---|---|
+| 2026-11-26 | News & periodicals | Yahoo!ニュース | [プーチン「ウクライナ戦争は終結に向かっている」 慎重論がある一方でEUでも交渉の検討が進む背景 #エキスパートトピ](https://news.google.com/rss/articles/CBMijgFBVV95cUxOajU1NUt6T056Vm5QM0pCWXBzSzFwM2JVRHIyZl9CU3NBaE5RckFfdEFkUWltTmtOY0d4YU05NlpqY2I5R2JKZDc2M1NyQUdjUGYzdTJObWlzV2l4ZjdzZ3dITHJ5XzJyUjlPZDZHamNCYTR2WEhHQjhuUzFHV25xZk1QWGFrck53Z05Ca21B?oc=5) | ja |
+| 2026-11-26 | News & periodicals | Активатика | [Глава МИД Литвы призвал ЕС признать ГРУ террористической организацией](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3V2dzZfOEptR2RBMkRIeG1VSjBaQ0lCQjNCQVBrT0lYRUtDZHA0VE5uY3cycEE1QnBxbzNaWXV5Q3Z0dHJwcFRZUFp0OGNFT2FUajFlTUo4OTJENmVIdWRaSlhpS2U3Q2JpUVN1SV9nY0VwNFE1NDBCMGE2d1FOX3JOU1F4Szk0WXRTbnRlZGxaUnphXzNGbEFmUXpkY2VZRnpaOW15RTA2X0xyV1FfVUM0SW1oVHV1Z0Ytb1hYbHA0Nmc5X2dCclVpQ3NuYXF6NmkwUA?oc=5) | ru |
+| 2026-11-26 | News & periodicals | x.com | [Sam Bent on X: "#OPSEC365 250/365 That photo doesn't need GPS to reveal your location ...](https://x.com/DoingFedTime/status/2125816965260357717) |  |
+| 2026-11-26 | News & periodicals | Kyiv Post | [Lithuania Seeks EU Terrorist Label for Russia’s GRU Spy Agency](https://www.kyivpost.com/post/91323) | de |
+| 2026-11-26 | News & periodicals | rhbooks.com.ng | [We are bellingcat - Lagos - Rovingheights Books](https://rhbooks.com.ng/product/we-are-bellingcat/) |  |
+| 2026-11-26 | News & periodicals | uawire.org | [Georgia accuses Russia of preparing to annex occupied territories](https://uawire.org/georgia-accuses-russia-of-preparing-to-annex-occupied-territories) | de |
+| 2026-11-26 | News & periodicals | fluister.nl | [Eliot Higgins ( Bellingcat ) on what open source investigation means for the newsroom - Fluister](https://www.fluister.nl/podcasts/487576) |  |
 | 2026-11-26 | News & periodicals | RG | [Oilers' Connor Clattenburg Opens Up On First NHL Goal, Sens Idols](https://rg.org/en-ca/news/hockey/oilers-connor-clattenburg-opens-up-on-first-nhl-goal-sens-idols) | de |
 | 2026-11-25 | News & periodicals | theins | [Georgian intelligence accuses Russia of preparing to annex occupied Abkhazia and South Ossetia](https://theins.press/en/news/300010) | de |
+| 2026-11-25 | News & periodicals | Ukr.net | [З’явилися чергові докази, перебування військової техніки РФ на Донбасі (ВІДЕО)](https://news.google.com/rss/articles/CBMiakFVX3lxTE10bVdaRENRMzBycTlnQ18tYzVBVDZseUlRdk0xV0pfbldxWGNxeU5QSlQwd3d3b1BLUGx0OGZ5b2V3YlU3UUptYXZzRzVoNnQzZV9kM1Z2QkxleEo3SHpDSG9ISDRvQlV5QkE?oc=5) | uk |
 | 2026-11-25 | News & periodicals | NV | [Росія готує анексію невизнаних Абхазії та Південної Осетії — The Insider](https://news.google.com/rss/articles/CBMizgFBVV95cUxNc2FvcVN0YUt0LXpiU2p2QXluZmpNOEdvWkE3VS04b2c2ejdSSDRkLWtrNmVCazZub1RlRVpQTUlhWVhrRmFHQm5DbmtuMjJyNTRQMFRhYnpseFluRHhRdXJRci13OFg5cFBZUkhyYzkyaHp0MnNxTTFBSGV5ZmM1eThoLWdHTmVqalFabnBiWEJJOXZoWHh0MFR5Q1VMdWxfTmR1R2lvaFduQWlPVkkzaVVCLW9rVlJtMmJQMWh2THp1MEd6dFF4QmZ4STEzd9IBuwFBVV95cUxNdzdXXzdKNkhtcURKdXRxYjQyTGNScHA1eHVhYXJXZE8xMVI2dVpnczN3MmtyZXNHTVVfcTB3WFR6d0pZYUFCMy1BM0pwa0x5VHYyUDc0R3FrdVlaNGR0QTJjY0xZanllV1FzZEpRTHV3enlLbmlJQ1dvbmUwaVMzVlVDYXVmMnZfRUxBODVaOExCX0JGUlc2NzRKUEN5eTFxb0NBSWVPUU5XUDdsWkRrZkpMLTl3RFVIVExB?oc=5) | uk |
 | 2026-11-25 | News & periodicals | linkedin.com | [Bellingcat Challenge #117 Walkthrough – Carbon Copy — Kurdaitcha / Nathaniel Dillon](https://www.linkedin.com/posts/nathaniel-dillon-566bb015b_osint-bellingcat-geolocation-activity-7531008949039345665-4Y_w) |  |
+| 2026-11-25 | News & periodicals | NV | [Россия готовит аннексию непризнанных Абхазии и Южной Осетии — The Insider](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPT1dnckVBR3dKanFEeGs4eUpVdXR0SzFLSHRKZXdzUnhQUUstMTFfaE9CWjJQVHBKTTBuYnY2NHpCakxDNFFrWWhOclhQLWhkMWVUZHZWZjBuRTNkU2VVWHE0NnUtcTlqLUFVbXVZbVpQZl9mQlY0d3A3eXJqX1JENjFxR19WYkwzTFAzeTJqTkVickY0Q3o0S20tS1lvNHUyWXhBcTlRNDV6X0hOUHU0WEtGLUN4M0VWOTJLMmxpRmRPenlfQlpLMdIBtgFBVV95cUxQWVJpejBMVTY0dWRlNkhsR3dTOXhLSlM5bkxVNTVoaVB3Z0VHZ3REZHFZZVU1emtiLXF1UngwV0xFbHhzUE1pSGJzZFlqQ0hzd1ZZTWdncExUY2dKb1BILTU0V2l6eVpuVDc2THhFSTVHT3czbWFhdEVSemRXdS1SNXdkUHpUekJ5clFJZ1Z6NDhrbk9lTzRoTEQtUzEwUTVHbXJOQ3k3VHJWQnZJNFc2Q3pLWUFCUQ?oc=5) | ru |
 | 2026-11-25 | News & periodicals | facebook.com | [Our first-ever merchandise store is now open! Featuring a limited-edition community capsule ...](https://www.facebook.com/bellingcat/posts/our-first-ever-merchandise-store-is-now-open-featuring-a-limited-edition-communi/1811464104106895/) |  |
 | 2026-11-25 | News & periodicals | The Insider | [Грузинские спецслужбы обвинили Россию в подготовке к аннексии Абхазии и Южной Осетии. Москва усиливает контрол](https://theins.ru/news/299990) | ru |
 | 2026-11-25 | News & periodicals | RG | [About Ash Anjum](https://rg.org/en-ca/authors/ash-anjum) | de |
@@ -65,29 +74,20 @@ _Last updated 2026-11-26 15:46:57 UTC. Runs automatically every two days._
 | 2026-11-23 | News & periodicals | Деловой Петербург | [Психология комфорта: как запрос на ментальное здоровье меняет новостройки](https://www.dp.ru/a/2026/11/24/psihologija-komforta-kak-zapros) | de |
 | 2026-11-23 | News & periodicals | de Volkskrant | [In ‘Rond de Zwarte Zee’ stuit Jelle Brandt Corstius al zwemmend op een olietanker uit Poetins schaduwvloot](https://www.volkskrant.nl/televisie/in-rond-de-zwarte-zee-stuit-jelle-brandt-corstius-al-zwemmend-op-een-olietanker-uit-poetins-schaduwvloot~b1e82514/) | nl |
 | 2026-11-23 | News & periodicals | Деловой Петербург | [На 15% больше кредитов получил петербургский бизнес за год](https://www.dp.ru/a/2026/11/23/na-15-bolshe-kreditov-poluchil) | de |
-| 2026-11-23 | News & periodicals | ODATV | [Sarıyer'deki aslanın sırrı ne... Milyarderlerden yeraltı dünyasına: Dokunulmazlık ve lüks sembolü](https://www.odatv.com/ozel/sariyerdeki-aslan-milyarderlerden-yeralti-dunyasina-dokunulmazlik-ve-luks-sembolu-nasil-getiriliyor-120172471) | de |
-| 2026-11-23 | News & periodicals | livemint.com | [Fugitive criminals need a new hideout since the UAE started extraditing them](https://www.livemint.com/global/fugitive-criminals-need-a-new-hideout-since-the-uae-started-extraditing-them-11795396744758.html) | en |
-| 2026-11-23 | News & periodicals | tovima | [Fugitive Criminals Need a New Hideout Since the U.A.E. Started Extraditing Them](https://www.tovima.com/wsj/fugitive-criminals-need-a-new-hideout-since-the-u-a-e-started-extraditing-them/) | es |
-| 2026-11-23 | News & periodicals | bc-community.org | [️‍♀️ Inside the Bellingcat Volunteer Community](https://www.bc-community.org/community-voice/inside-the-bellingcat-volunteer-community) |  |
-| 2026-11-22 | News & periodicals | github.com | [Issues · bellingcat /vk-url-scraper · GitHub](https://github.com/bellingcat/vk-url-scraper/labels/github_actions) |  |
-| 2026-11-22 | News & periodicals | dailymaverick.co.za | [SA links to global  sky trafficker exposed after fatal Brazil cocaine plane crash](https://www.dailymaverick.co.za/article/2026-11-22-sa-links-to-global-sky-traffickers-exposed-after-fatal-brazil-cocaine-plane-crash/) | en |
-| 2026-11-22 | News & periodicals | Deník N | [Zástupce EU na COP31 bouchl pěstí do stolu a světový klimatický summit končí krachem](https://denikn.cz/2266266/zastupce-eu-na-cop31-bouchl-pesti-do-stolu-a-svetovy-klimaticky-summit-konci-krachem/) | de |
-| 2026-11-22 | News & periodicals | The Wall Street Journal on MSN | [Fugitive criminals need a new hideout since the UAE started extraditing them](https://www.msn.com/en-us/news/other/fugitive-criminals-need-a-new-hideout-since-the-uae-started-extraditing-them/ar-AA2hZEhD) | de |
-| 2026-11-22 | News & periodicals | Новий формат | [Хакери, пов’язані з ФСБ, атакували Христо Грозєва та журналістів Le Monde](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkFuRktLaTVQZFFYc2lzVU1nMEF1bnZydDlpd1FLMGFJSVJudHp5MlF4M2psLUxuUDAxZVExbmNZU1FWNVpUdHg4SWJnbzU4eUtDSDM5SURoWWJ2Z3hsMkVoUWx1eEFoaWkyUUNhdHB5b1Q2WDN5Sm1hM3pIX21HTjEzWldRVXdWY21WQTNVSUEtVUdvdWJfUU5TTjNLUVp3QkdaX1lMUm0?oc=5) | uk |
 
 ## Source health
 
 | Source | Status | Checked | Found | Notes |
 |---|---|---|---|---|
-| Google News | ✅ working | 18 | 7 |  |
+| Google News | ✅ working | 21 | 10 |  |
 | GDELT | ✅ working | 0 | 0 |  |
-| Bing News | ✅ working | 82 | 16 |  |
-| Google Alerts | ✅ working | 4 | 4 |  |
+| Bing News | ✅ working | 96 | 19 |  |
+| Google Alerts | ✅ working | 3 | 3 |  |
 | Guardian API | ⏸ off | 0 | 0 | No GUARDIAN_API_KEY secret added (optional) |
-| Outlet list | ✅ working | 6111 | 5 | 665 read by RSS feed, 182 by news sitemap, 393 by Google News site search only, of 1240 outlets; 6106 full articles read; 0 left for next run |
+| Outlet list | ✅ working | 1 | 1 | 660 read by RSS feed, 188 by news sitemap, 392 by Google News site search only, of 1240 outlets; 0 full articles read; 11764 left for next run |
 | Bluesky | ⚠️ problem | 0 | 0 | Bluesky now requires a login for search. Add the BSKY_HANDLE and BSKY_APP_PASSWORD secrets (see setup guide). |
 | Mastodon | ✅ working | 85 | 3 |  |
-| Telegram | ✅ working | 1001 | 0 |  |
+| Telegram | ✅ working | 988 | 0 |  |
 | Hacker News | ✅ working | 0 | 0 |  |
 | Podcasts (Apple) | ✅ working | 100 | 1 | Searches episode titles and descriptions (not the audio itself) |
 | YouTube | ⏸ off | 0 | 0 | No YOUTUBE_API_KEY secret added (optional) |
